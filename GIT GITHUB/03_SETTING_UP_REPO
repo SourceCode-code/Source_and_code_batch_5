@@ -7,3 +7,10 @@ git remote add origin https://github.com/SourceCode-code/Source_and_code_batch_5
 git push -u origin main         --- this commands will finally show all your all your files to github
 
 
+THIS ABOVE WILL ONLY BE DONE ONCE --> WHEN FIRST UPLOADING FILES TO REPO
+
+IF I HAVE TO SEND THE UPDATED CHANGES IN THE REPO SO NOW I HAVE ENTER 3 COMMANDS 
+
+// 1  git add .   ---> makes all updated files ready for upload in the repo
+// 2  git commit -m "message" --> created a checkout with message 
+// 3 git push origin main     --> this will upload  updated the files to the repo 

@@ -2,7 +2,7 @@ git init                         --- THIS COMMAND WILL INSTALL THE GIT FOLDER IN
 git add README.md                --- THIS WILL ADD A README FILE TO YOUR FOLDER
 git add .     (GIT ADD ALL)      --- THIS WILL ADD ALL SAVED THE FILE READY TO UPLOAD . 
 git commit -m "first commit"     --- THIS WILL CREATE A CHECK POINT FOR YOUR FILES IN REPO (GIT COMMIT --> CREATES CHECKPOINT --> -m "message" )
-git branch -M main               ---this willl create a main branch which will be your master or a production
+git branch -M main               ---this willl create a main/MASTER branch which will be your master or a production
 git remote add origin https://github.com/SourceCode-code/Source_and_code_batch_5.git --> this give the location of the main repo to connect with this folder
 git push -u origin main         --- this commands will finally show all your all your files to github
 
@@ -14,3 +14,9 @@ IF I HAVE TO SEND THE UPDATED CHANGES IN THE REPO SO NOW I HAVE ENTER 3 COMMANDS
 // 1  git add .   ---> makes all updated files ready for upload in the repo
 // 2  git commit -m "message" --> created a checkout with message 
 // 3 git push origin main     --> this will upload  updated the files to the repo 
+
+
+
+// TASK --> CREATE DUMMY FOLDER WITH FILES AND YOUR NAME 
+//  UPLOAD THAT FILE TO YOUR REPO 
+// UPADTE YOUR NAME AND YOUR PROFESSIONAL AND UPDATE IT 

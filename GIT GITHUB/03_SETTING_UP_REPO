@@ -1,0 +1,9 @@
+git init                         --- THIS COMMAND WILL INSTALL THE GIT FOLDER IN YOUR 
+git add README.md                --- THIS WILL ADD A README FILE TO YOUR FOLDER
+git add .     (GIT ADD ALL)      --- THIS WILL ADD ALL SAVED THE FILE READY TO UPLOAD . 
+git commit -m "first commit"     --- THIS WILL CREATE A CHECK POINT FOR YOUR FILES IN REPO (GIT COMMIT --> CREATES CHECKPOINT --> -m "message" )
+git branch -M main               ---this willl create a main branch which will be your master or a production
+git remote add origin https://github.com/SourceCode-code/Source_and_code_batch_5.git --> this give the location of the main repo to connect with this folder
+git push -u origin main         --- this commands will finally show all your all your files to github
+
+

@@ -11,11 +11,13 @@ this indicates that you need to get a copy of a repo form github into your local
 
 //updating flow 
 
+git pull origin main 
 git add .
 git commit -m "commit-message"
 git push origin main
 
 
+//git pull origin main --> this command is oppiste to push (this will get all the lastest changes to your local form github)
 
 mod1 
 
@@ -29,3 +31,7 @@ git add .
 
 khjfslv
 sdvjklfsbdfd
+
+
+//TASK OF THE DAY --> you have clone batch 5 repo
+

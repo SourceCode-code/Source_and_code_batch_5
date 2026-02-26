@@ -15,3 +15,14 @@ git add .
 git commit -m "commit-message"
 git push origin main
 
+
+
+mod1 
+
+git add .
+
+
+//local   --> for your use 
+//stagging --> this is area where you can inspect your changes and make modification 
+
+//pordcution

@@ -6,3 +6,12 @@ this indicates that you need to get a copy of a repo form github into your local
 //step  2 right click and select option git bash here 
 //step 3 enter command  --> git clone "url and hit enter
 //step 4 right click on the clone folder and open with code
+
+
+
+//updating flow 
+
+git add .
+git commit -m "commit-message"
+git push origin main
+

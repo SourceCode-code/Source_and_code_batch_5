@@ -1,6 +1,0 @@
-// case study 
-
-// 5 pepople wokring on single project with multiple logins 
-// we need id and pass word and senstive data for login 
-
-// the problem is you should not push the sentsive data to repo so that anyoine can hack or cause data leak 

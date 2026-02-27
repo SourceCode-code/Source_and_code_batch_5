@@ -1,0 +1,16 @@
+// case study 
+
+// 5 pepople wokring on single project with multiple logins 
+// we need id and pass word and senstive data for login 
+
+// the problem is you should not push the sentsive data to repo so that anyoine can hack or cause data leak 
+// solution --> 
+
+// we can give in encrypted --> not reccomed 
+// dummy  --> not safe 
+// add password --> do the work and then remove the passwaoros --> and then push --> this work --> 
+
+
+.gitignore --> this file has a funatiantily which will allow you to block the pushing of certain files
+.gitignore --> anyfile path that is added in this file is ingonre while add commit and push 
+

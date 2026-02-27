@@ -14,3 +14,6 @@
 .gitignore --> this file has a funatiantily which will allow you to block the pushing of certain files
 .gitignore --> anyfile path that is added in this file is ingonre while add commit and push 
 
+
+
+// TASK OF THE DAY --> YOU HAVE CREATE A GITIGONRE and add a new file to igonre and push 

@@ -1,0 +1,45 @@
+Git Branching --> git braching allows a person to have a extact copy of the main branch
+                  to work on without affecting the main branch 
+
+
+CASE STUDY --->
+problem statement --> we have amain branch and a task is given to 30 people to add file and push the changes   
+
+
+// what if 30 poeple push at the same time what will be the issue faced -->
+//1 conflict -->  
+//2 data loss-->
+//3 downtime will increasing -->
+//4 so there no review meachnic -->
+
+
+to slove this issue we have invented braching
+
+here is solution --->
+
+// 1 everyone will create a new branch 
+
+main 
+|
+|
+|
+|
+|
+|-
+|-ashiya  -- will create a file and push  in her branch -->
+|- shivani
+|- vaibhav
+|- tejas
+|
+
+
+
+the process of asking to merge the changes by reviweing them by a senior or concern person and mergeing rthem  -- pull request (pr)
+
+
+
+// features of branches --> 
+
+// 1 you can create unlimted amount of branch 
+// 2 your main will always be stable 
+// 3 at time unlimted people can work on same repo

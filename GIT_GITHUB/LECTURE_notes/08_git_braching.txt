@@ -53,8 +53,40 @@ fhgcjvmmmmmmm
 
 
 //step 1 creating a branch 
+
+we create a bracnch thorugh github ui 
+
+// 2 we created branch form terminal 
+
+step 1 -> git fetch
+step 2 -> git pull origin main
+step 3 -> git checkout -b branchname                    ---> this commands creates a new branch 
+                                                 ---> the branch craetion source will be the bracnh you are on while craetion
+                                                 of the new branch
+
+// RULES ---> 
+// branch name should be unique --> no duplicates allowed 
+// no space or special chacrater allowed in barnch name 
+
+
+
+
+
 //step 2 addind code and pushing it to the branch 
+
+git fetch 
+git pull origin main 
+git add . --> files are added and moved to stagging 
+git commit -m "message" --->files are reviewed and push git backend 
+git push origin branchname --> this will push the code to your respected branch 
+
 //step 3 creating a pull request 
+
+pull request is always rasied by git ui 
+
+this is the most pereerf way 
+
+
 //step 4 mereging the code 
 
 

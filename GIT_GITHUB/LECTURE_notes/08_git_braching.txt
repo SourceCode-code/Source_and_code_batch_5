@@ -46,3 +46,15 @@ the process of asking to merge the changes by reviweing them by a senior or conc
 
 
 fhgcjvmmmmmmm     
+
+
+
+//practical flow of git branching 
+
+
+//step 1 creating a branch 
+//step 2 addind code and pushing it to the branch 
+//step 3 creating a pull request 
+//step 4 mereging the code 
+
+

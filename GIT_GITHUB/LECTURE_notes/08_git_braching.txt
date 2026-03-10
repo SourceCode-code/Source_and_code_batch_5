@@ -93,3 +93,7 @@ this is the most pereerf way
 
 the command to switch branch is  -->       git checkout branchname
 the command to create a new branch is --> git checkout -b branchname
+
+
+
+//

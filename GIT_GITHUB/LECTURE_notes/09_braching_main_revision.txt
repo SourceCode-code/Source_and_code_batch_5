@@ -1,0 +1,66 @@
+//---------------------------------------------------------------------
+                    GIT - BRACHING FOR TESTCASE CREATION
+//---------------------------------------------------------------------
+
+=====================================================================================================
+STEP 1 : create a branch for the required task with a name (in name no spaces or specail character)
+======================================================================================================
+
+option 1 : branch creation form the ui 
+
+step : 1 go to the repo ui click on the main icon and select view all branches 
+step : 2 click on the new branch button on the right hand side
+step : 3 eneter the branch name the select a source (form which branch(main) you need to create barnch )
+STEP : 4 copy the branch name and go to (repo is vs code )
+step :5 open terminal and enter command 
+    a: git fetch
+    b: git pull origin main
+    c: git checkout branchname
+
+option 2 : branch creation form the terminal --> -perfered option or use this "
+
+step 1 : open vs code to your repo 
+step 2 : click on terminal in header and open a new terminal 
+step 3 : make  sure you are on the source branch  (main)  --> if not then enter command git checkout main
+step 4 : enter the following in the terminal 
+    a: git fetch
+    b: git pull origin main
+    c: git checkout -b branchname
+
+=====================================================================================================
+STEP 2 : MAKE The changes in the created branch  (Adding the require code )
+======================================================================================================
+
+
+
+step 1 : make the changes 
+step 2 : push the changes to the branch by the following commands
+    a: git fetch
+    b: git pull origin main
+    c: git add .
+    d: git commit -m "message"
+    e: git push origin branchname
+
+
+=====================================================================================================
+STEP 3 : Create a pull request to merge the code to the master branch --> always create this request by  git hub ui 
+======================================================================================================
+
+Step 1 : go to the ui of the repo or visit the repo ("https://github.com/SourceCode-code/Source_and_code_batch_5")
+Step 2 : select the branch in which you have pushed 
+    a: click on the main button
+    b: click on view all barnches button
+    c: in the search box eneter your branch name 
+    d: click on the branchname below
+    e :on the ui click on the contribute button 
+    f: select the open pull request option and click on it
+
+step 3 : now on the ui of pull request enter data as follows
+
+    a: select the barnch in which you want your code to merge  (base:main) select in the option
+    b: eneter the pull request title in the title box  (give a suitable title which will show why pr has been )
+    c :add description in the description box ( add  the details mention of the changes that you have made)
+    d :on the right hand side add reviewer
+    e :click on the setting icon near reviewer and sleect the require reviewer
+    f: scroll down and click on create a pull request button
+

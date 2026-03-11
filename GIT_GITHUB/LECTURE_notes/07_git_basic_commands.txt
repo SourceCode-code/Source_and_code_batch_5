@@ -1,0 +1,49 @@
+// GIT TERMINAL COMMANDS 
+
+------CHECKING DIFFERENCE ----
+1  git diff --> this commands shows the diference between you last commit and current changes 
+
+2 --------- RESTORING FILES -------------------
+
+git checkout -f --> this will all restore your file to recent commit 
+
+
+git checkout file path --> this will restore your given file to recent commit 
+
+-----------------STATUS & HISTORY -------------------------
+
+git status --> shows the current status of your working directory 
+
+
+git log --> shows the commit history (detailed log)
+
+git log -p  --> this shows the most recent commit with details 
+
+git log --oneline --> shows you a compact history of the commit  
+
+
+// --------------------fetching -------------------------
+
+git pull origin main --> this gets the latest changes form the main 
+
+
+git fetch --> this will download or pull all the changes and all the branches but it will not physcially merge into code 
+
+this command will save you the problem of cloning the repo again and again 
+
+// DIFFERENCE BETWEEN GIT FETCH AND GIT PULL ORIGIN MAIN 
+
+
+
+GIT FETCH                          |  GIT PULL ORIGIN MAIN
+
+                                       get the new changes to your repo  
+
+this will download but it not merge 
+untill your persmission                                       
+
+
+
+
+// stashing --> 
+// branching --> 

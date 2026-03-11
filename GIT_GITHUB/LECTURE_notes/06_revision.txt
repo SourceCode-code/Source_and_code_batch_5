@@ -1,0 +1,26 @@
+//email --> yournamesurname.work@gmail.com
+siddhantgadakh.work@gmail
+
+//git    -->is software use for version control
+//github -->this is a website (to host and store code )
+
+
+//REPOSITORY -->(repo) --> this is unique location on github where your project is hosted 
+//how to create a new repo and push your code for the first time 
+
+
+// git pull origin main --> this will help to get the latest code updated form github 
+
+// to push your changes 
+git pull origin main --> gets all the latest changes in your repo 
+git add . --> move all the files form local to stagging
+git commit -m "message" --> this creates a commit and a checkpoint
+git push origin main --> this commands push all the file to github 
+
+
+
+step to install repo 
+
+// step 1 --> clone the repo using git clone url
+// step 2 --> if you any changes 
+// step 3 --> you have to hit git pull origin main 

@@ -1,0 +1,6 @@
+// GIT_ GITHUB ADAVNCE COMMIT 
+
+1) git stash --> this helps you to temporaliy remove the changes you have made for allowing you to work on
+another task (another branch )   (you can bring those  chance back again )
+
+

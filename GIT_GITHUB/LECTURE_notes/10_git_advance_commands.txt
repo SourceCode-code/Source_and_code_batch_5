@@ -18,7 +18,7 @@ another task (another branch )   (you can bring those  chance back again )
 
 8) git reflog --> this command will show you the details of last few commits along with there commit id
 
-9) git cherry_pick --> this command helps you to copy the commit form one branch to another 
+9) git cherry-pick --> this command helps you to copy the commit form one branch to another 
 
 
 

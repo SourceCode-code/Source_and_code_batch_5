@@ -1,0 +1,13 @@
+// GIT_ GITHUB ADAVNCE COMMIT 
+
+1) git stash --> this helps you to temporaliy remove the changes you have made for allowing you to work on
+another task (another branch )   (you can bring those  chance back again )
+
+2) git stash apply --> this method is used to bring back the changes which has been removed by giot stash 
+
+3) git blame filepath --> shows you a detail information about the commits done in that specific file  
+
+4) git show commitid  -> this will give you a detail info about the commit 
+
+5) git reset --> this command is used to bring you file form stagging to local 
+

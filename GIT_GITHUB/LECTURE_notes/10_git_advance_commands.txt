@@ -15,5 +15,8 @@ another task (another branch )   (you can bring those  chance back again )
 (-- this Dangerous commands)--> this will delete the history 
 
 7) git revert commit id --> this command will revert your barcnh or repo to a commit id  which is given by creating a new commit  
-8)
+
+8) git reflog --> this command will show you the details of last few commits along with there commit id
+
+9) git cherry pick 
 

@@ -1,4 +1,0 @@
-this is a demo of git revert 
-
-
-this are unwated change 1

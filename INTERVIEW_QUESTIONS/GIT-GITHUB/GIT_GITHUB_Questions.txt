@@ -1,0 +1,106 @@
+Git & GitHub Interview Questions (4–5 Years Experience)
+
+
+====================================================
+SECTION 1: Git Fundamentals
+====================================================
+1. What is Git and why is it used?
+2. What is the difference between Git and GitHub?
+3. Explain the Git workflow from local to remote repository
+   (Process of pushing code from local system to GitHub)
+4. What is a repository in Git?
+5. What is the difference between a local repository and a remote repository?
+6. What is the .git folder?
+7. Explain the working directory, staging area, and local repository.
+
+
+====================================================
+SECTION 2: Git Commands & Usage
+====================================================
+8. What is the difference between git clone and git fork?
+9. Explain the following commands:
+   - git status
+   - git add
+   - git commit
+10. Explain the difference between git fetch and git pull origin.
+11. Explain the following commands:
+   - git checkout
+   - git checkout -b
+   - git checkout -f
+12. What does git reset do?
+13. What does git revert do and when should it be used?
+14. Difference between git revert and git reset.
+
+
+====================================================
+SECTION 3: Branching & Merging
+====================================================
+15. What is a branch in Git?
+16. Why is branching important in real projects?
+17. Difference between main/master branch and feature branch.
+18. How do you create and switch branches?
+19. What is merging in Git?
+20. Difference between merge and rebase.
+21. When would you prefer rebase over merge?
+
+
+====================================================
+SECTION 4: Conflict Resolution
+====================================================
+22. What is a merge conflict?
+23. Why do merge conflicts occur?
+24. How do you resolve a merge conflict?
+25. Have you handled conflicts in a real project? Explain the steps.
+
+
+====================================================
+SECTION 5: GitHub & Collaboration
+====================================================
+26. What is GitHub?
+27. What is a pull request?
+28. Explain the pull request workflow.
+29. What is code review and why is it important?
+30. How do you handle review comments in a pull request?
+31. What is a fork in GitHub?
+
+
+====================================================
+SECTION 6: Git Best Practices
+====================================================
+32. What makes a good commit message?
+33. How do you keep commit history clean?
+34. What branching strategy have you used in your projects?
+35. Explain Git Flow.
+36. How do you handle hotfixes in production?
+37. What steps do you follow before pushing code to a remote repository?
+
+
+====================================================
+SECTION 7: Advanced Git Concepts
+====================================================
+38. What is git cherry-pick?
+39. When would you use git cherry-pick?
+40. What is git reflog?
+41. Can you recover a deleted commit? How?
+42. What is a detached HEAD state?
+43. How do you rename a branch locally and remotely?
+44. How do you delete a branch locally and remotely?
+
+
+====================================================
+SECTION 8: Scenario-Based Questions
+====================================================
+45. You committed code to the wrong branch. How will you fix it?
+46. You pushed sensitive data to GitHub. What steps will you take?
+47. How do you resolve conflicts when multiple people work on the same file?
+48. How do you sync your local branch with the latest main branch?
+49. How do you handle a broken build after a merge?
+
+
+====================================================
+SECTION 9: Interview Closing Questions
+====================================================
+50. What Git challenges have you faced in real projects?
+51. How do you ensure code quality in a team environment?
+52. What Git feature do you use daily and why?
+53. How do you train juniors on Git best practices?

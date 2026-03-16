@@ -11,3 +11,6 @@ another task (another branch )   (you can bring those  chance back again )
 
 5) git reset --> this command is used to bring you file form stagging to local 
 
+
+
+

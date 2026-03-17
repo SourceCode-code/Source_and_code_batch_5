@@ -55,7 +55,7 @@ Step 2 : select the branch in which you have pushed
     e :on the ui click on the contribute button 
     f: select the open pull request option and click on it
 
-step 3 : now on the ui of pull request enter data as follows
+step 3 : now on the ui of pull request enter data as followsgi
 
     a: select the barnch in which you want your code to merge  (base:main) select in the option
     b: eneter the pull request title in the title box  (give a suitable title which will show why pr has been )

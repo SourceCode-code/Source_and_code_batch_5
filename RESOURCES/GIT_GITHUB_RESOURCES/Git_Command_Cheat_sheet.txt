@@ -1,0 +1,71 @@
+| **Command**                             | **Description**                                                                                                  |
+|-----------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| `git init`                              | Initializes a new Git repository in the current directory.                                                       |
+| `git clone <repo-url>`                  | Clones a repository from GitHub to your local machine.                                                           |
+| `git status`                            | Shows the current state of your working directory and staging area.                                               |
+| `git add <file>`                        | Adds a specific file to the staging area.                                                                        |
+| `git add .`                             | Stages all changes (new, modified, deleted files) for the next commit.                                            |
+| `git commit -m "message"`               | Commits staged changes to the repository with a message describing the changes.                                   |
+| `git push origin <branch>`              | Pushes local branch changes to the remote repository (e.g., GitHub).                                              |
+| `git pull origin <branch>`              | Fetches changes from the remote repository and merges them into your current branch.                              |
+| `git branch`                            | Lists all local branches.                                                                                        |
+| `git branch <branch-name>`              | Creates a new branch with the given name.                                                                        |
+| `git checkout <branch-name>`            | Switches to the specified branch.                                                                                 |
+| `git checkout -b <branch-name>`         | Creates and switches to a new branch at the same time.                                                           |
+| `git merge <branch-name>`               | Merges the specified branch into the current branch.                                                             |
+| `git fetch`                             | Downloads objects and refs from another repository.                                                              |
+| `git log`                               | Shows a log of all the commits made in the repository.                                                           |
+| `git log --oneline`                     | Shows the commit history in a compact format.                                                                    |
+| `git reset --hard <commit>`             | Resets your current branch to a specific commit, discarding all changes after that commit.                        |
+| `git revert <commit>`                   | Reverts a commit by creating a new commit that undoes the changes of the original commit.                         |
+| `git stash`                             | Temporarily saves changes without committing them, allowing you to work on something else.                       |
+| `git stash apply`                       | Restores the most recently stashed changes.                                                                      |
+| `git remote -v`                         | Shows all the remote repositories linked to your local repository.                                               |
+| `git remote add origin <repo-url>`      | Links your local repository to a remote repository, often on GitHub.                                              |
+| `git push --set-upstream origin <branch>`| Sets the upstream branch for pushing changes from your local branch to the remote.                                |
+| `git diff`                              | Shows the changes between your working directory and the staging area.                                            |
+| `git diff <branch-name>`                | Shows the differences between the current branch and the specified branch.                                        |
+| `git rm <file>`                         | Removes a file from the working directory and stages the removal.                                                |
+| `git tag <tag-name>`                    | Creates a new tag (useful for marking releases or milestones).                                                   |
+| `git rebase <branch>`                   | Applies changes from one branch onto another, reapplying commits on top of a new base.                           |
+| `git cherry-pick <commit>`              | Applies a specific commit from another branch into your current branch.                                           |
+| `git fork`                              | Creates a personal copy of someone else’s repository on GitHub.                                                  |
+| `git pull request`                      | Requests to merge changes from your branch into another branch (typically via GitHub's interface).                |
+| `git rebase --interactive <commit>`     | Interactively rebase commits, useful for squashing or reordering commits.                                         |
+| `git push --force`                      | Force-pushes changes, overwriting the remote branch with your local changes (use with caution!).                  |
+| `git stash drop`                        | Deletes a stashed change.                                                                                        |
+| `git config --global user.name "name"`  | Sets your Git username globally.                                                                                 |
+| `git config --global user.email "email"`| Sets your Git email globally.                                                                                    |
+| `git config --list`                     | Lists all the Git configuration settings in your system.                                                         |
+| `git blame <file>`                      | Shows who made changes to each line in a file, useful for tracking modifications.                                 |
+| `git show <commit>`                     | Shows detailed information about a specific commit.                                                              |
+| `git init --bare`                       | Initializes a bare repository (used for remote repositories).                                                    |
+| `git clean -f`                          | Removes untracked files from your working directory.                                                             |                                                                                       
+| `git config --global core.editor "code --wait"` | Sets VS Code as the default editor for Git (or any other editor of your choice).                                |
+| `git diff --staged`                          | Shows changes between the staging area and the last commit.                                                     |
+| `git commit --amend -m "new message"`        | Amends the most recent commit with a new message or added changes (without creating a new commit).               |
+| `git reflog`                                 | Shows a log of changes made to the tip of branches and other references.                                        |
+| `git bisect start`                           | Starts a binary search to find the commit that introduced a bug.                                                |
+| `git bisect bad`                             | Marks the current commit as bad when using `git bisect`.                                                        |
+| `git bisect good <commit>`                   | Marks a known good commit to help Git bisect find the bad commit.                                               |
+| `git archive --format=zip HEAD -o output.zip` | Creates a zip archive of the latest commit.                                                                     |
+| `git shortlog -sn`                           | Shows a summary of commits per author.                                                                          |
+| `git show-branch`                            | Displays the branches and their commits.                                                                        |
+| `git log --graph --decorate --oneline`       | Shows a graphical representation of the commit history with one-line summaries.                                 |
+| `git cherry`                                 | Shows commits that are in one branch but not another.                                                           |
+| `git reset <file>`                           | Unstages a file without deleting changes in the working directory.                                              |
+| `git log --since="2 weeks ago"`              | Shows the commit history from a specific time frame (e.g., 2 weeks ago).                                        |
+| `git push origin --tags`                     | Pushes all local tags to the remote repository.                                                                 |
+| `git remote prune origin`                    | Removes local references to remote branches that have been deleted on the remote.                               |
+| `git fetch --prune`                          | Cleans up stale remote-tracking branches after fetching.                                                        |
+| `git diff --name-only`                       | Lists only the names of files that have changed between commits or the working directory.                       |
+| `git log -p`                                 | Displays each commit with its associated changes (patches).                                                     |
+| `git branch -d <branch>`                     | Deletes a local branch that has been merged.                                                                    |
+| `git branch -D <branch>`                     | Force deletes a local branch, even if it hasn’t been merged.                                                    |
+| `git log --author=<name>`                    | Filters commit history by a specific author.                                                                    |
+| `git merge --abort`                          | Aborts a merge process and returns to the previous state.                                                       |
+| `git push --delete origin <branch>`          | Deletes a remote branch on GitHub or any other remote repository.                                               |
+| `git stash pop`                              | Applies stashed changes and removes the stash from the stash list.                                              |
+| `git checkout -- <file>`                     | Discards changes in a specific file in the working directory, reverting it to the last committed state.          |
+| `git commit -a -m "message"`                 | Commits all changes, including untracked files, with a single command (equivalent to `git add` and `git commit`).|
+| `git diff HEAD^`                             | Shows changes between the latest commit and the previous one.                                                   |

@@ -41,14 +41,32 @@ let age = 23
 console.log("Age=", age)
 
 // Declare variables to store your first name, last name, marital status, country and age in a single line
-let firstName1 = "Ankita"
-let lastName1 = "Fartde"
-let maritalStatus1 = "unmarried"
-let country1 = "India"
-let age1 = 23
+let firstName1 = "Ankita", lastName1 = "Fartde" , maritalStatus1 = "unmarried", country1 = "India", age1 = 23
 console.log(firstName1, lastName1, maritalStatus1, country1, age1)
 
 // Declare two variables myAge and yourAge and assign them initial values and log to the console.
 let myAge = 23
 let yourAge = 26
 console.log("My Age=", myAge, "Your Age=", yourAge)
+
+//Check type of datatypes:-
+
+// 1) String 
+let str= "Ankita"
+console.log(typeof str)
+
+//Number
+let mobileNumber= 8208093516
+console.log(typeof mobileNumber)
+
+//Boolean
+let isWomen= true
+console.log(typeof isWomen)
+
+//Null
+let value= null
+console.log(typeof null) //object
+
+//undefined
+let a 
+console.log(typeof a)

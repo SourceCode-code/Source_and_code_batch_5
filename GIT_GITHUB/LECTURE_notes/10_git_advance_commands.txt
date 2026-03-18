@@ -11,6 +11,8 @@ another task (another branch )   (you can bring those  chance back again )
 
 5) git reset --> this command is used to bring you file form stagging to local 
 
+<<<<<<< HEAD
+=======
 6) git reset --hard commitid  --> this command will revert your branch or your repo to a commit which id is given 
 (-- this Dangerous commands)--> this will delete the history 
 
@@ -19,6 +21,7 @@ another task (another branch )   (you can bring those  chance back again )
 8) git reflog --> this command will show you the details of last few commits along with there commit id
 
 9) git cherry-pick  commitid--> this command helps you to copy the commit form one branch to another 
+>>>>>>> c5521cf0b1851f8e3d0750858758491f905af025
 
 
 

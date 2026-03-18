@@ -70,3 +70,7 @@ console.log(myage)
 
 let yourage = 35
 console.log(yourage)
+
+
+
+// the end of the assignment

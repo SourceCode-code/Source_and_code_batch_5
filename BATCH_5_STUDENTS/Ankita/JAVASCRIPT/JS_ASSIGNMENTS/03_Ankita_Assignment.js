@@ -69,4 +69,7 @@ let num2=32
 let return1=Math.round(num2/5)*5
 console.log(return1)
 
-//
+//Generate a random aadhar number
+//generate random OTP number
+//generate random mobile number
+//generate random password (letters, number and symbols)

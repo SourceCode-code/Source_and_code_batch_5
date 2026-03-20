@@ -64,3 +64,4 @@ let number = 1234.56789;
 
 // 10. Write a program  that rounds any given number to the nearest multiple of 5.
 // Example:if 28 is given  should return 30, 32 should return 30.
+    

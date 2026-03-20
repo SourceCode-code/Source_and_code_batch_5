@@ -203,7 +203,7 @@ let name   // this is example of undefined
 5 null --> it represent nothingness 
 let name = null // this is a null  value 
 
-
+//NOTE : if you check data type of null it will always show object --> this is a leagcy bug or error in js 
  */
 // non primitive datatype in js 
 // 1 array 

@@ -60,3 +60,5 @@ console.log(myage)
 
 let yourAge = "35"
 console.log(yourAge)
+
+console.log(typeof myage)

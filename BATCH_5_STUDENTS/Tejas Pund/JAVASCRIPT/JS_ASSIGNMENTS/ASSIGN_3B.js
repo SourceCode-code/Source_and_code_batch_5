@@ -11,3 +11,4 @@
      console.log(otp)
 // 4) Generating random password including letters, numbers and Signs
      let pass
+// doubt

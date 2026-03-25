@@ -1,0 +1,15 @@
+Hi, my name is Anurag Deshpande. i am I’m a QA engineer with around 2+ years of experience, currently working across 4 different projects in the banking, insurance, and investment domain.
+
+Out of these, 2 are banking projects involving stock-related functionalities, 1 is an insurance project, and 1 is a company product focused on stock market portfolio management from the advisor side.
+So overall, most of my work revolves around financial and investment-based applications.
+
+I’ve been the primary automation tester across these projects, where I’ve built and implemented automation frameworks using Robot Framework with Python and Selenium.
+I’ve integrated this framework across all projects to maintain consistency and reusability.
+
+Along with UI automation, I’ve also worked extensively on API automation testing, including handling chained APIs, where responses from one API are used as inputs for subsequent calls.
+This has helped in validating complete business workflows end-to-end.
+
+In terms of ownership, I’ve handled most of the automation work independently, from framework setup to execution and reporting, which has given me good exposure to solving real-time issues and improving test stability.
+
+Additionally, I’ve completed my ISTQB Foundation Level (CTFL 4.0) certification, which has strengthened my understanding of testing principles and best practices.
+

@@ -1,0 +1,2 @@
+little stuck in the git and its branching system the question will be 
+how to work with git and how to change the branching in the git on the VS code terminal little stuck in that part 

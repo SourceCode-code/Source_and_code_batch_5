@@ -220,3 +220,32 @@ console.log(pack1 , pack2 , pack3)
 // 4 generate a random password (letters +number+sign) 
  
 
+
+
+
+// 4 generate a random password (letters +number+sign) 
+
+// 5 length of password 
+// any  1 chaarcter should upper
+// any one number
+// any symbol
+
+let aplha_str = "qwertyuiopasdfghjklzxcvbnm"
+let sym_str = "!@#$%^&*()_+"
+
+
+let letter_1= Math.floor(Math.random()*(aplha_str.length))
+let letter_2= Math.floor(Math.random()*(aplha_str.length))
+let letter_3= Math.floor(Math.random()*(aplha_str.length))
+let sym= Math.floor(Math.random()*(sym_str.length))
+let str_num = Math.floor(Math.random()*(99-10)+10) // 10-99
+
+
+console.log(`${aplha_str[letter_1].toUpperCase()}${aplha_str[letter_2]}${aplha_str[letter_3]}${sym_str[sym]}${str_num}`)
+
+
+//Isl!50
+
+//Gct$30
+
+//Yxt*43

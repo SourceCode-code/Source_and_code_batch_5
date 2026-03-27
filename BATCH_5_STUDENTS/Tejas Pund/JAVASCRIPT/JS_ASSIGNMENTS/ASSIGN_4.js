@@ -32,7 +32,7 @@
      console.log(quote.length)
      console.log(quote.indexOf("J"))
 // 10)
-     let str = 'Hello, World!'
+     console.log('Hello, \t World!')
      //doubt
 // 11)
      let str1 = 'abc'

@@ -21,10 +21,24 @@
      ijadljfja"
      console.log(longLiteralString)
 // 7)
+     console.log("I am learning JavaScript. \n Its \"fun\" to learn JavaScript")
 // 8)
+     let amount = 45.85
+     console.log(Math.floor(amount))
+     console.log(Math.ceil(amount))
+     console.log(Math.round(amount))
 // 9)
+     let quote = "Learning JavaScript is awesome!"
+     console.log(quote.length)
+     console.log(quote.indexOf("J"))
 // 10)
+     let str = 'Hello, World!'
+     //doubt
 // 11)
+     let str1 = 'abc'
+     let str2 = 'def'
+     console.log(str1+str2)
+     console.log(`${str1} ${str2}`)
 // 12)
-// 13)
-// 14)
+     let string = "qwertyuiopasdfghjklzxcvbnm"
+     console.log(string.indexOf("e"))

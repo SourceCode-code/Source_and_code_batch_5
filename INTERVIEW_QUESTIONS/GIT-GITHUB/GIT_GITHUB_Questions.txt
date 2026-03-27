@@ -13,7 +13,6 @@ SECTION 1: Git Fundamentals
 6. What is the .git folder?
 7. Explain the working directory, staging area, and local repository.
 
-
 ====================================================
 SECTION 2: Git Commands & Usage
 ====================================================

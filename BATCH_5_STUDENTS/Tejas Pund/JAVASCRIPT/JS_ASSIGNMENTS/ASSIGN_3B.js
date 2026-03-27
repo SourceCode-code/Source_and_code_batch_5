@@ -10,5 +10,11 @@
      let otp = Math.floor(Math.random()*(9999-1000+1))+1000
      console.log(otp)
 // 4) Generating random password including letters, numbers and Signs
-     let pass
-// doubt
+     let alphabets = "abcdefghijklmnopqrstuvwxyz"
+     let symbols = "n!@#$%^&*()_+"
+     let firstLetter = Math.floor(Math.random()*(alphabets.length))
+     let secondLetter = Math.floor(Math.random()*(alphabets.length))
+     let thirdLetter = Math.floor(Math.random()*(alphabets.length))
+     let sym = Math.floor(Math.random()*(symbols.length))
+     let number = Math.floor(Math.random()*(10-1)+1)
+     console.log(`${alphabets[firstLetter].toUpperCase()}${alphabets[secondLetter]}${alphabets[thirdLetter]}${symbols[sym]}${number}`)

@@ -6,7 +6,7 @@
 // -----------------------------------------------------
 let minNum = 50
 let maxNum = 100
-let randomNum = Math.floor(Math.random()*(maxNum-minNum)+minNum)
+let randomNum = Math.floor(Math.random()*(maxNum-minNum+1)+minNum)
 console.log(randomNum)
 // 2. Take any floating number (e.g., 45.6789) and print it rounded to 2 decimal places.
 let number =45.6789
@@ -18,7 +18,7 @@ console.log(number.toFixed(2))//ans=45.68
 //formula=Math.floor(Math.random()*N)+1
 let dice1=Math.floor(Math.random()*6)+1
 let dice2=Math.floor(Math.random()*6)+1
-console.log(dice1,dice2)
+console.log("addition" ,dice1+dice2)
 // -----------------------------------------------------
 
 // 4. Write a program that rounds any number entered by the user to the nearest multiple of 10.

@@ -3,11 +3,25 @@
 1) git stash --> this helps you to temporaliy remove the changes you have made for allowing you to work on
 another task (another branch )   (you can bring those  chance back again )
 
-2) git stash apply --> this method is used to bring back the changes which has been removed by giot stash 
+2) git stash apply --> this method is used to bring back the changes which has been removed by git stash 
 
 3) git blame filepath --> shows you a detail information about the commits done in that specific file  
 
 4) git show commitid  -> this will give you a detail info about the commit 
 
 5) git reset --> this command is used to bring you file form stagging to local 
+
+<<<<<<< HEAD
+=======
+6) git reset --hard commitid  --> this command will revert your branch or your repo to a commit which id is given 
+(-- this Dangerous commands)--> this will delete the history 
+
+7) git revert commit id --> this command will revert your barcnh or repo to a commit id  which is given by creating a new commit  
+
+8) git reflog --> this command will show you the details of last few commits along with there commit id
+
+9) git cherry-pick  commitid--> this command helps you to copy the commit form one branch to another 
+>>>>>>> c5521cf0b1851f8e3d0750858758491f905af025
+
+
 

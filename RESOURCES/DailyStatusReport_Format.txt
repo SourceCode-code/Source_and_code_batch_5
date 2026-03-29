@@ -1,0 +1,37 @@
+To:siddhantsourceandcode@gmail.com
+CC: vaibhavsourceandcode@gmail.com , ashutosh.vishwanath.more@gmail.com , jadhavamol.j2@gmail.com
+
+Subject :-Daily Status Report date.month.year
+
+Project Name: [Insert Project Name]
+
+Hey Team following are the updates for Date: [Insert Date]
+
+Tasks Completed:
+
+[Task 1]
+[Task 2]
+[Task 3]
+
+Tasks In Progress:
+
+[Task 1]
+[Task 2]
+[Task 3]
+
+Issues/Blockers:
+
+[Issue 1]
+[Issue 2]
+
+Next Steps:
+
+[Task 1]
+[Task 2]
+
+Help/Support required in topics
+
+Additional Comments:
+Regards,
+YourName
+

@@ -120,3 +120,97 @@ console.log(user)
  * 
  * 
  */
+
+/**
+ * Rules to keep in mind when delacring avariable
+ *1 varaible name should not start with a number */
+let demo1 = "sid" // this is valid example 
+// let 1demo= "sid" //this is invalid example
+
+//2 varaible name can only contain letter , numbers ,underscore ( _ ) & dollar sign $ 
+
+let $demo2 = "demo function" // valid 
+let demo = "demo function" // valid 
+let demo_ = "valid " // valid 
+
+// invalid example 
+
+// let demo@ = "invalid" // invalid 
+// let demo number = "invalid" // invaild example there should no space in varaibles name 
+
+//3 varaible are case senstive 
+
+let name = "siddhant" // this is variable with name
+let Name = "arjun" // this is vraible with Name
+
+// the above two in js are two seprate variable
+
+//4 varaible names cannot included reserved keyword
+
+//let var = "2" // this is invalid becasue var is reserved keyword
+
+//bonus Rule -->
+// your variable name should always be decriptive of the value and  be in camel case
+//example
+let user_Age = "28" // this valid 
+
+let userName = " valid example "
+
+
+
+// example delecare varaibles 
+
+// 1 delcare 2 variable in a single line 
+
+let firstName = "siddhant", lastName = "gadakh"
+
+// 2 delecare 2 varaible in multiple line 
+
+let varaibale1 = "sid"
+let varaible2 = "gaadakh"
+
+
+
+/** DATATYPE IN JS 
+ There are mainly two type of datatype in js 
+1) primitive data type --> The data type which is simple in nature and is immutable (cannot change its or property)
+
+2) non-primitive data  --> The data type which is complex in nature and is mutable (can change its value or property)
+
+
+
+// primitive datatype in js 
+
+1 Number --> it represent any numerical value eg (-infity to +infity) (eg -0.32564 , 100 , 522 ,5555555555555555555555555)
+(intergers and floating numbers)
+
+2 String --> it represent any caharcter or sequnece of character that is wrapped into "double quotes ", 'single quotes' `backticks`
+
+let str = "siddhant     " // this is string
+let str2 = '28'          // this is also a string
+let str3 =`    ` // this is also a string 
+
+
+3 Boolean --> it represents the true and false value in js 
+
+
+let value1 = true // this is boolean value
+let value2 = false // this is also aboolean value 
+
+4 undefined --> it represents a varaible whos value has not been assigned yet 
+let name   // this is example of undefined
+
+5 null --> it represent nothingness 
+let name = null // this is a null  value 
+
+//NOTE : if you check data type of null it will always show object --> this is a leagcy bug or error in js 
+ */
+// non primitive datatype in js 
+// 1 array 
+// 2 object 
+
+// how to check a data type in js (use typeof)
+//Number
+let num = 23
+console.log(num)
+console.log(typeof num)

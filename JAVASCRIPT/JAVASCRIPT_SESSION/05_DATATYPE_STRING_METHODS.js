@@ -170,3 +170,47 @@ console.log(EX_index.indexOf("e"))
 
 console.log(EX_index.lastIndexOf("h"))
 console.log(EX_index.lastIndexOf("e"))
+
+
+ // =============================================
+// 12. concat() 
+// ---------------------------------------------
+//concat()  --> this combine two or more string together
+
+let HELLO = "hello"
+let Name = "sid"
+let surname = "gadakh"
+
+console.log(Name.concat(surname)) // two string concat 
+
+console.log(HELLO.concat(Name,surname))
+
+
+ // =============================================
+// 13. Repeat() 
+// ---------------------------------------------
+//repeat --> this method is used to repeat a string multiple 
+console.log(Name.repeat(10))
+
+
+ // =============================================
+// 14. StartsWith() 
+// ---------------------------------------------
+//StartsWith()  --> this method will verify if your string starts with particular character 
+// this methods output will be Boolean
+console.log(Name.startsWith("s"))
+
+
+ // =============================================
+// 15. endsWith() 
+// ---------------------------------------------
+//  this method will verify if your string end with particular character 
+// this methods output will be Boolean
+console.log(Name.endsWith("d"))
+
+
+// 16 --> split()
+//17 --> match 
+//18 --> matchAll
+// match and matchAll will covered during regrex function
+// split method will be covered during array 

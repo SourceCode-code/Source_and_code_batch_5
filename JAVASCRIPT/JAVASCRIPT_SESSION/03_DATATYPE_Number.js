@@ -137,4 +137,86 @@ Math.floor(Random100)// it will be inetrger  ->0 ===99
 console.log(Math.floor(Math.random()*100)+1) 
 
 
-// inculisly and excusiley
+
+// 5. Write program  `rollDice` that simulates rolling two dice and returns their combined result.
+// Hint: Each dice roll should return a number between 1 and 6.
+
+
+const dice1 = Math.floor(Math.random()*6)+1    // 1 --6
+const dice2 = Math.floor(Math.random()*6)+1   
+console.log(dice1,dice2)
+
+console.log(dice1+dice2)
+
+
+
+// 6. What will be the result of the following code? Explain why.
+let randomVal = Math.random();
+console.log(Math.floor(randomVal * 10) + 5);
+// write the output and reason in commnets 
+// 0-0.99 
+//0 -9.99999
+//0-9
+//5-14
+
+// Hint: Understand how the number is being generated and what range it falls in.
+
+//7 generate  randomBetween(10, 20) should generate a number between 10 and 20.
+// console.log(randomBetween(10, 20));
+
+// inclusive --> included endpoints 
+// exclusive --> excluded endpoints 
+
+
+// general formula for generating any random number in the range 
+
+// Math.floor(Math.random()* (max-min+1))+min  // inculsively 
+//// Math.floor(Math.random()* (max-min-1))+min  // exclusive 
+
+console.log(Math.floor(Math.random()*(20-10-1))+10)
+
+
+// 8 generate a random number between 5.5-9.3
+//Example: randomFloat(5.5, 9.3) should generate a random float between 5.5 and 9.3.
+
+let floatrandom= Math.random()*(9.3-5.5)+5.5
+
+console.log(floatrandom.toFixed(1))
+
+
+// 9. Given a number `x = 1234.56789`, write code to round this number to 2 decimal places. that is x=1234.57
+let number = 1234.56789;
+
+console.log(number.toFixed(2))
+
+// 10. Write a program  that rounds any given number to the nearest multiple of 5.
+// Example:if 28 is given  should return 30, 32 should return 30.
+
+let numb_1 = 22
+console.log(Math.round(numb_1/5)*5)
+
+
+
+// question --> 
+
+// 1 Generate a random adahar number
+// generate a random 12 digit number --> 
+// generate pack of 3 till number is of 12 digit  --> 4
+
+// you have generate a number which is of 4 digit  and this you have to do 3 
+
+// highest 4 digit numnber is -->9999
+// lowest 4 digit number is  --->1000 
+
+
+let pack1  = Math.floor(Math.random()*(9999-1000+1))+1000
+let pack2 = Math.floor(Math.random()*(9999-1000+1))+1000
+let pack3 = Math.floor(Math.random()*(9999-1000+1))+1000
+
+console.log(pack1 , pack2 , pack3)
+
+// 2 generate a random phone number 
+// 3 generate a random otp 
+// 4 generate a random password (letters +number+sign) 
+ 
+

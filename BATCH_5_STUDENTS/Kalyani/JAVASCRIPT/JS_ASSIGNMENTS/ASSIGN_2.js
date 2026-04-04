@@ -2,9 +2,8 @@
 // comments can make code readable
 // Welcome to 30DaysOfJavaScript
 
-/*  comments can make code readable
- to reuse and informative
-easy
+/*  comments can make code readable,
+   easy to reuse and informative.
 */
 
 let a;
@@ -12,10 +11,10 @@ let b;
 let c;
 let d;
 
-let a = 10;
-let b = 5.5;
-let c = "Hello";
-let d = true;
+a = 10;
+b = 5.5;
+c = "Hello";
+d = true;
 
 /*
 let name = "kalyani"
@@ -36,5 +35,3 @@ console.log(myage)
 
 let yourage = 30
 console.log(yourage)
-
-

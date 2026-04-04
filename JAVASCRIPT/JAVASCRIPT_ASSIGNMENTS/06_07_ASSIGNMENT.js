@@ -38,7 +38,7 @@ let longSentence = 'You cannot end a sentence with because because because is a 
 
 // 10. Figure out the result of the following comparison expressions without using `console.log()` first, then confirm the result using `console.log()`:
 //write the output in the comments 
-console.log(4 > 3);              
+console.log(4 > 3);                                     
 console.log(4 >= 3);             
 console.log(4 < 3);             
 console.log(4 <= 3);             

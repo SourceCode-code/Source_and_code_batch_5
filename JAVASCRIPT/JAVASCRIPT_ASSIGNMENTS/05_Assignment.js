@@ -15,7 +15,7 @@ console.log(randomNum)
 // -----------------------------------------------------
 
 // 4. Write a program that rounds any number entered by the user to the nearest multiple of 10.
-// Example: 47 → 50, 123 → 120
+// Example: 47 → 50, 123 → 120c
 // -----------------------------------------------------
 
 // 5. Generate a random 6-digit OTP using Math methods.

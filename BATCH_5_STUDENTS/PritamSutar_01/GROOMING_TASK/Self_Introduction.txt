@@ -1,0 +1,17 @@
+//Self introduction for interview
+“Hello, my name is Pritam Sutar. I bring over 11 years of experience in software testing, with strong 
+exposure to the BFSI domain along with Gaming, Automotive, and Energy sectors.
+Currently, I am working as a Senior Test Engineer with Expleo Solutions, deployed at SBI GITC, 
+where I am leading testing activities for critical banking applications such as NPS account opening, fund transfers, and 
+branch operations. 
+I am responsible for test planning, strategy definition, requirement analysis, and end-to-end execution, 
+while leading a team of 6 members.
+I have strong expertise in STLC, SDLC, and Agile methodologies, and I specialize in Functional, Integration, and UAT testing.
+I have consistently achieved over 90% test coverage and ensured high-quality releases by identifying critical defects
+ early in the cycle. My contributions have been recognized by clients, including appreciation from SBI leadership.
+From a tools perspective, I have hands-on experience with JIRA, TestRail, HP ALM, and Jenkins, and I am well-versed in
+ defect management, test reporting, and KPI tracking.
+As a QA Lead, I focus not only on quality delivery but also on team mentoring, stakeholder communication, and process improvement. I have successfully improved regression coverage, reduced post-release defects, and enhanced team productivity across projects.
+I am ISTQB certified and have received multiple awards for quality delivery and defect identification.
+I am now looking for an opportunity where I can contribute as a QA Lead/Test for the project,
+driving quality strategy and delivering robust, customer-centric applications.”

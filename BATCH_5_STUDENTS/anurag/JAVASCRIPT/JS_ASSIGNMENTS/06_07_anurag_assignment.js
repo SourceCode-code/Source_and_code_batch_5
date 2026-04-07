@@ -12,10 +12,27 @@ if (typeof strTen === typeof numTen && strTen === numTen) {
 }
 
 // 2. Check if parseFloat('9.8') is equal to 10. If not, round it to make it equal to 10.
+let floatValue = parseFloat('9.8');
+if (floatValue === 10) {
+    console.log("parseFloat('9.8') is equal to 10.");
+} else {
+    let roundedValue = Math.round(floatValue);
+    console.log("parseFloat('9.8') is not equal to 10.");
+    console.log("Rounded value:", roundedValue);
+}
+
 
 // 3. Check if 'on' is found in both 'python' and 'jargon'.
+let word1 = 'python';
+let word2 = 'jargon';
+let substring = 'on';
+let foundInWord1 = word1.includes(substring);
+let foundInWord2 = word2.includes(substring);
+console.log(`'${substring}' found in '${word1}': ${foundInWord1}`);
+console.log(`'${substring}' found in '${word2}': ${foundInWord2}`);
 
 // 4. Check if the word 'jargon' is found in the sentence: "I hope this course is not full of jargon."
+
 
 // 5. Use `substr` to slice out the phrase 'because because because' from the following sentence:
 

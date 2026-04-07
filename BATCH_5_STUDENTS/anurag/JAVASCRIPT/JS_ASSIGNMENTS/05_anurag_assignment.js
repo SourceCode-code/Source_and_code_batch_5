@@ -101,3 +101,31 @@ let roundedDown = Math.floor(randomDecimal)
 console.log(`Random Decimal: ${randomDecimal}, Rounded Up: ${roundedUp}, Rounded Down: ${roundedDown}`)
 
 
+//simple questions
+
+// 1. Find the length of the string "hello world".
+let str1 = "hello world"
+console.log(str1.length)
+
+// 2. Retrieve the last character of the string "automation".
+let str2 = "automation"
+console.log(str2.charAt(str2.length - 1))
+
+// 3. Convert the string "learning" to uppercase.
+let str3 = "learning"
+console.log(str3.toUpperCase())
+
+// 4. Check if the string "coding" includes the word "code".
+let str4 = "coding"
+console.log(str4.includes("code"))
+
+// 5. Trim the spaces from the string "   JavaScript   ".
+let str5 = "   JavaScript   "
+console.log(str5.trim())
+
+// Tough and Advanced Questions
+
+// 6. Extract the first 5 characters from the string "PlaywrightAutomation".
+let str6 = "PlaywrightAutomation"
+console.log(str6.substring(0, 5))
+

@@ -11,6 +11,7 @@ let gravity = 9.81
 console.log(typeof gravity)
 // output will be number because gravity is a number data type
 
+
 // 3. generate a random number between 1 and 10 (inclusive) and print it
 console.log("answer of question 3")
 let randomNum = Math.floor(Math.random() * 10) + 1

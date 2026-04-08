@@ -141,7 +141,7 @@ switch (formated_day) {
 }
 
 
-// optimzed version 
+// optimzed version
 
 let day_1 = "saturday"
 

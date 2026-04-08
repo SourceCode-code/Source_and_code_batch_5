@@ -1,0 +1,6 @@
+Hi, I’m Aashiya Khan, a Senior Automation Test Engineer with 5.8 years of experience, 
+including 3 years in automation using Katalon Studio. 
+I have worked across domains like Telecom BSS and Supply Chain, focusing on UI, API, and data-driven testing. Currently, 
+I’m working with Cerillion, where I handle automation design, execution, and reporting. 
+I also have experience with CI/CD integration, SQL, and Agile methodologies, 
+and I’m looking for opportunities to grow further in automation.

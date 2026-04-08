@@ -73,4 +73,90 @@ else { console.log("enter a valid input") }
 
 // SWITCH CASE () --> this is latest update in es6 (this is most prefeered due to the sytanx clarity)
 
+/**
+ * 
+ * sytnax --> 
+ * 
+ * let parameter = value 
+ * 
+ * switch(paramter){
+ * case 1 : case1 output
+ * case 2 : case2 output
+ * case 3 : case3 output
+ * 
+ * default :default output 
+ * } 
+ */
 
+// check a number if its postiive or negative 
+
+let num1 = -40
+
+switch (true) {
+
+    // case 1 : if the number is postive 
+    case num1 > 0: console.log(`the given number ${num1} is a postive number`)
+        break
+    // case 2 : if the number is negative
+    case num1 < 0: console.log(`the given number ${num1} is a negative number`)
+        break
+    // case 3 : if the number is zero
+    case num1 === 0: console.log(`the given number ${num1} is a zero `)
+        break
+
+    case typeof (num1) === String: console.log("the input given is aplha numeric")
+        break
+    // default 
+    default: console.log("please enter a valid input data")
+}
+
+//break --> this keyword is used to terminate the opertaion when condition is met
+
+
+// EXAMPLE OF 2
+
+// write program to check working day and check if its is a office day or wfh 
+
+let day = "monday"
+
+let formated_day = day.toLowerCase()
+
+switch (formated_day) {
+
+    case "monday": console.log(" offically work for office day")
+        break
+    case "tuesday": console.log(" offically work for office day")
+        break
+    case "wednesday": console.log("you have work form home")
+        break
+    case "thrusday": console.log("you have work form home")
+        break
+    case "friday": console.log("you have work form home")
+        break
+    case "saturday": console.log("weekend please enjoy your holiday")
+        break
+    case "sunday": console.log("weekend please enjoy your holiday")
+        break
+    default: console.log(" enter vaild input data")
+}
+
+
+// optimzed version 
+
+let day_1 = "saturday"
+
+let formated_day_1 = day_1.toLowerCase()
+switch (formated_day_1) {
+
+    case "monday":
+    case "tuesday": console.log(" offically work for office day")
+        break
+    case "wednesday":
+    case "thursday":
+    case "friday": console.log("you have work form home")
+        break
+    case "saturday":
+    case "sunday": console.log("weekend please enjoy your holiday")
+        break
+    default: console.log(" enter vaild input data")
+}

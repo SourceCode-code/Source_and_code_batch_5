@@ -73,7 +73,7 @@ else { console.log("enter a valid input") }
 
 // SWITCH CASE () --> this is latest update in es6 (this is most prefeered due to the sytanx clarity)
 
-/**
+]/**
  * 
  * sytnax --> 
  * 

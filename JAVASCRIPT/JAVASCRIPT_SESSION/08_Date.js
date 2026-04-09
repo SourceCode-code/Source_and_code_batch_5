@@ -94,3 +94,57 @@ console.log(`${curhour}:${curMin}:${curSec}`)
 //task is --> you have convert this 24 time into the 12 format 
 // 9:51 pm
 
+let ampm = (curhour<12)?"am":"pm"
+console.log(ampm)
+let chours = curhour%12   //
+console.log(chours) 
+
+
+let hourformat = String(chours).padStart(2,"0")
+let minformat = String(curMin).padStart(2,"0")
+let secformat = String(curSec).padStart(2,"0")
+
+console.log(`${hourformat}:${minformat}:${secformat} ${ampm}`)
+
+
+let cur_time = date.toLocaleString("en-In",{timeZone:"Asia/Kolkata",day:"2-digit",month:"2-digit",year:"numeric",
+    hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:true
+})
+
+console.log(cur_time)
+
+
+
+// -----------------------------------------------------------------------------------------------------
+
+
+// MANIPUALTION OF DATE setDate()  setMonth() setYear()
+//NOTE:- when you use  set method it manipulated  the delecraed date object  or initalize date obejct 
+
+let mani_date = new Date()
+
+let todaydate = mani_date.getDate()  //3
+console.log(todaydate)
+
+mani_date.setDate(todaydate+2)
+
+console.log(mani_date.getDate())
+
+// setMonth 
+
+let thismonth = mani_date.getMonth()+1
+console.log(thismonth)
+
+mani_date.setMonth(thismonth+2)
+
+console.log(mani_date.getMonth())
+
+// setYear()
+
+let thisyear = mani_date.getFullYear()
+
+mani_date.setFullYear(thisyear+4)
+
+console.log(mani_date.getFullYear())
+
+// setHour  setMintues setSeconds

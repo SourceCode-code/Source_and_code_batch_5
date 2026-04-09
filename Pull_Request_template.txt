@@ -1,0 +1,26 @@
+Step 1 : -> checkout to main by command  --- git checkout main
+step 2 : -> hit commands on main 
+
+a) git fetch 
+b) git pull orgin main 
+
+step 3: -> create your own branch for the given task with proper name --> git checkout -b branchname
+
+step 4 : -> complete your task without chaning any other file than your task file 
+
+step 5 : -> before pushing any change make sure no other file is affected by the change 
+
+step 6 : -> hit following command 
+
+a) git add .
+b) git commit -m "message"
+c) git push origin branchname
+
+
+step 7 :->  ( close all the files open )hit this command    -> checkout to main by command  --- git checkout main
+
+step 8 :-> to go ui and raise the pull request 
+
+a) add proper title 
+b) add all reviewer 
+c) add assigne to your self

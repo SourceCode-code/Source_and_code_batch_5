@@ -1,0 +1,7 @@
+Software Test Engineer 
+
+So my name is Ankit Giri, I am an IT Professional with over 4 years of experience, currently working as Software Test Engineer for my current organization, named Intechfy Solutions. I mostly work on automating test cases for Web and RESTful APIs. I do have command on JavaScript based frameworks, like Cypress and Playwright, having developed robust automation framework that ensure high-quality software delivery. I also have exposure to CI/CD Pipelines with Jenkins and GitHub Actions.
+In my current experience, I was fortunate enough to work on two main Service Domains, HealthCare and FinTech. To be more precise, I am currently working on a system which is bridge between Borrower and Lenders. 
+As for my hobbies, I am a regular gym goer which has taught me discipline, routine, and patience which I implement in my day-to-day work. 
+Currently, I am looking for an organization where I can work on bigger and more complex systems and contribute to mutual growth. And in regard, really excited to have conversation with you. 
+Thank you!

@@ -11,6 +11,7 @@ let gravity = 9.81
 console.log(typeof gravity)
 // output will be number because gravity is a number data type
 
+
 // 3. generate a random number between 1 and 10 (inclusive) and print it
 console.log("answer of question 3")
 let randomNum = Math.floor(Math.random() * 10) + 1
@@ -57,3 +58,6 @@ console.log(number.toFixed(2)) // output will be 1234.57 because toFixed rounds 
 
 // 10. write a program that rounds any given number to the nearest multiple of 5
 console.log("answer of question 10")
+let num1 = 23
+let roundedNum = Math.round(num1 / 5) * 5
+console.log(roundedNum) // output will be 10 because 12 is closer to 10 than 15, so it rounds down to the nearest multiple of 5 which is 10

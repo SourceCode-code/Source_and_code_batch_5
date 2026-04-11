@@ -55,3 +55,42 @@ console.log(`${currdate}:${curlongmonth}:${year} ${hours12}:${currMin} ${ampm}`)
 
 // 4. yyyy:mm:DD mm:hh
 console.log(`${year}:${currMonth}:${currdate} ${currMin}:${currhour}`)
+
+console.log("--------------------------------------------------")
+
+/* 
+Question 2: 
+Return the date in the format: "Day of the Week, DD Month YYYY HH:mm" 
+(e.g., "Monday, 02 October 2024 15:30").
+
+
+(e.g., "Monday, 02 October 2024 3:30 pm").
+*/
+let dayOfWeek = date.toLocaleString('en-US', { weekday: 'long' });
+console.log(`${dayOfWeek}, ${currdate} ${curlongmonth} ${year} ${currhour}:${currMin}`)
+console.log(`${dayOfWeek}, ${currdate} ${curlongmonth} ${year} ${hours12}:${currMin} ${ampm}`)
+
+console.log("--------------------------------------------------")
+
+/* 
+Question 3: 
+Calculate how many days are left until a specific date (input: 'YYYY-MM-DD').
+31 -dec
+*/
+let targetDate = new Date('2024-12-31')
+let currentDate = new Date()
+let timeDiff = targetDate - currentDate
+let daysLeft = Math.ceil(timeDiff / (1000 * 60 * 60 * 24))
+console.log(`There are ${daysLeft} days left until December 31, 2024.`)
+
+console.log("--------------------------------------------------")
+
+/*
+Question 4:
+Check if a current year is a leap year.
+*/
+let currentYear = date.getFullYear()
+let isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0)
+console.log(`${currentYear} is a leap year: ${isLeapYear}`)
+
+console.log("--------------------------------------------------")

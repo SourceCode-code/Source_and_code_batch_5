@@ -132,8 +132,6 @@ console.log(Random100) // lowest number will be 0 and highest number will be 99.
 
 Math.floor(Random100)// it will be inetrger  ->0 ===99
 
-
-
 console.log(Math.floor(Math.random()*100)+1) 
 
 
@@ -145,10 +143,7 @@ console.log(Math.floor(Math.random()*100)+1)
 const dice1 = Math.floor(Math.random()*6)+1    // 1 --6
 const dice2 = Math.floor(Math.random()*6)+1   
 console.log(dice1,dice2)
-
 console.log(dice1+dice2)
-
-
 
 // 6. What will be the result of the following code? Explain why.
 let randomVal = Math.random();

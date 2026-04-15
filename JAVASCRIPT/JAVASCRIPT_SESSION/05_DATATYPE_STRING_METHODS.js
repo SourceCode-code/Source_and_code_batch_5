@@ -214,3 +214,17 @@ console.log(Name.endsWith("d"))
 //18 --> matchAll
 // match and matchAll will covered during regrex function
 // split method will be covered during array 
+
+
+
+
+ // =============================================
+// 16. split()  
+// ---------------------------------------------
+// this method converts your string into a array form the given input 
+
+let name_str = "siddhant arjun gadakh"
+
+let full_name_ar = name_str.split(" ")
+console.log(full_name_ar)
+

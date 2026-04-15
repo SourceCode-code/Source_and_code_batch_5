@@ -158,20 +158,20 @@ for (let i = 0; i < pass.length; i++) {
     }
 }
 
-if(pass.length>=8&&hasNumber===true){
-console.log("Strong Password")
+if (pass.length >= 8 && hasNumber === true) {
+    console.log("Strong Password")
 }
-else{
+else {
     console.log("weaker password")
 }
 
 
 //Q count the total sum of numbers form 0 - 100
 
-let sum =0 
-for(let i =0;i<=100;i++){
+let sum = 0
+for (let i = 0; i <= 100; i++) {
     // sum = sum+i
-    sum+=i
+    sum += i
 
 }
 console.log(sum)
@@ -182,11 +182,78 @@ console.log(sum)
 
 let divisor_count = 0
 
-for(let i =3 ;i<=200;i++){
-    if(i%3===0&& i%5 ===0){
+for (let i = 3; i <= 200; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
         divisor_count++
     }
 }
 
 console.log(divisor_count)
+
+
+
+//there main keywords that are used in loop they aRE
+
+// BREAK -- THIS KEYWORD WILL BE USED TO GET OUT OF THE LOOP 
+
+// STOP THE LOOP AT 5 
+
+for (let i = 0; i <= 10; i++) {
+    //console.log(i) // if placed before break we will get output as // 0 1 2 3
+    if (i === 3) {
+        break
+    }
+     console.log(i)//if placed after break we will get output as // 0 1 2 
+}
+
+
+console.log("---------------------------------------------------")
+
+// CONTINUE  --> this word is used to skip the given condition
+
+for (let i = 0; i <= 10; i++) {
+    //console.log(i) // if placed before skip we will get output as // 0 1 2 3 4 5 6 7 8 9 10
+    if (i === 5) {
+        continue
+    }
+     console.log(i)//if placed after skip we will get output as // 0 1 2 3 4  6 7 8 9 10
+}
+
+
+// WHILE :- WHEN THE OUT IS NOT DEFINITIIVE 
+
+/**
+ * SYNTAX
+ * 
+ * INITALIZTION
+ * WHILE(CONDITION){
+ * //CODE
+ * 
+ * 
+ * INCREMENT/DRECEMENT
+ * }
+ */
+console.log("___________________________while_______________________________")
+
+let k =0
+while(k>=0){
+    if(k==1000){
+        break
+    }
+    console.log(k)
+    k++
+}
+
+// print the eeven numberss  // stop at 100
+let even = 2
+while(even>=2){
+    if(even%2==0){
+        console.log(even)
+    }
+    if(even===100){
+        break
+    }
+    even++
+}
+
 

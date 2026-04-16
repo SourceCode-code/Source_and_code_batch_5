@@ -3,7 +3,7 @@
  */
 
 //impots
-const prompt = require(`prompt-sync`)({ sigint: true });
+const prompt = require(`prompt-sync`)();
 
 // 1. Check if the type of '10' is exactly equal to 10. If not, convert '10' to a number and check again.
 let strTen = "10";

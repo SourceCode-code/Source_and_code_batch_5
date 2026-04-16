@@ -1,0 +1,13 @@
+Hi, I’m Shubham Chudhari. I have around 3.5 years of experience in software testing, primarily working as an Automation Test Engineer.
+
+During my career, I have worked on two major projects in the Insurance and Banking domains. In both projects, we followed Agile methodology for development and testing.
+
+In my first project, I worked with Selenium using Java for automation. Currently, in my ongoing project, I am using Playwright with JavaScript.
+ Through these projects, I have gained hands-on experience with tools like Jira for defect tracking, Git and GitHub for version control, and Postman for API testing.
+
+For automation framework design, we have implemented the Page Object Model (POM), which helped in improving code reusability and maintainability.
+
+Currently, I am working at WLH Pvt. Ltd. as an Automation Test Engineer. My responsibilities include understanding user stories, creating and maintaining automation test scripts
+ based on requirements, executing test cases, and reporting defects.
+
+That’s a brief overview about me. Thank you.

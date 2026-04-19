@@ -1,1 +1,10 @@
-wqe
+hexadecimal number
+==================
+
+hexadecimal number = (or hex) it is a positional numeral system with a base of 16,
+                     commonly used in computer science to represent binary data compactly.
+                     it utilizes 16 distinct symbols:0-9 for values zero to nine, and 
+                     A-F(or a-f) to represent decimal values 10-15.
+                     One hex digit represent four bits (half a byte or a "nibble")
+
+usage= used in computer memory addressing, MAC addresses< and CSS color coding.

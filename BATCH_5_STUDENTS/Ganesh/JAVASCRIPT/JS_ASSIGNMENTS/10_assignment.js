@@ -115,7 +115,7 @@ for (let i = 0; i < 6; i++) {
 console.log(RandomID);
 
 //   // 12) Develop a small script which generates any number of characters random id.
-let str = "qwertyuiopasdfghjklzxcvbnm";
+str = "qwertyuiopasdfghjklzxcvbnm";
 let RandomID2 = "";
 for (let i = 0; i <= 12; i++) {
   RandomID2 += str.charAt(Math.floor(Math.random() * str.length));

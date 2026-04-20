@@ -8,7 +8,7 @@
 let a = 20
 let b = "hello"
 
-//Array --> Array is datatype which is used to stored multiple values 
+//Array --> Array is non-primitive datatype which is used to stored multiple values 
 
 /**
  * 
@@ -19,7 +19,7 @@ let b = "hello"
  *  in array each is separted by a comma ,
  * 
  * 
- * //3 what are the datatypes or values we canb store in all array 
+ * //3 what are the datatypes or values we can store in all array 
  * we can store any value in an array  
  */
 
@@ -86,5 +86,33 @@ let array_ex  = ["siddhant",27,"gadakh",true,null]
 //5 
 console.log(array_ex.length)
 // length -1 will always be last element 
+
+
+
+// Basic array operations 
+
+
+//1 how to retrive form array 
+console.log(array_ex[0])
+
+console.log(array_ex[array_ex.length-1])
+
+//2 how to update value form array 
+
+array_ex[array_ex.length-1] = "software engineer"
+console.log(array_ex)
+
+array_ex[3] = "male"
+console.log(array_ex)
+
+//3 how to add value to array 
+
+
+
+//4 how to delete a value form array 
+
+delete array_ex[array_ex.length-1]
+
+console.log(array_ex)
 
 

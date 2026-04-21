@@ -103,3 +103,103 @@ let number_array = [258,654,9,5,95,67,98745,0,682,789,34,456,24785]
 let sorted_number_array = number_array.sort((a,b)=>{return a-b})
 console.log(sorted_number_array)
 
+<<<<<<< HEAD
+=======
+
+//8 METHOD --> reverse() --> this method will reverse your array 
+
+
+console.log(sorted_number_array.reverse())
+
+// action --> reverse the element 
+// return type --> array 
+
+// NOTE :- combvination of spilt / reverse / join is used to revsre a string 
+
+// example :-
+
+let str =  "siddhant"
+
+// i want output as "tnahddis"
+
+let split_str = str.split('')
+console.log(split_str.reverse().join(''))
+
+// oneline solution
+
+console.log(str.split("").reverse().join(""))
+
+
+//9 METHOD  join() --> this method will convert your array into string 
+
+// example -> 
+
+let name = ["siddhant" ,"arjun","gadakh"]
+
+console.log(name.join(" "))
+
+// action --> coverts array into string 
+// return type is string 
+
+
+// 10 METHOD includes() --> to check if the element is present in the array or not 
+
+// example 
+
+//let fruits_array = ["mango","apple","banana ","watermelon","chiku"]
+
+console.log(fruits_array.includes("grape"))
+console.log(fruits_array.includes("watermelon"))
+
+// action      -->check if element is avaiable 
+// return type -->boolean 
+
+
+//11 METHOD  concat() --> this method is used to join two or more arrays 
+
+// example 
+
+let a = [1,2,3]
+let b = [4,5,6]
+let c = [7,8,9]
+
+
+let combine_array = a.concat(b,c)
+console.log(combine_array)
+
+// action       --> joining all the arrays 
+// return type  --> a new joined array
+
+// 12 METHOD Flat() --> this is used to flatten the array 
+// if in a single array there are mutiple array and you want to combine them all 
+
+let mix_array = [1,2,3 ,["qwert"],["tryu"],"ubhav",[true,false]]
+
+console.log(mix_array.flat())
+
+// action --> action we are flatting the array 
+// return --> a new flaten array 
+
+
+// NOTE --> 
+
+// find me the largest number and the smallest number in a  array
+
+//let number_array = [258,654,9,5,95,67,98745,0,682,789,34,456,24785]
+
+// ... this is called a spread opeartor  --> converts array into numbers 
+
+// on number we have 2 methods called as Math.max() and Math.min()
+
+//Math.max() --> used to find the largest number 
+
+console.log(Math.max(...number_array)) //98745
+
+console.log(Math.min(...number_array)) //0
+
+
+// -------------------------------------------------------------------------------------------------------------------
+
+// LOOPS IN ARRAY 
+
+>>>>>>> 0378cd097e683ea1abb59563f351292ba6a148c1

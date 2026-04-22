@@ -1,11 +1,11 @@
- // ----------------------------------- METHODS ON ARRAY -----------------------------------------------------------------
+// ----------------------------------- METHODS ON ARRAY -----------------------------------------------------------------
 
- // WHEN EVER WE USE ANY METHOD WE GET 2 THINGS 
+// WHEN EVER WE USE ANY METHOD WE GET 2 THINGS 
 
- //OUTPUT --> result of the action performed 
- //RETURN TYPE --> THE DATATYPE OF THE OUTPUT RECVIED
+//OUTPUT --> result of the action performed 
+//RETURN TYPE --> THE DATATYPE OF THE OUTPUT RECVIED
 
- let Method_array = ["siddhant", "arjun","gadakh",27, "lead-software enginner"]
+let Method_array = ["siddhant", "arjun", "gadakh", 27, "lead-software enginner"]
 
 // 1 METHOD  --> push() --> THIS METHOD WILL ADD A ELEMENT AT THE END OF ARRAY 
 
@@ -36,7 +36,7 @@ console.log(Method_array)
 // Sytnax -->  arrayName.pop()
 // example
 
-let city=Method_array.pop()
+let city = Method_array.pop()
 console.log(Method_array)
 console.log(city)
 
@@ -49,7 +49,7 @@ console.log(city)
 // Sytnax -->  arrayName.shift()
 // example
 
-let  initails=Method_array.shift()
+let initails = Method_array.shift()
 console.log(Method_array)
 console.log(initails)
 
@@ -62,7 +62,7 @@ console.log(initails)
 
 // syntax --> arrayName.splice("starting index" ,number of charatcter to remove)
 
-let arrSplice = Method_array.splice(0,2)
+let arrSplice = Method_array.splice(0, 2)
 
 console.log(arrSplice)
 
@@ -73,9 +73,9 @@ console.log(arrSplice)
 
 // syntax --> arrayName.slice("starting index" ,"ending index") --> this will not included ending index
 
-let Method_array_1 = ["siddhant", "arjun","gadakh",27, "lead-software enginner"]
+let Method_array_1 = ["siddhant", "arjun", "gadakh", 27, "lead-software enginner"]
 
-let arrSlice = Method_array_1.splice(0,2)
+let arrSlice = Method_array_1.splice(0, 2)
 
 console.log(arrSlice)
 
@@ -86,11 +86,11 @@ console.log(arrSlice)
 // 7 METHOD --> sort() --> this method will sort your alphabetically array 
 // sytnax =--> arrayName.sort() 
 
-let fruits_array = ["mango","apple","banana ","watermelon","chiku"]
+let fruits_array = ["mango", "apple", "banana ", "watermelon", "chiku"]
 
 console.log(fruits_array.sort())
 //NOTE this method will not work on number
-let number_array = [258,654,9,5,95,67,98745,0,682,789,34,456,24785]
+let number_array = [258, 654, 9, 5, 95, 67, 98745, 0, 682, 789, 34, 456, 24785]
 // console.log(number_array.sort())
 
 // ACTION      --> action the given  array is sorted 
@@ -100,7 +100,7 @@ let number_array = [258,654,9,5,95,67,98745,0,682,789,34,456,24785]
 
 // syntax --> arrayName.sort((a,b)=>{return a-b})
 
-let sorted_number_array = number_array.sort((a,b)=>{return a-b})
+let sorted_number_array = number_array.sort((a, b) => { return a - b })
 console.log(sorted_number_array)
 
 <<<<<<< HEAD
@@ -118,7 +118,7 @@ console.log(sorted_number_array.reverse())
 
 // example :-
 
-let str =  "siddhant"
+let str = "siddhant"
 
 // i want output as "tnahddis"
 
@@ -134,7 +134,7 @@ console.log(str.split("").reverse().join(""))
 
 // example -> 
 
-let name = ["siddhant" ,"arjun","gadakh"]
+let name = ["siddhant", "arjun", "gadakh"]
 
 console.log(name.join(" "))
 
@@ -159,12 +159,12 @@ console.log(fruits_array.includes("watermelon"))
 
 // example 
 
-let a = [1,2,3]
-let b = [4,5,6]
-let c = [7,8,9]
+let a = [1, 2, 3]
+let b = [4, 5, 6]
+let c = [7, 8, 9]
 
 
-let combine_array = a.concat(b,c)
+let combine_array = a.concat(b, c)
 console.log(combine_array)
 
 // action       --> joining all the arrays 
@@ -173,7 +173,7 @@ console.log(combine_array)
 // 12 METHOD Flat() --> this is used to flatten the array 
 // if in a single array there are mutiple array and you want to combine them all 
 
-let mix_array = [1,2,3 ,["qwert"],["tryu"],"ubhav",[true,false]]
+let mix_array = [1, 2, 3, ["qwert"], ["tryu"], "ubhav", [true, false]]
 
 console.log(mix_array.flat())
 
@@ -197,9 +197,86 @@ console.log(Math.max(...number_array)) //98745
 
 console.log(Math.min(...number_array)) //0
 
-
+console.log("____________________________________loop__________________________")
 // -------------------------------------------------------------------------------------------------------------------
 
 // LOOPS IN ARRAY 
 
+<<<<<<< HEAD
 >>>>>>> 0378cd097e683ea1abb59563f351292ba6a148c1
+=======
+// for an array you have use a for loop 
+
+/**
+ * syntax
+ * 
+ * for(let i =0;i<array.length;i++){
+ * //code
+ * } 
+ */
+
+
+let num_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for (let i = 0; i < num_array.length; i++) {
+    console.log(num_array[i])
+}
+
+
+//---------------------------------------------------------------------------
+
+// i have to add2 to every array element and give it new array 
+
+let add2 = []
+
+for (let i = 0; i < num_array.length; i++) {
+    add2.push(num_array[i] + 2)
+}
+
+console.log(add2)
+
+
+// 2 now from the same array i want all elements above 5 
+
+let filter5 = []
+
+for (let i = 0; i < num_array.length; i++) {
+    if (num_array[i] >= 5) {
+        filter5.push(num_array[i])
+    }
+}
+
+console.log(filter5)
+
+let mix_num_array = [1, 2, 3, 4, 56, 5756, 78, 89, 789, 453, 624, 5, 75, 678, 678, 54768, 68796572, 24575687, 1243645, 12234, 13237]
+
+let even_num = []
+let odd_num = []
+
+
+for (let i = 0; i < mix_num_array.length; i++) {
+    if (mix_num_array[i] % 2 === 0) {
+        even_num.push(mix_num_array[i])
+    }
+    else {
+        odd_num.push(mix_num_array[i])
+    }
+}
+
+console.log(even_num)
+console.log(odd_num)
+
+
+let names_arr = ["sidddhant","amol","ruhsi","shree","vaibhav",0,"tejas"]
+
+
+
+for(let i =0;i<names_arr.length;i++){
+    if(typeof names_arr[i] ==="string"){
+      console.log(  names_arr[i].toUpperCase())
+    }
+}
+
+//________________________________COMPLEX ARRAY METHOD___________________________________________________
+console.log("____________________________________COMPLEX ARRAY METHOD__________________________")
+>>>>>>> 0b0b15c373d3df6dcbbaa4da398cc6b8f4cc73bf

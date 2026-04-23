@@ -262,15 +262,148 @@ console.log(even_num)
 console.log(odd_num)
 
 
-let names_arr = ["sidddhant","amol","ruhsi","shree","vaibhav",0,"tejas"]
+let names_arr = ["sidddhant", "amol", "ruhsi", "shree", "vaibhav", 0, "tejas"]
 
 
 
-for(let i =0;i<names_arr.length;i++){
-    if(typeof names_arr[i] ==="string"){
-      console.log(  names_arr[i].toUpperCase())
+for (let i = 0; i < names_arr.length; i++) {
+    if (typeof names_arr[i] === "string") {
+        console.log(names_arr[i].toUpperCase())
     }
 }
 
 //________________________________COMPLEX ARRAY METHOD___________________________________________________
 console.log("____________________________________COMPLEX ARRAY METHOD__________________________")
+
+/**
+ * map()    -->
+ * filter() -->
+ * reduce() -->
+ * forEach()-->
+ */
+
+// 1 Method number 1 --> map() --> it will iterate over every element in array to perform given action and return a new array 
+
+let Array_num_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// multply 5 to every element and give output in new array
+
+/**
+ * let newarray=Arrayname.map((el,index,arr)=>{
+ * return code
+ * })
+
+
+ * el ==>current element 
+ * index==> index of that current element
+ * arr ==> the orignal arr
+ */
+
+let add5_arr = Array_num_1.map((el, index, arr) => {
+    return el * 5
+})
+
+
+console.log(add5_arr)
+
+// 2 Method number 1 --> filter() --> it will filter out elements by given conditions and return its output in new array 
+
+/**
+ *let newarray=Arrayname.filter((el,index,arr)=>{
+ * return code
+ * })
+ */
+let even_array = Array_num_1.filter((el, index, arr) => {
+    return el % 2 === 0
+})
+console.log(even_array)
+
+
+
+// 3 Method number 1 --> forEach() --> a method used to perform operation on every element of array but it does not 
+// return output in new array 
+
+/**
+ * 
+ * Arrayname.forEach((el,index,arr)=>{
+ *   code
+ * })
+ * 
+ */
+
+let name_arr = ["siddhant","vaibhabv","amol"]
+
+name_arr.forEach((el,index,arr)=>{
+    console.log(el.toUpperCase())
+})
+
+
+// NOTE :- this method is widely used in cypress and playwright instead of using loops on array 
+// IN cypress it has its own method called as each() --> this is used for looping array elements 
+
+
+
+// 4 Method number 1 --> reduce() --> this method is used to get sum of all the elements (numbers ) in array and the new sum is 
+// given in a  number 
+
+/**
+ * let newarray=Arrayname.reduce((acc,el,index,arr)=>{
+ * return code
+ * },accvalue)
+ 
+ */
+
+//let Array_num_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+let SUM_TOTAL = Array_num_1.reduce((acc,el,index,arr)=>{
+    return el+acc
+        //1+2
+        //2+1 =3
+},0)
+
+console.log(SUM_TOTAL)
+
+
+// Extra methods 
+
+// some and every 
+
+// some() --> will check if some of the elements in array matches the condition or not (it is similar to or (||))
+
+/**
+ *  * let newarray=Arrayname.some((el,index,arr)=>{
+ * return code
+ * })
+ * 
+ * 
+ * 
+ */
+
+//let Array_num_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+// check if some of element are greater than 5 
+
+let some_ele = Array_num_1.some((el,index,arr)=>{
+    return el >5
+})
+
+console.log(some_ele)
+
+
+//every()-->will check if every of the elements in array matches the condition or not (it is similar to  &&)
+
+/**
+ *  * let newarray=Arrayname.every((el,index,arr)=>{
+ * return code
+ * })
+ * 
+ * 
+ */
+
+
+let every_ele = Array_num_1.every((el,index,arr)=>{
+    return el >5
+})
+
+console.log(every_ele)
+
+

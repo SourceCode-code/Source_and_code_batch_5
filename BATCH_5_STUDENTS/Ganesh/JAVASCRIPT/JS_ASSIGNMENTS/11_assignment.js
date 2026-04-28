@@ -143,48 +143,127 @@ console.log(Companies);
 // Exercise: Level 2
 
 // First remove all the punctuations and change the string to an array and count the number of words in the array:
-// let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
-// console.log(words)
-// console.log(words.length)
+let text = "I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.";
+let words = text.replaceAll(".", "").replaceAll(",", "").split(" ");
+console.log(words);
+console.log(words);
+console.log(words.length);
 // ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
 // 13
 
 // In the following shopping cart add, remove, edit items:
-// const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 // add 'Meat' in the beginning of your shopping cart if it has not been already added
+shoppingCart.unshift("Meat");
+console.log(shoppingCart);
+
 // add Sugar at the end of your shopping cart if it has not been already added
+shoppingCart.push("Sugar");
+console.log(shoppingCart);
+
 // remove 'Honey' if you are allergic to honey
+shoppingCart.splice(4,1);
+console.log(shoppingCart);
+
 // modify 'Tea' to 'Green Tea'
+shoppingCart.splice(3,1,"Grreen Tea");
+console.log(shoppingCart);
+console.log(`------------------------------------------------`);
+
 
 // In countries array check if 'Ethiopia' exists in the array, if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+if(countries.includes("Ethiopia")){
+  console.log("ETHIOPIA");
+}
+else{
+  countries.push("Ethiopia");
+}
+console.log(`------------------------------------------------`);
 // In the webTechs array check if 'Sass' exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist, add Sass to the array and print the array.
+if(webTechs.includes('Sass')){
+  console.log('Sass is a CSS preprocess');
+}
+else{
+  webTechs.push(`Sass`);
+  console.log(webTechs);
+}
+console.log(`------------------------------------------------`);
 
 // Concatenate the following two variables and store it in a fullStack variable:
-// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-// const backEnd = ['Node', 'Express', 'MongoDB']
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node', 'Express', 'MongoDB']
 // console.log(fullStack)
 // ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
+let fullStack = [...frontEnd,...backEnd];
+console.log(fullStack);
+console.log(`------------------------------------------------`
+);
 
 // Exercise: Level 3
 
-// The following is an array of 10 students' ages:
-// Sort the array and find the min and max age
-// Find the median age(one middle item or two middle items divided by two)
-// Find the average age(all items divided by number of items)
-// Find the range of the ages (max minus min)
-// Compare the value of (min - average) and (max - average), use abs() method
-// Slice the first ten countries from the countries array
-// Find the middle country(ies) in the countries array
-// Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
+
 
 // The following is an array of 10 students' ages:
-// const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+
 // Sort the array and find the min and max age
+let sorrtedArrray = ages.sort((a,b)=>a-b);
+console.log(`Sorted Array : ${sorrtedArrray}`);
+let max = Math.max(...sorrtedArrray);
+let min = Math.min(...sorrtedArrray);
+
+console.log(`Max : ${max} | Min : ${min}`);
+
 // Find the median age(one middle item or two middle items divided by two)
+if(sorrtedArrray.length%2 ===0){
+  let middleIndex = sorrtedArrray.length/2 -1;
+  console.log(`Median : ${(sorrtedArrray[middleIndex] + sorrtedArrray[middleIndex+1])/2}`);
+}
+else{
+  let middleIndex = Math.floor(sorrtedArrray.length/2)
+console.log(`Median : ${sorrtedArrray[middleIndex]}`);
+}
+
 // Find the average age(all items divided by number of items)
+let sum =sorrtedArrray.reduce((sum,i)=>sum = sum+i);
+let average = sum/sorrtedArrray.length
+console.log(`Average : ${average}`);
+
 // Find the range of the ages (max minus min)
+console.log(`Range : ${max - min}`);
+
 // Compare the value of (min - average) and (max - average), use abs() method
+console.log(`Absolute min : ${Math.abs(min -average).toFixed(2)}`);
+console.log(`Absolute max : ${Math.abs(max -average).toFixed(2)}`);
 
 // Slice the first ten countries from the countries array
+let firstTenCountries = countries.slice(0,10);
+console.log(`firrst 10 countries : ${firstTenCountries}`);
+
 // Find the middle country(ies) in the countries array
+if (countries.length%2 ===0){
+  let mid = countries.length/2 -1;
+  console.log(`mid counties : ${countries.slice(mid,mid+1)}`);
+}
+else{
+  let mid = Math.floor(countries.length/2);
+  console.log(`mid country : ${countries[mid]}`);
+}
+
 // Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
+ arr1 =[];
+let arr2 = [];
+if(countries.length%2 ===0){
+   let mid = countries.length/2 -1;
+   arr1 = countries.slice(0,mid+1);
+   arr2 = countries.slice(mid+1);
+   console.log(`first Array : ${arr1}`);
+   console.log(`second array : ${arr2}`);
+}
+else{
+  let mid = Math.floor(countries.length/2);
+     arr1 = countries.slice(0,mid+1);
+   arr2 = countries.slice(mid+1);
+   console.log(`first Array : ${arr1}`);
+   console.log(`second array : ${arr2}`);
+}

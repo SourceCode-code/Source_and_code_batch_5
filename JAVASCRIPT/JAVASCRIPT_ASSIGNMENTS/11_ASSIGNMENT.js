@@ -30,7 +30,7 @@ const webTechs = [
 // Get the first item, the middle item and the last item of the array
 // Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
 
-// Declare an array variable name it Companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+// Declare an array variable name it Companies and assign initial valuesPrint out each company
 // Print the array using console.log()
 // Print the number of companies in the array
 // Print the first company, middle and last company

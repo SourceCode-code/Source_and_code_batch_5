@@ -30,7 +30,7 @@ and be able to confidently write clean, working JS programs.
 // Q8. Find the sum of first 100 natural numbers using a loop.
 // Q9. Given 3 numbers, find the greatest number (no if, use Math.max()).
 // Q10. Find the factorial of a number using a for loop.
-// Q11. Write a program to check if a number is prime.
+// Q11. Write a program to check if a number is prime.  --->
 // Q12. Write a program to find the number of digits in a given number.
 // Q13. Generate a random number between 1 and 100.
 // Q14. Check if a number is a perfect square.
@@ -83,7 +83,7 @@ and be able to confidently write clean, working JS programs.
 // Q36. Print today’s date in format “DD-MM-YYYY”.
 // Q37. Print current time in format “HH:MM:SS”.
 // Q38. Create a Date for “24 Oct 2025” and find which day it falls on.
-// Q39. Calculate how many days are left for Diwali 2025 (use Date difference).
+// Q39. Calculate how many days are left for Diwali 2026 (use Date difference).
 // Q40. Print “Good Morning / Good Afternoon / Good Evening” based on current hour.
 
 /* ------------------------------------------------------------------

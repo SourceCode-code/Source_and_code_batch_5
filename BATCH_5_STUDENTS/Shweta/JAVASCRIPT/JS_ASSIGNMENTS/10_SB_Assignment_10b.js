@@ -16,7 +16,7 @@ let age = "28";
 let goal = "become a good developer";
 
 console.log("Name" , name);
-console.log("Age" , age); 
+console.log("Age" , age)
 console.log("Goal" , goal) */
 
 

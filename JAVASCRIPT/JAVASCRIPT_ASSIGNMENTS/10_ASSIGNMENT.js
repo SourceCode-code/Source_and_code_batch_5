@@ -49,9 +49,7 @@
   
 //   // 11) Develop a small script which generates a six-character random id.
 
-  
 //   // 12) Develop a small script which generates any number of characters random id.
-
   
 //   // 13) Write a script which generates a random hexadecimal number.
 

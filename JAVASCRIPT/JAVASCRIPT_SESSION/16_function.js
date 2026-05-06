@@ -1,8 +1,6 @@
 
 // WHAT IS VARIABLE ?
 
-const { lazy } = require("react")
-
 /** 
  * ITS IS CONTAINER WHICH IS USED TO STORE DATA 
  * 

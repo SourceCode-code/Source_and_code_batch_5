@@ -252,7 +252,7 @@ let mix_num_array = [1, 2, 3, 4, 56, 5756, 78, 89, 789, 453, 624, 5, 75, 678, 67
 
 let even_num = []
 let odd_num = []
-
+]
 
 for (let i = 0; i < mix_num_array.length; i++) {
     if (mix_num_array[i] % 2 === 0) {

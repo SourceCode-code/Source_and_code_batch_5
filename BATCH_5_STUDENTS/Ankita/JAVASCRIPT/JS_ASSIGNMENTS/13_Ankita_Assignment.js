@@ -72,49 +72,70 @@ let users = {
   },
 };
 
-<<<<<<< HEAD
- // Tasks:
- // 1. Find the person with the most skills.
- // 2. Count the number of users who are logged in.
- // 3. Count the number of users with points greater than or equal to 50.
-
- // 4. Identify the MERN stack developers in the users object.
- //'MongoDB', 'Express', 'React', 'Node'
-
- // 5. Add your own details to the users object without modioriginalfying the  object.
-
-// 6. Retrieve all keys (properties) in the users object.
-
-// 7. Retrieve all values in the users object.
-
- // Question 2: Working with a Countries Object
- // Using a countries object, write a program that prints:
- // - Country name
- // - Capital city
- // - Population count
- // - Languages spoken
-=======
 // // Tasks:
 // // 1. Find the person with the most skills.
+let personName = ""
+let skillCount = 0
+for (let key in users) {
+  let count = users[key].skills.length
+  if (count > skillCount)
+    skillCount = count
+  personName = key
+}
+console.log(personName, skillCount)
+
+
+
 // // 2. Count the number of users who are logged in.
+let count = 0
+for (let key in users) {
+  if (users[key].isLoggedIn) {
+    count++
+  }
+} console.log(count)
+
 // // 3. Count the number of users with points greater than or equal to 50.
+let count1 = 0
+for (let key in users) {
+  if (users[key].points >= 50) {
+    count1++
+  }
+} console.log(count1)
 
 // // 4. Identify the MERN stack developers in the users object.
-// //'MongoDB', 'Express', 'React', 'Node'
+// //'MongoDB', 'Express', 'React', 'Node' 
+let mernStalk = []
+for (let key in users) {
+  let skills = users[key].skills
+  if (skills.includes("MongoDB") && skills.includes("Express") && skills.includes("React") && skills.includes("Node")) {
+    mernStalk.push(key)
+  }
+} console.log(mernStalk)
+
+
 
 // // 5. Add your own details to the users object without modifying the original object.
+const updatedUsers = { 
+  ...users,
+  Ankita: {
+    email: "ankitafartade.work@gmail.com",
+    skills: ["Cypress", "Playwright", "Python", "JavaScript"],
+    age: 22,
+    isLoggedIn:true,
+    points: 76,
+  }
+}
+console.log(updatedUsers)
 
 // // 6. Retrieve all keys (properties) in the users object.
+let allKey= Object.keys(users)
+console.log(allKey)
 
 // // 7. Retrieve all values in the users object.
+let allValues= Object.values(users)
+console.log(allValues)
 
 // // Question 2: Working with a Countries Object
-// // Using a countries object, write a program that prints:
-// // - Country name
-// // - Capital city
-// // - Population count
-// // - Languages spoken
->>>>>>> be8b338a28c7fe84c0e3a519d901137b1b4b803e
 
 const countries = {
   Japan: {
@@ -163,3 +184,17 @@ let data = {
 
 // 1 check if maharastra is presnt
 //2 get the the total population of both states
+
+// // Using a countries object, write a program that prints:
+// // - Country name
+// // - Capital city
+// // - Population count
+// // - Languages spoken
+for(let country in countries){
+console.log("Country:", country)
+console.log("Capital:", countries[country].capital)
+console.log("Population:", countries[country].population)
+console.log("Language:", countries[country].languages)
+console.log('------------------------------------------------')
+
+}

@@ -1,8 +1,11 @@
 
 // WHAT IS VARIABLE ?
 
+<<<<<<< HEAD
 const { lazy } = require("react")
 
+=======
+>>>>>>> be8b338a28c7fe84c0e3a519d901137b1b4b803e
 /** 
  * ITS IS CONTAINER WHICH IS USED TO STORE DATA 
  * 
@@ -102,7 +105,11 @@ function calculator(num1, num2) {
     console.log(num1 ** num2)
 }
 
+<<<<<<< HEAD
 calculator(1000,2000)
+=======
+calculator(1000, 2000)
+>>>>>>> be8b338a28c7fe84c0e3a519d901137b1b4b803e
 
 // 3 WITH PARAMTER WITH RETURN TYPE
 
@@ -111,11 +118,19 @@ calculator(1000,2000)
 
 //  NOTE ; WHEN EVER THERE IS FUNCTION WHO HAS A RETRUN KEY WORD THAT FUNCTION IN { } WILL NOT USE CONSOLE.LOG()
 
+<<<<<<< HEAD
 function personinfo(firstname,lastname,midname){
     return `${firstname} ${midname} ${lastname}`
 }
 
 let sid_info = personinfo("siddhant","gadakh","arjun")
+=======
+function personinfo(firstname, lastname, midname) {
+    return `${firstname} ${midname} ${lastname}`
+}
+
+let sid_info = personinfo("siddhant", "gadakh", "arjun")
+>>>>>>> be8b338a28c7fe84c0e3a519d901137b1b4b803e
 
 console.log(sid_info.toUpperCase())
 
@@ -129,6 +144,7 @@ console.log(sid_info.toUpperCase())
 
 // function for eggs 
 
+<<<<<<< HEAD
 function eggPrice(numofeggs,priceofegg){
     return numofeggs*priceofegg
 }
@@ -144,6 +160,23 @@ let total_riceprice = ricePrice(10,50)
 console.log(total_riceprice)  //500
 
 let total_pice = total_eggprice+total_riceprice
+=======
+function eggPrice(numofeggs, priceofegg) {
+    return numofeggs * priceofegg
+}
+
+function ricePrice(quanityofrice, priceofkgprice) {
+    return quanityofrice * priceofkgprice
+}
+
+let total_eggprice = eggPrice(12, 7)
+console.log(total_eggprice)  //84
+
+let total_riceprice = ricePrice(10, 50)
+console.log(total_riceprice)  //500
+
+let total_pice = total_eggprice + total_riceprice
+>>>>>>> be8b338a28c7fe84c0e3a519d901137b1b4b803e
 console.log(total_pice)
 
 
@@ -160,13 +193,21 @@ function calculator3(num1, num2) {
     console.log(num1 ** num2)
 }
 
+<<<<<<< HEAD
 calculator3(1000,2000)
+=======
+calculator3(1000, 2000)
+>>>>>>> be8b338a28c7fe84c0e3a519d901137b1b4b803e
 
 
 
 //  * 2 EXPERSSION TYPE FUNCTION  -->  because here a function stored in varaible 
 
+<<<<<<< HEAD
 let fullname3 = function(firstname,lastname){
+=======
+let fullname3 = function (firstname, lastname) {
+>>>>>>> be8b338a28c7fe84c0e3a519d901137b1b4b803e
     return ` ${firstname} ${lastname}`
 }
 
@@ -177,8 +218,142 @@ let fullname3 = function(firstname,lastname){
 
 //  * 3 ARROW TYPE FUNCTION --> because this function uses arrow instead the keyword function so it called as arrow type function
 
+<<<<<<< HEAD
 let fullname2 = (firstname,lastname)=>{
      return ` ${firstname} ${lastname}`
 }
 
 console.log(fullname2("sid","gadakh"))
+=======
+let fullname2 = (firstname, lastname) => {
+    return ` ${firstname} ${lastname}`
+}
+
+console.log(fullname2("sid", "gadakh"))
+
+
+//---------------------------------------------------------------------------------------------------------------
+// EXAMPLES OF FUNCTIONS
+
+// 1 write function to count the number vowels in a given string 
+
+
+function count_Vowels(string) {
+    let lower_string = string.toLowerCase()
+    let vowel_string = "aeiou"
+    let count = 0
+    for (let i = 0; i < lower_string.length; i++) {
+        if (vowel_string.includes(lower_string[i])) {
+            count++
+        }
+    }
+    console.log(count)
+}
+
+count_Vowels("string")
+//-------------------------------
+count_Vowels("siddhant")
+//--------------------------------
+count_Vowels("vaibhav")
+
+
+// write a function get me the largest and smallest element of an array based upon the parameter given
+// function GET_ELEMENT([],max/min)
+
+
+function GET_ELEMENT(array, neededvalue) {
+    let min = Math.min(...array)
+    let max = Math.max(...array)
+    if (neededvalue.toLowerCase() === "min") {
+        console.log(min)
+    } else if (neededvalue.toLowerCase() === "max") {
+        console.log(max)
+    }
+    else {
+        console.log("check the entered paramter")
+    }
+}
+
+GET_ELEMENT([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 1, 2, 5, 8, 6, 1, 5, 6, 5, 555555], "min")
+GET_ELEMENT([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 1, 2, 5, 8, 6, 1, 5, 6, 5, 555555], "max")
+GET_ELEMENT([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 1, 2, 5, 8, 6, 1, 5, 6, 5, 555555], "")
+
+
+
+// create a function to get the longest and shortest word form the string  based upon given parameter
+
+function GET_WORD(string, LENGTH_WORD) {
+    let WORD_ARRAY = string.split(" ")
+    let longest_word = WORD_ARRAY[0]
+    let shortest_word = WORD_ARRAY[0]
+    for (let i = 0; i < WORD_ARRAY.length; i++) {
+        if (WORD_ARRAY[i].length > longest_word.length) {
+            longest_word = WORD_ARRAY[i]
+        }
+        else if (WORD_ARRAY[i].length < shortest_word.length) {
+            shortest_word = WORD_ARRAY[i]
+        }
+        else {
+            "enter correct data "
+        }
+
+    }
+
+    if (LENGTH_WORD.toLowerCase() === "longest") {
+        return longest_word
+    }
+    else if (LENGTH_WORD.toLowerCase() === "shortest") {
+        return shortest_word
+    }
+    else {
+        return "enter correct data "
+    }
+}
+
+console.log(GET_WORD("hello i am siddhant", "longest"))
+console.log(GET_WORD("hello i am siddhant", "shortest"))
+console.log(GET_WORD("hello i am siddhant", "short"))
+
+
+// write a function to check the given is prime number or not 
+
+function check_prime(number){
+    if(number<2){
+        return false
+    }
+
+    for(let i=2;i<Math.sqrt(number);i++){
+        if(number%i===0){
+            return false
+        }
+    }
+
+    return true
+}
+
+
+console.log(check_prime(7))
+console.log(check_prime(1))
+console.log(check_prime(10))
+console.log(check_prime(13))
+console.log(check_prime(11))
+
+
+// ----------------------------------------------->
+// in function we can add array , number , string , object 
+// but in function we can have unlimted parameter
+
+
+function get_sum(...number){
+    let total = 0
+    for(let n of number){
+        total+=n
+    }
+return total
+}
+
+
+console.log(get_sum(0,1,2))
+console.log(get_sum(0,1,2,3,4,5,6,7,8,9))
+console.log(get_sum(100,200,300,400,500))
+>>>>>>> be8b338a28c7fe84c0e3a519d901137b1b4b803e

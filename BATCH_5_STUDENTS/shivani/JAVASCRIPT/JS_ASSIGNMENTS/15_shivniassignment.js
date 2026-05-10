@@ -296,3 +296,5 @@ let data_3= JSON.stringify(filter)
 console.log(data_3)
 //{"firstName":{},"lastName":{},"age":{},"isMarried":{},"skills":{}}
 */
+
+//.......the end.......

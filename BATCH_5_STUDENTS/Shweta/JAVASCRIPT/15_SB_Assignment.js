@@ -1,3 +1,5 @@
+//
+
 // Exercises
 // ASSIGNMENT DATA 
 const skills = ['HTML', 'CSS', 'JS', 'React','Node', 'Python']
@@ -109,18 +111,66 @@ const txt = `{
 
 
 // Exercises Level 1
-//1 Change skills array to JSON using JSON.stringify()
-//2 Stringify the age variable
-//3 Stringify the isMarried variable
-//4 Stringify the student object
+/*1 Change skills array to JSON using JSON.stringify()
+
+let JSON_1 = JSON.stringify(skills)
+console.log(JSON_1) */
+
+
+
+
+/*2 Stringify the age variable
+
+let JSON_2 = JSON.stringify(age)
+console.log(JSON_2) */
+
+
+
+/*3 Stringify the isMarried variable
+
+let JSON_b = JSON.stringify(isMarried)
+console.log(JSON_b) */
+
+
+/*4 Stringify the student object
+
+let JSON_3 = JSON.stringify(student)
+console.log(JSON_3) */
+
+
+
 
 //1 Exercises Level 2
-//2 Stringify the students object with only firstName, lastName and skills properties
+/*2 Stringify the students object with only firstName, lastName and skills properties
+
+let JSON_object = JSON.stringify(student,['firstName','lastName' ,'skills'] )
+console.log(JSON_object) */
+
+
 
 // Exercises Level 3
-//1 Parse the txt JSON to object.
-<<<<<<< HEAD
-//2 Find the user who has many skills from the variable stored in txt.
-=======
-//2 Find the user who has many skills from the variable stored in txt.
->>>>>>> 5d29d9c6c45b1a59ecc081b9de6e0e74bd11183e
+/*1 Parse the txt JSON to object.
+
+let object_1 = JSON.parse(txt)
+console.log(object_1)*/
+
+
+
+/*2 Find the user who has many skills from the variable stored in txt.
+
+
+
+const data = JSON.parse(txt);
+let maxUser = '';
+let maxSkills = 0;
+
+for (const txt in data) {
+  if (data[txt].skills.length > maxSkills) {
+    maxSkills = data[txt].skills.length;
+    maxUser = txt;
+  }
+}
+
+console.log(maxUser)
+
+*/

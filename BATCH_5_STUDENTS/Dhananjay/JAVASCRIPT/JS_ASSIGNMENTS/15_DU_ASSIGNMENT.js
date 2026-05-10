@@ -110,17 +110,60 @@ const txt = `{
 
 // Exercises Level 1
 //1 Change skills array to JSON using JSON.stringify()
+//console.log(JSON.stringify(skills))
+
 //2 Stringify the age variable
+//console.log(JSON.stringify(age))
+
 //3 Stringify the isMarried variable
+//console.log(JSON.stringify(isMarried))
+
+
 //4 Stringify the student object
+//console.log(JSON.stringify(student))
 
 //1 Exercises Level 2
 //2 Stringify the students object with only firstName, lastName and skills properties
+//Solution 1 
+//console.log(JSON.stringify(student, ['firstName', 'lastName', 'skills']))
+// Output '{"firstName":"Asabeneh","lastName":"Yetayehe","skills":["HTML","CSS","JS","React","Node","Python"]}'
+
+//Solution 2
+
+let filter_1 = {}
+
+for (let key in student) {
+    if (key === 'firstName' || key === 'lastName' || key === 'skills') {
+        filter_1[key] = student[key]  // ✅ directly assign the value
+    }
+}
+
+//console.log(filter_1)
+// { firstName: 'Asabeneh', lastName: 'Yetayehe', skills: ['HTML','CSS','JS','React','Node','Python'] }
+
+let finalOutput = JSON.stringify(filter_1, null, 2)
+//console.log(finalOutput)
+// {
+//   "firstName": "Asabeneh",
+//   "lastName": "Yetayehe",
+//   "skills": ["HTML","CSS","JS","React","Node","Python"]
+// }
 
 // Exercises Level 3
 //1 Parse the txt JSON to object.
-<<<<<<< HEAD
+console.log(JSON.parse(txt))
+
 //2 Find the user who has many skills from the variable stored in txt.
-=======
-//2 Find the user who has many skills from the variable stored in txt.
->>>>>>> 5d29d9c6c45b1a59ecc081b9de6e0e74bd11183e
+let txt_Obj = JSON.parse(txt)
+let min_skills = 0
+let Many_skills = ''
+
+for (let key in txt_Obj) {
+    if (txt_Obj[key].skills.length > min_skills) {
+        min_skills = txt_Obj[key].skills.length
+        Many_skills = key
+    }
+}
+
+console.log(`Many_skills: ${Many_skills} with ${min_skills} skills`)
+// Many_skills: Asab with 8 skills

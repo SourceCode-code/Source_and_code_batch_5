@@ -220,9 +220,12 @@ console.log(Selective_data_1)
 
 // first get the data and convert it into a single object
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 5d29d9c6c45b1a59ecc081b9de6e0e74bd11183e
 let filter = {}
 
 for (let key in users) {

@@ -1,0 +1,15 @@
+My name is Ganesh, and I am an ISTQB-certified Test Engineer with over 2 years of experience in the banking domain. 
+My work involves analyzing business requirements and designing comprehensive test scenarios to validate real-world application behavior across various use cases.
+I am also responsible for executing test scenarios, identifying defects and coordinating with the development team for timely resolution.
+
+Currently I am working on the YONO 2.0 application for SBI. In this project I have been involved in customer journeys such as debit card management,
+complaint management, joint account opening for ETB customers and key joint venture journey "Group Sampoorna Arogya" policy purchase and management 
+in collaboration with SBI General Insurance. To date I have raised more than 375 defects.
+
+Prior to this, I worked at Infosys on a Citi Bank project, where I worked on the account opening module for the branch portal.
+
+I have experience working across multiple platforms, including web applications, branch portals and mobile apps on Android and iOS, 
+to ensure consistent behavior across environments.
+
+I am continuously working on improving my skills and adapting to new technologies and testing methods. 
+Currently I am looking for an opportunity where I can contribute effectively while further enhancing my expertise in the technical field.

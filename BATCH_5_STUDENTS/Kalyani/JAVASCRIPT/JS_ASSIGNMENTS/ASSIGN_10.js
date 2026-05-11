@@ -39,5 +39,9 @@ let k =10
 //Q4-ANS
 for(let k =1; 1<=7; k++){
     console.log("#".repeat(k))
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 5d29d9c6c45b1a59ecc081b9de6e0e74bd11183e

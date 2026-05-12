@@ -233,3 +233,20 @@ const minDiff = Math.abs(minAge - averageAge);
 const maxDiff = Math.abs(maxAge - averageAge);
 console.log(`Min diff: ${minDiff}, Max diff: ${maxDiff}`);
 
+//slice the first ten countries from the countries array
+const firstTenCountries = countries.slice(0, 10);
+
+console.log("-------------------------------");
+
+// Find the middle countries in the countries array
+const middleCountries = countries.slice(Math.floor((countries.length - 1) / 2), Math.ceil((countries.length - 1) / 2) + 1);
+console.log(`Middle countries: ${middleCountries}`);
+
+// Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
+const midcontryarry = Math.ceil(countries.length / 2);
+
+const firstHalfCountries = countries.slice(0, midcontryarry);
+const secondHalfCountries = countries.slice(midcontryarry);
+console.log(`First half: ${firstHalfCountries}`);
+console.log(`Second half: ${secondHalfCountries}`);
+

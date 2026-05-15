@@ -116,3 +116,8 @@ let Difference = arr6.filter((el)=>sety.has(el))
 
 console.log(new Set(Difference = arr6.filter((el)=>!sety.has(el))
 ))
+
+// MAP --> a collection of uniquye values but value are in kay and value pair
+
+
+

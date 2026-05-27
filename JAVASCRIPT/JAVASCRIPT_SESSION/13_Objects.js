@@ -148,7 +148,7 @@ console.log(`${key} --> ${car[key]}`)
 
 let BMW_M5 = Object.assign({},car)
 
-console.log(BMW_M5)
+console.log(BMW_M5)]
 
 BMW_M5.ENGINE_WARRNTY =1
 console.log(BMW_M5)

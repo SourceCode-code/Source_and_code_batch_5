@@ -71,7 +71,6 @@ display_full_name(){
     return fullname
 }
 
-
 Show_age(){
     console.log(this.age)
 }
@@ -86,3 +85,26 @@ console.log(person_1.display_full_name())
 person_1.Show_age()
 
 
+
+
+
+// example 2 
+
+class Student_details{
+
+constructor(fn,std,age,rank){
+    this.fn= fn
+    this.std = std,
+    this.age = age,
+    this.rank= rank
+}
+
+get_Rank(){
+    console.log(`${this.fn}   ${this.rank}`)
+}
+
+}
+
+let Student_1 = new Student_details("rohan",8,14,"B+")
+console.log(Student_1)
+Student_1.get_Rank()

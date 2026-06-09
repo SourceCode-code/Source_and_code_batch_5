@@ -63,8 +63,6 @@ class car {
 
 }
 
-
-
 const bmw = new car()
 
 

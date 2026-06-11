@@ -25,8 +25,8 @@ let pro = new Promise((reslove, reject) => {
     }
 }).then((message) => {
     console.log(message)
-}).catch((error) => { 
-    console.log(error) 
+}).catch((error) => {
+    console.log(error)
 })
 
 //NOTE : -> for consumpition of promise we need 2 blocks 
@@ -38,3 +38,98 @@ let pro = new Promise((reslove, reject) => {
 
 
 // LETS SEE CONVERSION FOR ASYNC TO SYNC USING PROMISES --> 
+
+//-----------------------------------------------
+
+// function AccountCreation(user, ) {
+//     setTimeout(() => {
+//         console.log(`The ${user} has been created`)
+
+//     }, 3000)
+
+// }
+
+// function Verify_details(user, callback) {
+//     setTimeout(() => {
+//         console.log(`The ${user} detials have been verifed`)
+//         callback()
+//     }, 5000)
+
+// }
+
+// function Get_data(user, callback) {
+//     setTimeout(() => {
+//         console.log(`The ${user} here is the data `)
+//         callback()
+//     }, 500)
+// }
+
+// function Start_user_acitivy(user, callback) {
+//     setTimeout(() => {
+//         console.log(`The ${user}  has posted content`)
+//         callback()
+//     }, 6000)
+// }
+
+
+function AccountCreation(user) {
+    return new Promise((reslove) => {
+        setTimeout(() => {
+            console.log(`The ${user} has been created`)
+            reslove(user)
+        }, 3000)
+    })
+}
+
+
+function Verify_details(user) {
+    return new Promise((reslove) => {
+        setTimeout(() => {
+            console.log(`The ${user} detials have been verifed`)
+            reslove(user)
+        }, 5000)
+    })
+
+}
+
+function Get_data(user, callback) {
+    return new Promise((reslove) => {
+        setTimeout(() => {
+            console.log(`The ${user} here is the data `)
+            reslove(user)
+        }, 500)
+    })
+}
+
+
+function Start_user_acitivy(user) {
+    return new Promise((reslove) => {
+        setTimeout(() => {
+            console.log(`The ${user}  has posted content`)
+            reslove(user)
+        }, 6000)
+    })
+}
+
+
+// EXAMPLE OF CALL BACK HELL EXCUETION
+
+//     AccountCreation("sid", () => {
+//     Verify_details("sid", () => {
+//         Get_data("sid", () => {
+//             Start_user_acitivy("sid", () => {
+//                 console.log("successfull")
+//             })
+//         })
+//     })
+// })
+
+
+// EXAMPLE OF PROMISE EXCEUTION
+
+AccountCreation("SIDDHANT").then(Verify_details).then(Get_data).then(Start_user_acitivy).then((message) => {
+    console.log("the promises example is successfull")
+})
+
+
+//ASYNC AND AWAIT ---> this is a modern way to convert async into sync

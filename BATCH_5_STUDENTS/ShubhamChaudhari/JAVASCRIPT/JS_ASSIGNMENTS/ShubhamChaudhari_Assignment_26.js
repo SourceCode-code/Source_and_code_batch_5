@@ -1,213 +1,158 @@
-// ASSIGNMENT NO 10
+//1 Let's try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation)
+//. In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create a class called Statistics and create all the functions which do statistical calculations as method for the Statistics class. Check the output below.
+// ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
 
-// // 1) Iterate 0 to 10 using for loop, do the same using while
+// console.log('Count:', statistics.count()) // 25
+// console.log('Sum: ', statistics.sum()) // 744
+// console.log('Min: ', statistics.min()) // 24
+// console.log('Max: ', statistics.max()) // 38
+// console.log('Range: ', statistics.range() // 14
+// console.log('Mean: ', statistics.mean()) // 30
+// console.log('Median: ',statistics.median()) // 29
+// console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
+// console.log('Variance: ',statistics.var()) // 17.5
+// console.log('Standard Deviation: ', statistics.std()) // 4.2
+// console.log('Variance: ',statistics.var()) // 17.5
+// console.log('Frequency Distribution: ',statistics.freqDist()) // [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+// // you output should look like this
+// console.log(statistics.describe())
+// Count: 25
+// Sum:  744
+// Min:  24
+// Max:  38
+// Range:  14
+// Mean:  30
+// Median:  29
+// Mode:  (26, 5)
+// Variance:  17.5
+// Standard Deviation:  4.2
+// Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
+const ages = [
+  31, 26, 34, 37, 27,
+  26, 32, 32, 26, 27,
+  27, 24, 32, 33, 27,
+  25, 26, 38, 37, 31,
+  34, 24, 33, 29, 26
+];
 
-for(let num1=0;num1<=10;num1++){
-console.log(`Number By Using For loop : ${num1}`);
+class Statistics {
+  constructor(data) {
+    this.data = data;
+  }
 
-}
-let num2=0;
-while(num2<=10){
-console.log(`Number By Using While loop : ${num2}`);
-num2++;
+  count() {
+    return this.data.length;
+  }
 
-}
-  console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
+  sum() {
+    return this.data.reduce((acc, curr) => acc + curr, 0);
+  }
 
-//   // 2) Iterate 10 to 0 using for loop, do the same using while
-  for(let num3=10;num3>=0;num3--){
-console.log(`Number By Using For loop : ${num3}`);
+  min() {
+    return Math.min(...this.data);
+  }
 
-}
-let num4=10;
-while(num4>=0){
-console.log(`Number By Using While loop : ${num4}`);
-num4--;
+  max() {
+    return Math.max(...this.data);
+  }
 
-}
- console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
-//   // 3) Iterate 0 to n using for loop
-let limitNum=5;
-  for(let num5=0;num5<=limitNum;num5++){
-console.log(`Number By Using For loop : ${num5}`);
+  range() {
+    return this.max() - this.min();
+  }
 
-}
-   console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
-//   // 4) Write a loop that makes the following pattern using console.log():
-//   // #
-//   // ##
-//   // ###
-//   // ####
-//   // #####
-//   // ######
-//   // ## ####
- for (let i = 1; i <= 7; i++) {
-    console.log("#".repeat(i))
-}
- console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`); 
-//   // 5) Print the following pattern using loop
-//   // i    i^2   i^3
-//   // 0    0     0
-//   // 1    1     1
-//   // 2    4     8
-//   // 3    9     27
-//   // 4    16    64
-//   // 5    25    125
-//   // 6    36    216
-//   // 7    49    343
-//   // 8    64    512
-//   // 9    81    729
-//   // 10   100   1000
-for(let num6=0;num6<=10;num6++){
-console.log(`${num6} ${num6*num6} ${num6*num6*num6}`);
-}
-console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
+  mean() {
+    return this.sum() / this.count();
+  }
 
-//   // 6) Use for loop to iterate from 0 to 100 and print only even numbers
+  median() {
+    let sorted = [...this.data].sort((a, b) => a - b);
 
-//   // 7) Use for loop to iterate from 0 to 100 and print only odd numbers
+    let mid = Math.floor(sorted.length / 2);
 
-  
-//   // 8) Use for loop to iterate from 0 to 100 and print only prime numbers
-
-//   // 9) Use for loop to iterate from 0 to 100 and print the sum of all numbers.
-
-  
-//   // 10) Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
-//Quetion 6,7,8,9,10
-let sum_all_number =0
-let even=[];
-let odd =[];
-let even_sum= 0;
-let odd_sum =0;
-let prime =[];
-
-for(let i=0; i<=100;i++){
-    sum_all_number += i;
-    if(i%2==0){
-        even.push(i);
-        even_sum += i;
-    }
-    else{
-odd.push(i);
-odd_sum +=i ;
-    }
-      if (i > 1) {
-        let isPrime = true;
-
-        for (let j = 2; j < i; j++) {
-            if (i % j === 0) {
-                isPrime = false;
-                break;
-            }
-        }
-
-        if (isPrime) {
-            prime.push(i);
-        }
-    }
-}
-console.log("Sum of all  number from 1 to 100 is =" ,sum_all_number);
-console.log("all evan number from 1 to 100 is = " ,even);
-console.log("All odd number from 1 to 100 is = " ,odd);
-console.log("Sum of all evan number from 1 to 100 is =" ,even_sum);
-console.log("Sum of all odd number from 1 to 100 is =" ,odd_sum);
-console.log("all prime number from 1 to 100 is =" ,prime);  
-
-console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
-//   // 11) Develop a small script which generates a six-character random id.
-let random_num=(Math.floor(Math.random()*(999999-100000 + 1))+100000);
-  console.log(`Random Number is ${random_num}`);
-//   // 12) Develop a small script which generates any number of characters random id.
-let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-let randomId = "";
-
-for (let i = 0; i < 5; i++) {
-    let index = Math.floor(Math.random() * chars.length);
-    randomId += chars[index];
-}
-
-console.log("Random ID:", randomId);
-  console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
-//   // 13) Write a script which generates a random hexadecimal number.
-
-let hexchar = "0123456789abcdef";
-let hex = "";
-for (let i=0; i<6; i++)
-{
-    let randomIndex = Math.floor(Math.random() * hexchar.length);
-    hex += hexchar [randomIndex];
-}
-console.log("hexadecimal number:#",hex);
-//   // 14) Write a script which generates a random rgb color number.
-
-//15) print the following patterns 
-//   * 
-//  ***
-// ******
-//  ***clea
-//   *
-
-
-
-//16
-
-// ****
-// *  *
-// ****
-
-let num10 = 4;
-
-for (let i = 1; i <= 3; i++) {
-    let row = "";
-
-    for (let j = 1; j <= num10; j++) {
-        if (i === 1 || i === 3 || j === 1 || j === num10) {
-            row += "*";
-        } else {
-            row += " ";
-        }
+    if (sorted.length % 2 === 0) {
+      return (sorted[mid - 1] + sorted[mid]) / 2;
     }
 
-    console.log(row);
+    return sorted[mid];
+  }
+
+  mode() {
+    let frequency = {};
+
+    for (let num of this.data) {
+      frequency[num] = (frequency[num] || 0) + 1;
+    }
+
+    let modeValue;
+    let maxCount = 0;
+
+    for (let key in frequency) {
+      if (frequency[key] > maxCount) {
+        maxCount = frequency[key];
+        modeValue = Number(key);
+      }
+    }
+
+    return {
+      mode: modeValue,
+      count: maxCount
+    };
+  }
+
+  variance() {
+    let mean = this.mean();
+
+    let squaredDiffs = this.data.map(
+      num => Math.pow(num - mean, 2)
+    );
+
+    return (
+      squaredDiffs.reduce((a, b) => a + b, 0) /
+      this.count()
+    ).toFixed(2);
+  }
+
+  std() {
+    return Math.sqrt(this.variance()).toFixed(2);
+  }
+
+  freqDist() {
+    let frequency = {};
+
+    for (let num of this.data) {
+      frequency[num] = (frequency[num] || 0) + 1;
+    }
+
+    let result = [];
+
+    for (let key in frequency) {
+      let percentage =
+        ((frequency[key] / this.count()) * 100).toFixed(1);
+
+      result.push([Number(percentage), Number(key)]);
+    }
+
+    return result.sort((a, b) => b[0] - a[0]);
+  }
+
+  describe() {
+    console.log("Count:", this.count());
+    console.log("Sum:", this.sum());
+    console.log("Min:", this.min());
+    console.log("Max:", this.max());
+    console.log("Range:", this.range());
+    console.log("Mean:", this.mean().toFixed(2));
+    console.log("Median:", this.median());
+    console.log("Mode:", this.mode());
+    console.log("Variance:", this.variance());
+    console.log("Standard Deviation:", this.std());
+    console.log("Frequency Distribution:", this.freqDist());
+  }
 }
-console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
-//17
 
-// 4444
-// 333
-// 22
-// 1
-//using string.repeat()
- for  (let i = 4; i >= 1; i--){
-    console.log(String(i).repeat(i))
-}
-console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
+const statistics = new Statistics(ages);
 
-// // 18
-// 1111
-// 222
-// 33
-// 4
-//using string.repeat
-let n=4;
-for (let i = 1; i <= n; i++) {
-    console.log(String(i).repeat(n+1 - i));
-}
-console.log(`-------------------------------------------------------------------------------------------------------------------------------------------`);
+statistics.describe();
 
-//19) print the longest word form the given string
 
-str = "hello i am learning javascript and currently i am seeing the topic loops"
-charString=str.split(" ")
-console.log(charString);
-longestWord="";
-for(let num11=0;num11<charString.length;num11++){
-if (charString[num11].length>longestWord.length){
-
-    longestWord=charString[num11]
-}
-
-}
-console.log("longestWord:", longestWord);
+//2 Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.

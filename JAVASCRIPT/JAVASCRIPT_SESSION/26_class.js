@@ -66,19 +66,19 @@ class personal_details {
             this.age = age
     }
 
-display_full_name(){
-    let fullname = `${this.fn} ${this.mn} ${this.ln}`
-    return fullname
+    display_full_name() {
+        let fullname = `${this.fn} ${this.mn} ${this.ln}`
+        return fullname
+    }
+
+    Show_age() {
+        console.log(this.age)
+    }
+
 }
 
-Show_age(){
-    console.log(this.age)
-}
 
-}
-
-
-let person_1 = new personal_details( "siddhant","arjun","gadakh",26)
+let person_1 = new personal_details("siddhant", "arjun", "gadakh", 26)
 
 console.log(person_1)
 console.log(person_1.display_full_name())
@@ -90,21 +90,96 @@ person_1.Show_age()
 
 // example 2 
 
-class Student_details{
+class Student_details {
 
-constructor(fn,std,age,rank){
-    this.fn= fn
-    this.std = std,
-    this.age = age,
-    this.rank= rank
+    constructor(fn, std, age, rank) {
+        this.fn = fn
+        this.std = std,
+            this.age = age,
+            this.rank = rank
+    }
+
+    get_Rank() {
+        console.log(`${this.fn}   ${this.rank}`)
+    }
+
 }
 
-get_Rank(){
-    console.log(`${this.fn}   ${this.rank}`)
-}
-
-}
-
-let Student_1 = new Student_details("rohan",8,14,"B+")
+let Student_1 = new Student_details("rohan", 8, 14, "B+")
 console.log(Student_1)
 Student_1.get_Rank()
+
+
+
+// -------------------------------------------------------------
+
+// setter and getter and static 
+
+// set  --> if you set a property
+// get  --> if you get a property
+
+
+class details {
+    constructor(fn, mn, ln, dob, age) {
+        this.fn = fn,
+            this.mn = mn,
+            this.ln = ln,
+            this.dob = dob,
+            this.age = age
+    }
+
+get get_Age(){
+    return this.age
+}
+
+set MODIFY_AGE(age){
+    this.age=age
+}
+
+static show_date(){
+    let date = new Date()
+    let curDate = `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`
+  return curDate
+}
+
+}
+
+let details_person1 = new details("sid","arjun","gadakh","1999",26)
+
+console.log(details_person1)
+console.log(details_person1.get_Age)
+details_person1.MODIFY_AGE = 30
+console.log(details_person1.get_Age)
+// details_person1.show_date()
+
+
+// array.length()
+//Array.length
+
+
+// Static --> when you create a method using static keyword it is applied directly to the class
+
+
+console.log(details.show_date())
+
+
+// array.push()  --> number , string , boolean , null , undefined 
+ // object.method()
+//details_person1.show_date()
+
+
+// class.method()
+//details.show_date()
+
+
+// ----------------------------------------------------------------------------------------------
+
+//oops --> oebject oriented programing structure (oops)
+
+
+/**
+ * interitance
+ * abstraction
+ * encapsulation
+ * polymorphism
+ */

@@ -1,0 +1,38 @@
+
+
+website = Amazon.com
+
+<input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder="Search Amazon.in"
+class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search Amazon.in" role="searchbox"
+ aria-autocomplete="list" aria-controls="sac-autocomplete-results-container" aria-expanded="true" aria-haspopup="grid" spellcheck="false">
+
+
+
+ website = Amazon.com
+
+  <input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder="Search Amazon.in"
+   class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search Amazon.in" role="searchbox" 
+   aria-autocomplete="list" aria-controls="sac-autocomplete-results-container" aria-expanded="false" aria-haspopup="grid" spellcheck="false">
+
+
+website = Flipkart.com
+
+ <input autocomplete="off"
+ class="q5p7sU" 
+ id="input-searchsearchpage-input"
+ placeholder="Search for Products, Brands and More" autocapitalize="off" type="search">
+
+
+website = Myntra.com
+ <input font-size="16px" font-weight="book" type="text" 
+ placeholder="Try Saree, Kurti or Search by Product Code"
+class="sc-dOfePm kBqyGz sc-buNqiq egrFLn search-input-elm"
+ color="greyBase" value="">
+
+
+ website = Google.com
+<textarea jsname="yZiJbe"
+ class="gLFyf" aria-controls="Alh6id" aria-owns="Alh6id" autofocus="" title="Search" value="" aria-label="Search" 
+ placeholder="" aria-autocomplete="both" aria-expanded="true" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off"
+id="APjFqb" maxlength="2048" name="q" role="combobox" rows="1" spellcheck="false" data-ved="0ahUKEwj-iZ_mlI6VAxV_IkQIHfHWDvsQ39UDCCI"
+ style="" aria-activedescendant=""></textarea>

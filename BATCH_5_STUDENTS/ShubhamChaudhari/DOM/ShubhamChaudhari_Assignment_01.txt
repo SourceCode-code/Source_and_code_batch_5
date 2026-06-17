@@ -38,3 +38,92 @@ Flipcart
 
 [title="Shoes,Loafers Shoes, Running Shoes For Men"]
 
+3)<span class="v1zwn27" style="color:#333333ff">Login</span>
+a[title="Login"] .v1zwn27
+
+4)<div class="buvtMR">Men</div>
+
+[title="Men"] .buvtMR
+
+5)<div class="tx4xZf StZidb" title="White"><div class="i5kg2N zu805X"><label class="BMOCJ3 StZidb"><input type="checkbox" class="UXWKAE" readonly=""><div class="ybaCDx"></div><div class="buvtMR"><div><div class="mM9ddx" style="background: rgb(255, 255, 255);"></div><div class="mglF2V buvtMR">White</div></div></div></label></div></div>
+[title="White"] .mglF2V.buvtMR
+
+Apple
+
+
+1)<nav role="navigation" aria-label="More Apple Store Links" class="as-globalfooter-directory with-5-columns"
+        <ul id="as-globalfooter-directory-column-section-state-section-three-0" class="as-globalfooter-directory-column-section-list" role="list">
+            <li class="as-globalfooter-directory-column-section-item" role="listitem">
+<a href="https://www.apple.com/in/retail/" data-slot-name="section3" data-feature-name="Footer Navigation" data-display-name="Find a Store" class="as-globalfooter-directory-column-section-link" data-autom="Find a Store-footer-link">                    Find a Store
+
+Selector : .as-globalfooter-directory.with-5-columns [data-display-name="Find a Store"]
+
+2)<a class="rf-productnav-card-title" href="/in/shop/buy-mac" data-relatedlink="_r_b__link" data-slot-name="Shelf-0" data-display-name="AOS: home/shop_mac" data-autom="AOS: home/shop_mac" data-index="1" data-trigger-stoppropagation="true">Mac </a>
+
+Selector : [href="/in/shop/buy-mac"]
+
+3)<div id="generic-3"><div class="rf-shop-chat"><div class="rf-shop-chat-section"><div class="rf-shop-chat-container"><div class="rf-shop-chat-content">
+
+<a href="#" target="_blank" class="as-chat-button active as-buttonlink icon icon-after icon-external" data-autom="chat-with-a-specialist-link" data-relatedlink="chat-with-a-specialist" data-chat-ui="WEB_CHAT_ACTION_GROUP=DEFAULT;">Connect with a Specialist<span class="a11y">(opens in new window)</span></a>
+</div></div></div></div><div class="rs-shop-neareststore"><div class="rs-shop-neareststore-container"><div class="rs-shop-neareststore-content"><a href="https://www.apple.com/in/retail" data-slot-name="generic-3" data-feature-name="Astro Link" data-display-name="AOS: retail" class="icon icon-after icon-external" target="_blank">Find an Apple Store<span class="a11y">(opens in a new window)</span></a></div></div></div></div>
+
+Selector : #generic-3 [data-autom="chat-with-a-specialist-link"]
+
+4)<a href="https://www.apple.com/in/airpods/" data-globalnav-item-name="airpods" data-topnav-flyout-trigger-compact="true" data-analytics-title="airpods" data-analytics-element-engagement="hover - airpods" aria-label="AirPods" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-airpods" data-autom="gn_airpods"><span class="globalnav-link-text-container"><span aria-hidden="true" class="globalnav-image-regular globalnav-link-image"><svg height="44" viewBox="0 0 43 44" width="43" xmlns="http://www.w3.org/2000/svg">
+  <path d="m11.7153 19.6836h.961v.937h.094c.187-.615.914-1.048 1.752-1.048.164 0 .375.011.504.029v1.008c-.082-.024-.446-.059-.645-.059-.961 0-1.658.645-1.658 1.535v3.914h-1.008zm28.135-.111c1.324 0 2.244.656 2.379 1.693h-.996c-.135-.504-.627-.838-1.389-.838-.75 0-1.336.381-1.336.943 0 .434.352.704 1.096.885l.973.235c1.189.287 1.763.802 1.763 1.711 0 1.13-1.095 1.91-2.531 1.91-1.406 0-2.373-.674-2.484-1.723h1.037c.17.533.674.873 1.482.873.85 0 1.459-.404 1.459-.984 0-.434-.328-.727-1.002-.891l-1.084-.264c-1.183-.287-1.722-.796-1.722-1.71 0-1.049 1.013-1.84 2.355-1.84zm-6.665 5.631c-1.155 0-1.846-.885-1.846-2.362 0-1.471.697-2.361 1.846-2.361 1.142 0 1.857.914 1.857 2.361 0 1.459-.709 2.362-1.857 2.362zm1.834-8.028v3.504h-.088c-.358-.691-1.102-1.107-1.981-1.107-1.605 0-2.654 1.289-2.654 3.269 0 1.987 1.037 3.27 2.654 3.27.873 0 1.623-.416 2.022-1.119h.094v1.007h.961v-8.824zm-9.001 8.028c-1.195 0-1.869-.868-1.869-2.362 0-1.5.674-2.361 1.869-2.361 1.196 0 1.869.861 1.869 2.361 0 1.494-.673 2.362-1.869 2.362zm0-5.631c-1.799 0-2.912 1.236-2.912 3.269 0 2.028 1.113 3.27 2.912 3.27s2.912-1.242 2.912-3.27c0-2.033-1.113-3.269-2.912-3.269zm-17.071 6.427h1.008v-6.316h-1.008zm-.199-8.238c0-.387.317-.703.703-.703.387 0 .703.316.703.703s-.316.703-.703.703c-.386 0-.703-.316-.703-.703zm-6.137 4.922 1.324-3.773h.093l1.325 3.773zm1.892-5.139h-1.043l-3.117 8.455h1.107l.85-2.42h3.363l.85 2.42h1.107zm14.868 4.5h-1.864v-3.562h1.864c1.224 0 1.898.639 1.898 1.799 0 1.119-.697 1.763-1.898 1.763zm.275-4.5h-3.193v8.455h1.054v-3.017h2.127c1.588 0 2.719-1.119 2.719-2.701 0-1.612-1.107-2.737-2.707-2.737z"></path></svg></span><span class="globalnav-link-text">AirPods</span></span><span class="globalnav-link-chevron" aria-hidden="true"><svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg></span></a>
+
+Selector : [data-globalnav-item-name="airpods"]
+
+5)<a href="https://www.apple.com/in/support/" data-globalnav-item-name="support" data-topnav-flyout-trigger-compact="true" data-analytics-title="support" data-analytics-element-engagement="hover - support" data-analytics-exit-link="true" aria-label="Support" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-support" data-autom="gn_support"><span class="globalnav-link-text-container"><span aria-hidden="true" class="globalnav-image-regular globalnav-link-image"><svg height="44" viewBox="0 0 44 44" width="44" xmlns="http://www.w3.org/2000/svg">
+ <path d="m42.1206 18.0337v1.635h1.406v.844h-1.406v3.574c0 .744.281 1.06.937 1.06.182 0 .282-.006.469-.023v.849c-.199.036-.392.059-.592.059-1.3 0-1.822-.48-1.822-1.687v-3.832h-1.019v-.844h1.019v-1.635zm-6.131 1.635h.961v.937h.093c.188-.615.914-1.049 1.752-1.049.164 0 .375.012.504.03v1.008c-.082-.024-.445-.059-.644-.059-.961 0-1.659.644-1.659 1.535v3.914h-1.007zm-2.463 3.158c0-1.5-.674-2.361-1.869-2.361s-1.869.861-1.869 2.361c0 1.494.674 2.361 1.869 2.361s1.869-.867 1.869-2.361zm-4.781 0c0-2.033 1.113-3.27 2.912-3.27s2.912 1.237 2.912 3.27c0 2.027-1.113 3.27-2.912 3.27s-2.912-1.243-2.912-3.27zm-2.108 0c0-1.477-.692-2.361-1.846-2.361-1.143 0-1.863.908-1.863 2.361 0 1.447.72 2.361 1.857 2.361 1.16 0 1.852-.884 1.852-2.361zm1.043 0c0 1.975-1.049 3.27-2.655 3.27-.902 0-1.629-.393-1.974-1.061h-.094v3.059h-1.008v-8.426h.961v1.054h.094c.404-.726 1.16-1.166 2.021-1.166 1.612 0 2.655 1.284 2.655 3.27zm-8.048 0c0-1.477-.691-2.361-1.845-2.361-1.143 0-1.864.908-1.864 2.361 0 1.447.721 2.361 1.858 2.361 1.16 0 1.851-.884 1.851-2.361zm1.043 0c0 1.975-1.049 3.27-2.654 3.27-.902 0-1.629-.393-1.975-1.061h-.093v3.059h-1.008v-8.426h.961v1.054h.093c.405-.726 1.161-1.166 2.022-1.166 1.611 0 2.654 1.284 2.654 3.27zm-7.645 3.158h-.961v-.99h-.094c-.316.703-.99 1.102-1.957 1.102-1.418 0-2.156-.844-2.156-2.338v-4.09h1.008v3.844c0 1.136.422 1.664 1.43 1.664 1.113 0 1.722-.663 1.722-1.77v-3.738h1.008zm-11.69-2.209c.129.885.972 1.447 2.174 1.447 1.136 0 1.974-.615 1.974-1.453 0-.72-.527-1.177-1.693-1.47l-1.084-.282c-1.529-.386-2.192-1.078-2.192-2.279 0-1.435 1.202-2.408 2.989-2.408 1.634 0 2.853.973 2.941 2.338h-1.06c-.147-.867-.862-1.383-1.916-1.383-1.125 0-1.87.562-1.87 1.418 0 .662.463 1.043 1.629 1.342l.885.234c1.752.44 2.455 1.119 2.455 2.361 0 1.553-1.224 2.543-3.158 2.543-1.793 0-3.029-.949-3.141-2.408z"></path></svg></span><span class="globalnav-link-text">Support</span></span><span class="globalnav-link-chevron" aria-hidden="true"><svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg></span></a>
+
+ Selector : [data-analytics-title="support"]
+
+ AJIO
+
+ 1)<input type="checkbox" name="genderfilter" id="Men" aria-hidden="true" tabindex="-1" value="Men">
+ Selector : #Men
+
+ 3)<input autocomplete="off" tabindex="0" aria-label="Search AJIO" class="react-autosuggest__input react-autosuggest__input--open" placeholder="Search AJIO" name="searchVal" type="text" value="">
+
+ Selector: [placeholder="Search AJIO"]
+
+ 3)<div class="prod-sp" data-btfy-pw-extract-id="L0LJWRxV-extract-productprice">₹7,149</div>
+
+ [class="prod-sp"]
+
+ 4)<div class="size-selection" id="selectSizeId" aria-label="Select Size"> Select Size <span class="size-format" aria-label="UK" data-btfy-pw-extract-id="L0LJWRxV-extract-productsize">(UK)</span></div>
+
+ #selectSizeId
+
+ 5)<a href="https://www.ajio.com/home" target="_self" title="Home" aria-label="Home">Home</a>
+
+ [title="Home"]
+
+
+
+wikipedia
+
+
+ 1)<input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off" style="padding-right: 64px;">
+
+ [id="searchInput"]
+
+ 2)<a class="jsl10n" data-jsl10n="portal.app-links.url" href="https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications">
+Download Wikipedia for Android or iOS
+</a>
+
+[data-jsl10n="portal.app-links.url"]
+
+3)<span class="other-project-title jsl10n" data-jsl10n="wikibooks.name">Wikibooks</span>
+
+[data-jsl10n="wikibooks.name"]
+
+4)<span class="other-project-title jsl10n" data-jsl10n="commons.name">Commons</span>
+
+[data-jsl10n="commons.name"]
+
+5)<a href="//en.wikipedia.org/" lang="en" title="English">English</a>
+
+
+[title="English"]

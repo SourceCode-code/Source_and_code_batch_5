@@ -125,3 +125,14 @@ SELECTOR --> table[class="table table-light traversal-table"] tbody  .bg-info:nt
 
 
 [class="standings-table_standingsTableContainer__zCpm2 standings-table_expandedTable__47Don"] table tbody tr  [aria-label="South Africa"]
+
+
+//2 PARTAIL SELECTORS
+
+this are used in attribute and value and class
+use this when you have a partial which is very unique 
+
+//starting selector --> [atrr = value value_1]  --> [attr ^= "value"]
+//ending selector -->   [attr = value_1 value2] --> [attr $= "value2"]
+//contain         -->   [attr =value_1 value3]  --> [ attr*=1]
+

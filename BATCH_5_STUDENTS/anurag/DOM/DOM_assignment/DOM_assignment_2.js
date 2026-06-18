@@ -1,4 +1,4 @@
-<table width="100%" class="ih-td-tab">
+{/* <table width="100%" class="ih-td-tab">
     <tbody>
         <tr class="ih-pt-tbl" style="display:revert;">
             <!-- ngIf: pointsTableData[0].OrderNo != undefined && pointsTableData[0].OrderNo != '' -->
@@ -444,4 +444,4 @@ got 1 / 1
 
 
 
-
+ */}

@@ -1,0 +1,27 @@
+
+
+<input data-addnewaddress="add-new"
+ id="unifiedLocation1ClickAddress" name="dropdown-selection" type="hidden" value="add-new"
+ class="nav-progressive-attribute">
+
+
+ <input autocomplete="off"
+ class="q5p7sU" 
+ id="input-searchsearchpage-input"
+ placeholder="Search for Products, Brands and More" autocapitalize="off" type="search">
+
+
+ <input font-size="16px" font-weight="book" type="text"
+  placeholder="Try Saree, Kurti or Search by Product Code"
+ class="sc-dOfePm kBqyGz sc-buNqiq egrFLn search-input-elm" color="greyBase" value="">
+
+
+ <input type="text" 
+ id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off"
+placeholder="Search Amazon.in" 
+class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search Amazon.in" role="searchbox" aria-autocomplete="list" aria-controls="sac-autocomplete-results-container" aria-expanded="true" aria-haspopup="grid" spellcheck="false">
+
+
+
+<input font-size="16px" font-weight="book" type="text" placeholder="Try Saree, Kurti or Search by Product Code"
+ class="sc-dOfePm kBqyGz sc-buNqiq egrFLn search-input-elm" color="greyBase" value="">

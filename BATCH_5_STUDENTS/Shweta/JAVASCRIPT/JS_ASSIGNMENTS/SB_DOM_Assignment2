@@ -1,0 +1,519 @@
+<table class="Jzru1c">
+    <tbody>
+        <tr>
+            <th class="tuzU3e w2Mymf Lcskac" aria-hidden="true"></th>
+            <th class="wxNiFd tuzU3e ey2qkf" role="columnheader" scope="col">
+                <div class="YCyuEf">Rank</div>
+            </th>
+            <th class="ey2qkf tuzU3e QI3dEb K2ENGc wxNiFd Pvbt4c uOF0oe jooWBf lq7Dvb" role="columnheader" scope="col">
+                <div class="d8zVje cHaqb yBiDX">Team</div>
+            </th>
+            <th class="tuzU3e xkW0Cc aVCBuc" style="width:25px;min-width:25px" role="columnheader" scope="col">
+                <div class="yBiDX W98EDe"><span aria-hidden="true">M</span><span class="YCyuEf">Matches</span></div>
+            </th>
+            <th class="tuzU3e xkW0Cc aVCBuc" style="width:25px;min-width:25px" role="columnheader" scope="col">
+                <div class="yBiDX"><span aria-hidden="true">W</span><span class="YCyuEf">Won</span></div>
+            </th>
+            <th class="tuzU3e xkW0Cc aVCBuc" style="width:25px;min-width:25px" role="columnheader" scope="col">
+                <div class="yBiDX"><span aria-hidden="true">L</span><span class="YCyuEf">Lost</span></div>
+            </th>
+            <th class="tuzU3e xkW0Cc aVCBuc" style="width:50px;min-width:50px" role="columnheader" scope="col">
+                <div class="yBiDX"><span aria-hidden="true">NRR</span><span class="YCyuEf">Net run rate</span></div>
+            </th>
+            <th class="tuzU3e xkW0Cc K7J2Cb aVCBuc" style="width:25px;min-width:25px" role="columnheader" scope="col">
+                <div class="yBiDX"><span aria-hidden="true">Pts</span><span class="YCyuEf">Points</span></div>
+            </th>
+            <th class="tuzU3e xkW0Cc aVCBuc" style="width:100px;min-width:100px" role="columnheader" scope="col">
+                <div class="yBiDX"><span aria-hidden="true">Last 5</span><span class="YCyuEf">Last 5 matches</span>
+                </div>
+            </th>
+        </tr>
+        <tr jscontroller="cvgK0e" aria-label="RCB" class="imso-loa imso-hov" data-league-mid=""
+            data-should-expand-to-team-fullpage="true" data-sport="5" data-team-fullpage-color-for-transition="#db1316"
+            data-team-fullpage-title-for-transition="" data-team-mid="/m/03nxc_0"
+            data-url-to-team-osrp="/search?sca_esv=9e2230ee16acc854&amp;sxsrf=APpeQnvZ5_IX-Dx8OzU-OmUHsuro8InyZA:1781956212726&amp;q=Royal+Challengers+Bengaluru&amp;stick=H4sIAAAAAAAAAONgVuLSz9U3MM6rSI43eMRoyi3w8sc9YSmdSWtOXmNU4-IKzsgvd80rySypFJLgYoOy-KR4uJC08SxilQ7Kr0zMUXDOSMzJSc1LTy0qVnAC0ok5pUWlAEddrnVkAAAA"
+            jsaction="rcuQ6b:npT2md;hOPlV" data-ved="2ahUKEwjg88GY4JWVAxVhzDgGHS5fLpcQ_NIKegQIDRAs">
+            <td class="snctkc Lcskac e9fBA jooWBf xL0E7c" aria-hidden="true"></td>
+            <td class="wxNiFd B1pJhb e9fBA uOF0oe AXYSPc">
+                <div class="Rqwdve RQCbNe" style="border-color:#fff;border-top-width:1px;border-top-style:solid">
+                    <div class="Xne9qe"><span class="YCyuEf"></span></div>
+                </div>
+                <div class="gDo0uc tgaaSb G017Fd">
+                    <div class="iU5t0d">1</div>
+                </div>
+                <div class="tgaaSb G017Fd" aria-hidden="true"><span class="iU5t0d b8Oacc fz3Rib">
+                        <div class="sjBi9c uhHOwf BYbUcd" style="height:24px;width:24px"><img alt=""
+                                id="dimg_dH42auDpK-GY4-EPrr65uQk_3"
+                                src="data:image/png;base64,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"
+                                data-csiid="dH42auDpK-GY4-EPrr65uQk_2" data-atf="1"></div>
+                    </span></div>
+                <div class="tgaaSb G017Fd" style="width:12px"></div>
+            </td>
+            <td class="B1pJhb e9fBA uOF0oe fI7lFd GAb8Mc FnBtG xL0E7c">
+                <div class="e6E1Yd">
+                    <div class="imso-hide-overflow C1gYkd" role="link" tabindex="0"><span
+                            class="ellipsisize hsKSJe">RCB</span><br></div>
+                </div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA xL0E7c T0fFXb">
+                <div class="Er8EJ">14</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA xL0E7c">
+                <div class="Er8EJ">9</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA xL0E7c">
+                <div class="Er8EJ">5</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA xL0E7c">
+                <div class="Er8EJ">+0.783</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA K7J2Cb xL0E7c">
+                <div class="Er8EJ">18</div>
+            </td>
+            <td class="gwqH4e xkW0Cc snctkc e9fBA xL0E7c" role="gridcell" tabindex="0" jsaction="ipUFbd">
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Loss</div>
+                <div jsname="U4QKYc" class="t0t45c ytndxc" jscontroller="imurKb" data-as="5" data-ca="" data-dir="ltr"
+                    data-position-left="11" data-tooltip-width="90" jsaction="kHBd4e:ZYIfFd">
+                    <div jsname="haAclf" class="RUYuSd" style="top:36px;left:-44px"><span jsname="fmcmS"
+                            class="NRz0T zHcLxe" style="background-color:#4285f4;top:0;width:90px"
+                            aria-hidden="true">Most recent match</span>
+                        <div jsname="hFsbo" class="y4WG8" style="border-bottom-color:#4285f4;bottom:0;left:50px"></div>
+                    </div>
+                    <div class="otIGkd" aria-hidden="true">
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob"
+                                    d="M11 0C4.925 0 0 4.925 0 11s4.925 11 11 11 11-4.925 11-11S17.075 0 11 0"></path>
+                                <path class="Hiu7kb" d="M11 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18"></path>
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                    </div>
+                </div>
+            </td>
+            <td class="w2Mymf e9fBA" aria-hidden="true"></td>
+        </tr>
+        <tr jscontroller="cvgK0e" aria-label="GT" class="imso-loa imso-hov" data-league-mid=""
+            data-should-expand-to-team-fullpage="true" data-sport="5" data-team-fullpage-color-for-transition="#1B2133"
+            data-team-fullpage-title-for-transition="" data-team-mid="/g/11rp_syjrq"
+            data-url-to-team-osrp="/search?sca_esv=9e2230ee16acc854&amp;sxsrf=APpeQnvZ5_IX-Dx8OzU-OmUHsuro8InyZA:1781956212726&amp;q=Gujarat+Titans&amp;stick=H4sIAAAAAAAAAONgVuLVT9c3NCwqiC-uzCoqfMRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixi5XMvzUosSixRCMksScwrBgDxUqyWXQAAAA"
+            jsaction="rcuQ6b:npT2md;hOPlV" data-ved="2ahUKEwjg88GY4JWVAxVhzDgGHS5fLpcQ_NIKegQIDRA1">
+            <td class="snctkc Lcskac e9fBA jooWBf" aria-hidden="true"></td>
+            <td class="wxNiFd B1pJhb e9fBA uOF0oe AXYSPc">
+                <div class="Rqwdve RQCbNe" style="border-color:#fff">
+                    <div class="Xne9qe"><span class="YCyuEf"></span></div>
+                </div>
+                <div class="gDo0uc tgaaSb">
+                    <div class="iU5t0d">2</div>
+                </div>
+                <div class="tgaaSb" aria-hidden="true"><span class="iU5t0d b8Oacc fz3Rib">
+                        <div class="sjBi9c uhHOwf BYbUcd" style="height:24px;width:24px"><img alt=""
+                                id="dimg_dH42auDpK-GY4-EPrr65uQk_5"
+                                src="data:image/png;base64,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"
+                                data-csiid="dH42auDpK-GY4-EPrr65uQk_3" data-atf="1"></div>
+                    </span></div>
+                <div class="tgaaSb" style="width:12px"></div>
+            </td>
+            <td class="B1pJhb e9fBA uOF0oe fI7lFd GAb8Mc FnBtG">
+                <div class="e6E1Yd">
+                    <div class="imso-hide-overflow C1gYkd" role="link" tabindex="0"><span
+                            class="ellipsisize hsKSJe">GT</span><br></div>
+                </div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA T0fFXb">
+                <div class="Er8EJ">14</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">9</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">5</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">+0.695</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA K7J2Cb">
+                <div class="Er8EJ">18</div>
+            </td>
+            <td class="gwqH4e xkW0Cc snctkc e9fBA" role="gridcell" tabindex="0" jsaction="ipUFbd">
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Win</div>
+                <div jsname="U4QKYc" class="t0t45c ytndxc" jscontroller="imurKb" data-as="5" data-ca="" data-dir="ltr"
+                    data-position-left="11" data-tooltip-width="90" jsaction="kHBd4e:ZYIfFd">
+                    <div jsname="haAclf" class="RUYuSd" style="top:4px;left:-44px"><span jsname="fmcmS"
+                            class="NRz0T zHcLxe" style="background-color:#4285f4;bottom:0;width:90px"
+                            aria-hidden="true">Most recent match</span>
+                        <div jsname="hFsbo" class="y4WG8" style="border-top-color:#4285f4;top:0;left:50px"></div>
+                    </div>
+                    <div class="otIGkd" aria-hidden="true">
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd"
+                                    d="M11 0C4.925 0 0 4.925 0 11s4.925 11 11 11 11-4.925 11-11S17.075 0 11 0"></path>
+                                <path class="Hiu7kb" d="M11 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18"></path>
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                    </div>
+                </div>
+            </td>
+            <td class="w2Mymf e9fBA" aria-hidden="true"></td>
+        </tr>
+        <tr jscontroller="cvgK0e" aria-label="SRH" class="imso-loa imso-hov" data-league-mid=""
+            data-should-expand-to-team-fullpage="true" data-sport="5" data-team-fullpage-color-for-transition="#e11227"
+            data-team-fullpage-title-for-transition="" data-team-mid="/m/0pb5c_p"
+            data-url-to-team-osrp="/search?sca_esv=9e2230ee16acc854&amp;sxsrf=APpeQnvZ5_IX-Dx8OzU-OmUHsuro8InyZA:1781956212726&amp;q=Sunrisers+Hyderabad&amp;stick=H4sIAAAAAAAAAONgVuLSz9U3KEgyTY4veMRoyi3w8sc9YSmdSWtOXmNU4-IKzsgvd80rySypFJLgYoOy-KR4uJC08SxiFQ4uzSvKLE4tKlbwqExJLUpMSkwBAD1tFi1cAAAA"
+            jsaction="rcuQ6b:npT2md;hOPlV" data-ved="2ahUKEwjg88GY4JWVAxVhzDgGHS5fLpcQ_NIKegQIDRA-">
+            <td class="snctkc Lcskac e9fBA jooWBf" aria-hidden="true"></td>
+            <td class="wxNiFd B1pJhb e9fBA uOF0oe AXYSPc">
+                <div class="Rqwdve RQCbNe" style="border-color:#fff">
+                    <div class="Xne9qe"><span class="YCyuEf"></span></div>
+                </div>
+                <div class="gDo0uc tgaaSb">
+                    <div class="iU5t0d">3</div>
+                </div>
+                <div class="tgaaSb" aria-hidden="true"><span class="iU5t0d b8Oacc fz3Rib">
+                        <div class="sjBi9c uhHOwf BYbUcd" style="height:24px;width:24px"><img alt=""
+                                id="dimg_dH42auDpK-GY4-EPrr65uQk_7"
+                                src="data:image/png;base64,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"
+                                data-csiid="dH42auDpK-GY4-EPrr65uQk_4" data-atf="1"></div>
+                    </span></div>
+                <div class="tgaaSb" style="width:12px"></div>
+            </td>
+            <td class="B1pJhb e9fBA uOF0oe fI7lFd GAb8Mc FnBtG">
+                <div class="e6E1Yd">
+                    <div class="imso-hide-overflow C1gYkd" role="link" tabindex="0"><span
+                            class="ellipsisize hsKSJe">SRH</span><br></div>
+                </div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA T0fFXb">
+                <div class="Er8EJ">14</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">9</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">5</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">+0.524</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA K7J2Cb">
+                <div class="Er8EJ">18</div>
+            </td>
+            <td class="gwqH4e xkW0Cc snctkc e9fBA" role="gridcell" tabindex="0" jsaction="ipUFbd">
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Win</div>
+                <div jsname="U4QKYc" class="t0t45c ytndxc" jscontroller="imurKb" data-as="5" data-ca="" data-dir="ltr"
+                    data-position-left="11" data-tooltip-width="90" jsaction="kHBd4e:ZYIfFd">
+                    <div jsname="haAclf" class="RUYuSd" style="top:4px;left:-44px"><span jsname="fmcmS"
+                            class="NRz0T zHcLxe" style="background-color:#4285f4;bottom:0;width:90px"
+                            aria-hidden="true">Most recent match</span>
+                        <div jsname="hFsbo" class="y4WG8" style="border-top-color:#4285f4;top:0;left:50px"></div>
+                    </div>
+                    <div class="otIGkd" aria-hidden="true">
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd"
+                                    d="M11 0C4.925 0 0 4.925 0 11s4.925 11 11 11 11-4.925 11-11S17.075 0 11 0"></path>
+                                <path class="Hiu7kb" d="M11 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18"></path>
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                    </div>
+                </div>
+            </td>
+            <td class="w2Mymf e9fBA" aria-hidden="true"></td>
+        </tr>
+        <tr jscontroller="cvgK0e" aria-label="RR" class="imso-loa imso-hov" data-league-mid=""
+            data-should-expand-to-team-fullpage="true" data-sport="5" data-team-fullpage-color-for-transition="#FF4081"
+            data-team-fullpage-title-for-transition="" data-team-mid="/m/03nxlgg"
+            data-url-to-team-osrp="/search?sca_esv=9e2230ee16acc854&amp;sxsrf=APpeQnvZ5_IX-Dx8OzU-OmUHsuro8InyZA:1781956212726&amp;q=Rajasthan+Royals&amp;stick=H4sIAAAAAAAAAONgVuLSz9U3MM6ryElPf8Royi3w8sc9YSmdSWtOXmNU4-IKzsgvd80rySypFJLgYoOy-KR4uJC08SxiFQhKzEosLslIzFMIyq9MzCkGAEOnvHZZAAAA"
+            jsaction="rcuQ6b:npT2md;hOPlV" data-ved="2ahUKEwjg88GY4JWVAxVhzDgGHS5fLpcQ_NIKegQIDRBH">
+            <td class="snctkc Lcskac e9fBA jooWBf" aria-hidden="true"></td>
+            <td class="wxNiFd B1pJhb e9fBA uOF0oe AXYSPc">
+                <div class="Rqwdve RQCbNe" style="border-color:#fff">
+                    <div class="Xne9qe"><span class="YCyuEf"></span></div>
+                </div>
+                <div class="gDo0uc tgaaSb">
+                    <div class="iU5t0d">4</div>
+                </div>
+                <div class="tgaaSb" aria-hidden="true"><span class="iU5t0d b8Oacc fz3Rib">
+                        <div class="sjBi9c uhHOwf BYbUcd" style="height:24px;width:24px"><img alt=""
+                                id="dimg_dH42auDpK-GY4-EPrr65uQk_9"
+                                src="data:image/png;base64,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"
+                                data-csiid="dH42auDpK-GY4-EPrr65uQk_5" data-atf="1"></div>
+                    </span></div>
+                <div class="tgaaSb" style="width:12px"></div>
+            </td>
+            <td class="B1pJhb e9fBA uOF0oe fI7lFd GAb8Mc FnBtG">
+                <div class="e6E1Yd">
+                    <div class="imso-hide-overflow C1gYkd" role="link" tabindex="0"><span
+                            class="ellipsisize hsKSJe">RR</span><br></div>
+                </div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA T0fFXb">
+                <div class="Er8EJ">14</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">8</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">6</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA">
+                <div class="Er8EJ">+0.189</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA K7J2Cb">
+                <div class="Er8EJ">16</div>
+            </td>
+            <td class="gwqH4e xkW0Cc snctkc e9fBA" role="gridcell" tabindex="0" jsaction="ipUFbd">
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Win</div>
+                <div class="YCyuEf">Win</div>
+                <div jsname="U4QKYc" class="t0t45c ytndxc" jscontroller="imurKb" data-as="5" data-ca="" data-dir="ltr"
+                    data-position-left="11" data-tooltip-width="90" jsaction="kHBd4e:ZYIfFd">
+                    <div jsname="haAclf" class="RUYuSd" style="top:4px;left:-44px"><span jsname="fmcmS"
+                            class="NRz0T zHcLxe" style="background-color:#4285f4;bottom:0;width:90px"
+                            aria-hidden="true">Most recent match</span>
+                        <div jsname="hFsbo" class="y4WG8" style="border-top-color:#4285f4;top:0;left:50px"></div>
+                    </div>
+                    <div class="otIGkd" aria-hidden="true">
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd"
+                                    d="M11 0C4.925 0 0 4.925 0 11s4.925 11 11 11 11-4.925 11-11S17.075 0 11 0"></path>
+                                <path class="Hiu7kb" d="M11 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18"></path>
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                    </div>
+                </div>
+            </td>
+            <td class="w2Mymf e9fBA" aria-hidden="true"></td>
+        </tr>
+        <tr jscontroller="cvgK0e" aria-label="PBKS" class="imso-loa imso-hov" data-league-mid=""
+            data-should-expand-to-team-fullpage="true" data-sport="5" data-team-fullpage-color-for-transition="#dd1212"
+            data-team-fullpage-title-for-transition="" data-team-mid="/m/03nxlh4"
+            data-url-to-team-osrp="/search?sca_esv=9e2230ee16acc854&amp;sxsrf=APpeQnvZ5_IX-Dx8OzU-OmUHsuro8InyZA:1781956212726&amp;q=Punjab+Kings&amp;stick=H4sIAAAAAAAAAONgVuLSz9U3MM6ryMkwecRoyi3w8sc9YSmdSWtOXmNU4-IKzsgvd80rySypFJLgYoOy-KR4uJC08Sxi5QkozctKTFLwzsxLLwYAS6MtfFUAAAA"
+            jsaction="rcuQ6b:npT2md;hOPlV" data-ved="2ahUKEwjg88GY4JWVAxVhzDgGHS5fLpcQ_NIKegQIDRBQ">
+            <td class="snctkc Lcskac e9fBA jooWBf bWoKCf" aria-hidden="true"></td>
+            <td class="wxNiFd B1pJhb e9fBA uOF0oe AXYSPc">
+                <div class="Rqwdve RQCbNe" style="border-color:#fff">
+                    <div class="Xne9qe"><span class="YCyuEf"></span></div>
+                </div>
+                <div class="gDo0uc tgaaSb">
+                    <div class="iU5t0d">5</div>
+                </div>
+                <div class="tgaaSb" aria-hidden="true"><span class="iU5t0d b8Oacc fz3Rib">
+                        <div class="sjBi9c uhHOwf BYbUcd" style="height:24px;width:24px"><img alt=""
+                                id="dimg_dH42auDpK-GY4-EPrr65uQk_11"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAI/klEQVR4Ae2ZBXBb1xKGXWZmZmZmZmbGMDMzM6fchsoNcxwzxAxRYplJcsTSBbFlK/b3Tq/0NI8xVslnZg1ndnf2X7yzJ6Hz/H5P5+k8nQcoiFJCR1GHKQZ0+vTN6DM2A+h+aQD3AOuB+/4N3zHAxHCzl8LtP1GXp6M+X8eetA20t/oBxgNH/hsdDwOJwCMHEsCDBByE7HsJ+Vy07W+tBbYAK4CVwHbaWmytHiv1pRkU5eYiJaajCvWCcIm/9btLUE1l0CIjeE1R+WXAcmBz+/6WWr9spWl3JorFAPDYgQTwAL4mCjNKqCkqorCkiKysDHYX51FXWYq5UY+hrpLanCKkTYl4X3gBWaiWz7woQuJvz4sv4tyQSGOxDkNtBTW6fKpKcijLz6Q4K4XSglwqsnPJ2lmEs7Ec4NEDC8C/j8a0bM2j7quvwTd4MP7Jk/FNmoinZ5+Yt+UoKQmnoBx9PvK5l4r/TxJ0ZPReyAvyDhyEb8YM/IJ8Q4bgvvZ67b5mRwZOQ2XHAGhI36UZIJ9+oTDm5KhRB6PcdR3SF6NpGNMT59SBuOcMxbJ4BMYuz2n83o/Howx8F2nGQMwjPqB+5Hs4rr8iCvbQiK7TLtR4qxIz4wBAeDVGp16E+ujdSFsX0Di0C/YVM/B+NxvTqimUrhiP/fkH8a9fimfNQmxr5mGcO4iq6X2wP3iHcMTFf6krjgBidBKSFpHzkB+6NpIiE3qj9n4Z11P3Y731EmxP34k6sivKozfjOutQ7A9fS9Pbjwi5wzR+6S8obgCU0ly85UXI3V8j7DThnTYQf0UxoV3bcSz/jMC+RpyP3UEgN4VWXRaOBbMIGGrxC8NazfW0FqbhWDiTYFMdAWMVraZ6Qplb4gJA85pfcRHyyvj0pbQDLnHXHPITqq9ESUkEoNlhxm+sJSxZkFd/B4BF8KkrPiKYl4Trp28BMIs7n3BG2GNFjhsAyU6o2QeAunOjFv5AwEugWo8ndQct4RAes0EDF7IaUVdHjDW89zA+e5Pg2YrryyUReV0h7i3rcHV5KX4RaJbtBD0KfodVgLFoAELNXjyVZfjSEwnTjvmyBPYDQYsR79oIALvg85TvoaU1qMlYBdkGdCeguGhW7PED0KI6CLol5J1bADRDwhoAPcHsJNqiaeU3GfDbzQQ2/QiAQ9x59TqCPhXPD5/RLPQ4xZ3PWE9QiiOAsNtJyK/iGNkXAOeqL2G/D1/NXkLJa2hVTJqH1aydOLOS8M8dR5tkplk2Emrx4BMAghsjUXFO6iNU1+N32uIHoD2oEg77Ne8p6TuwD+uP+tgFsXboEuQUs0H+i+ks/QXZrzoUT993aE7fQlixARBQHPEDEPxxKfK9FyMffE50HhwfM1K+/1Ycw95n35iulC4eQsWqycizB+P+8FXBcwLyOZcgn/rzJD+TGOA7z0Zavih+c0Az9Pjod87JF+K65Sas38whbEzHU5dIU+oXVH8zhZrR72Pq+xpSwQ+0OXJR3n5eGH62JveXpOkSOuP/KXGW8OY1V2MY0xNT2kpa9FtRv5qKLKas7YPnsT77AMaJPZC+n0MobRXudYs0QzW5GIAYxR2AlkKO155iz48LcHV5FfXNZ1A+m4h5zTwcLz5M1egP0G1djHP1PPxLxglwU3AkfoaiefsM5LMv+TsA1QKAo6MANGbEAEQ+xO68GfPKyZi7vY5l1axI0S6bgm1iT1wP3ol+Sg/2bJyPtHstLXk/4tWtx75pCcZ182ma3EsAEDrOFPSXEdieFo0ADx9IADcSdGAoKCQGIOEc3BO7YB34DqXrFmOfPQzPsC7RFLkYNeE4ipcOpezHGUi6dbTbc/CWrsVWspr6tC/Rb15Iw6j3kS68NBYJVcjqU7NRrQaAmw8kgKMIBzBU7UGJGKgVr3Lb9dTmf03Bts+xpqxE7f468tVXI59yoTDmNKrGfkjdFBGNvRu0IpavuAR75grqM5ZRtn0JtTP6YH/gduQzLo6CTqBoVy4hvxvg2AO9lQjUFKcQmDc/2jpPxL1qPHWZX5GXvBzTsun4l4xFeuQe5NtuwvHmU8KgUwXf0ahLxtAmF+BeNg354ssxfTYWw5wB1E3qHkkh0Vq19jxvHjvX/AgQ6oi1yirVWMy+xGwUDcC5eAa8LAr7C/KTliHdfyfBlBW41y7CMnMAzntv1SIhn3ABigAV2PIJntULkcQssE/pq3m7YWI3lEhb1XSaE7OozksC+K4jAFwvViPoivPxvvKKAHAa8s3XY1sxkdLv5yFP6EfYkYt7Yj8s382kYd4gLM/eh3KiAHHZlSh33oIyZyhy15e16GlGnxCdJceehe+F58hJy9A+UYBbOmqxpTeUZWLKKY1E4aQLcA15m6p5I3CumMV+qQDl+UfYl7mcumUTqJ7QNeLh0y5CufJq1D/PgXNjhRvzvmVXMeWZmwCqO3Izdxm0kZa0Gd/3q6PT8yQMg97H8f18wpZs5Advw5j/LfoN86gSBawknCn4TsG3aDTysw9rUVNEGknXXhMBIXT4vv6OjM1roC0McHVHrxZnBzxOdiRnEFiwUDPAKaaxc+l4mkUtKI/fh7HgO8pEmyybO0DrRmLzgH/NIpRhH+Lc+jGmRcORbr5Bkw3MnEV2agbNihVgcbx2o/mq00h2TgH+xR9F0uK+O1A/eBn3mF6YV8+hbMsiij4dgfpzvh9zHupLj+Or3YEtYzmOgW9pMn7R0XKzcvFaawF08V7ulje7rehKC1HWb41tK5Qn7scx9D3qFwyhYchbmHq+jHLs+doGQ+n9Jq7xPTVe908bKMrJJuhsBGj4pbbTmYQDWOsKMRaW4Xs74ln5pHOQRYdpHPA6ssh17eNNW4Yl4HngYUx5OioLU2gLqgBFv/R6fTKA16Rjb0kxrm2peK65NlrgByNrwyyyTpTWb6e2ogK3sQRoB1jwa3kfuAKwt4U8YhBtpzSvANv2dPyDB+F7/z2cm5Oo2L0HR10RhH0AbuDmX+MDRy+gLeSVqMjeRsqmDWTu2E5lbiJhv0T0DPstvNB0AeqgnfZIb7cA/X5jT0wanQyc81t9I4sDdQLoBNAJ4E/9DBBsyaK/xwAAAABJRU5ErkJggg=="
+                                data-csiid="dH42auDpK-GY4-EPrr65uQk_6" data-atf="5"></div>
+                    </span></div>
+                <div class="tgaaSb" style="width:12px"></div>
+            </td>
+            <td class="B1pJhb e9fBA uOF0oe fI7lFd GAb8Mc FnBtG bWoKCf">
+                <div class="e6E1Yd">
+                    <div class="imso-hide-overflow C1gYkd" role="link" tabindex="0"><span
+                            class="ellipsisize hsKSJe">PBKS</span><br></div>
+                </div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA bWoKCf T0fFXb">
+                <div class="Er8EJ">14</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA bWoKCf">
+                <div class="Er8EJ">7</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA bWoKCf">
+                <div class="Er8EJ">6</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA bWoKCf">
+                <div class="Er8EJ">+0.309</div>
+            </td>
+            <td class="xkW0Cc snctkc e9fBA K7J2Cb bWoKCf">
+                <div class="Er8EJ">15</div>
+            </td>
+            <td class="gwqH4e xkW0Cc snctkc e9fBA bWoKCf" role="gridcell" tabindex="0" jsaction="ipUFbd">
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Loss</div>
+                <div class="YCyuEf">Win</div>
+                <div jsname="U4QKYc" class="t0t45c ytndxc" jscontroller="imurKb" data-as="5" data-ca="" data-dir="ltr"
+                    data-position-left="11" data-tooltip-width="90" jsaction="kHBd4e:ZYIfFd">
+                    <div jsname="haAclf" class="RUYuSd" style="top:4px;left:-44px"><span jsname="fmcmS"
+                            class="NRz0T zHcLxe" style="background-color:#4285f4;bottom:0;width:90px"
+                            aria-hidden="true">Most recent match</span>
+                        <div jsname="hFsbo" class="y4WG8" style="border-top-color:#4285f4;top:0;left:50px"></div>
+                    </div>
+                    <div class="otIGkd" aria-hidden="true">
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-l"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="JjaXob" clip-rule="evenodd" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
+                                    fill-rule="evenodd"></path>
+                                <path class="Hiu7kb" clip-rule="evenodd"
+                                    d="M13.263 14.394 11 12.131l-2.263 2.263-1.131-1.131L9.869 11 7.606 8.737l1.131-1.131L11 9.869l2.263-2.263 1.131 1.131L12.131 11l2.263 2.263z"
+                                    fill-rule="evenodd"></path>
+                            </svg> </div>
+                        <div class="RxJcnd tNs1Fc" aria-labelledby="l5l-w"> <svg class="v7hVPc" aria-hidden="true"
+                                viewBox="0 0 22 22">
+                                <path class="QZSMXd"
+                                    d="M11 0C4.925 0 0 4.925 0 11s4.925 11 11 11 11-4.925 11-11S17.075 0 11 0"></path>
+                                <path class="Hiu7kb" d="M11 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18"></path>
+                                <path class="QZSMXd" d="M11 3a8 8 0 1 1 0 16 8 8 0 0 1 0-16"></path>
+                                <path class="Hiu7kb" d="M9.2 12.28 7.12 10.2 6 11.32l3.2 3.2 6.4-6.4L14.48 7z"></path>
+                            </svg> </div>
+                    </div>
+                </div>
+            </td>
+            <td class="w2Mymf e9fBA" aria-hidden="true"></td>
+        </tr>
+    
+
+ //1 Get the team GT
+
+ class = "Jzru1c"
+
+ selector = table.Jzru1c tbody tr:nth-child(3) td:nth-child(2)
+ 

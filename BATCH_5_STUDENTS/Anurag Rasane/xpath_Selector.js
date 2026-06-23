@@ -1,3 +1,4 @@
+/*
 https://findmyjobss.com/
 //a[@class="next page-numbers"]
 //div[@id="ast-scroll-top"]
@@ -19,3 +20,4 @@ https://www.microsoft.com/en-in
 //a[@data-bi-cn="Explore AI solutions "]
 //a[@data-bi-cn="Back to top"]
 //a[@id="globalazure"]
+*/

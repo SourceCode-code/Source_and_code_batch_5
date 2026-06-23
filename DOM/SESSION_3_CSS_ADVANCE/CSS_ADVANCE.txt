@@ -1,0 +1,138 @@
+CSS ADVANCE 
+
+1 TABLE SELECTOR 
+2 PARTAIL SELECTORS
+
+
+
+1 TABLE SELECTOR : - 
+
+
+TABLE STRUCTURE 
+
+
++------------------------------------------------------+
+|                      <table>                         |
++------------------------------------------------------+
+|                                                      |
+|  +----------------------------------------------+    |
+|  |                   <thead>                    |    |
+|  |  +--------------------------------------+    |    |
+|  |  | <tr>                                 |    |    |
+|  |  | +-----------+-----------+-----------+ |   |    |
+|  |  | |   <th>    |   <th>    |   <th>    | |   |    |
+|  |  | +-----------+-----------+-----------+ |   |    |
+|  |  +--------------------------------------+    |    |
+|  +----------------------------------------------+    |
+|                                                      |
+|  +----------------------------------------------+    |
+|  |                   <tbody>                    |    |
+|  |  +--------------------------------------+    |    |
+|  |  | <tr>                                 |    |    |
+|  |  | +-----------+-----------+-----------+ |   |    |
+|  |  | |   <td>    |   <td>    |   <td>    | |   |    |
+|  |  | +-----------+-----------+-----------+ |   |    |
+|  |  +--------------------------------------+    |    |
+|  |                                              |    |
+|  |  +--------------------------------------+    |    |
+|  |  | <tr>                                 |    |    |
+|  |  | +-----------+-----------+-----------+ |   |    |
+|  |  | |   <td>    |   <td>    |   <td>    | |   |    |
+|  |  | +-----------+-----------+-----------+ |   |    |
+|  |  +--------------------------------------+    |    |
+|  +----------------------------------------------+    |
+|                                                      |
+|
+|                                                      |
++------------------------------------------------------+
+
+
+
+if you have a bulit a selctor for table how can you do it 
+
+here we will use a method called AS ':nth-child(CHild number)'
+
+
+
+// simple table 
+<table id="t01" style="width:100%" table="">
+          <tbody><tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>Smith</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>Jemma</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Michael</td>
+            <td>Doe</td>
+            <td>20</td>
+          </tr>
+        </tbody></table>
+
+
+
+SELECTOR --> table[id="t01"] tbody tr:nth-child(3) td:nth-child(2)
+
+
+
+// 2 TABLE 
+
+ELEMENT 
+
+<table class="table table-light traversal-table">
+          <thead>
+            <tr class="bg-primary">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-info">
+              <th scope="row">1</th>
+              <td>Andy</td>
+              <td>Otto</td>
+            </tr>
+            <tr class="bg-info">
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Jones</td>
+            </tr>
+            <tr class="bg-info">
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>Scott</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+
+SELECTOR --> table[class="table table-light traversal-table"] tbody  .bg-info:nth-child(3) td:nth-child(3) 
+
+// COMPLEX --> 
+
+<table><caption class="standings-table-head_tableCaption__jDxGj">Standings - Group A</caption><thead class="standings-table-head_tableHeading__JVM+z standings-table-head_isSummary__o+PQN"><tr><th class="standings-table-head_groupName__O195t d-xs-table-cell d-md-table-cell" colspan="3"><div class="standings-table-head_text__NDynK" title="Group A">Group A</div></th><th class="d-xs-table-cell d-md-table-cell" colspan="0">P</th><th class="d-xs-table-cell d-md-table-cell" colspan="0">W</th><th class="d-xs-table-cell d-md-table-cell" colspan="0">D</th><th class="d-xs-table-cell d-md-table-cell" colspan="0">L</th><th class="d-none d-md-table-cell" colspan="0">GF</th><th class="d-none d-md-table-cell" colspan="0">GA</th><th class="d-xs-table-cell d-md-table-cell" colspan="0">GD</th><th class="standings-table-head_points__JRcDJ d-xs-table-cell d-md-table-cell" colspan="0">Pts</th><th class="d-none d-md-table-cell" colspan="0">Form</th></tr></thead><tbody><tr tabindex="0" role="row" aria-label="Position 1, Mexico, 3 points" class="standings-table-row_tableRow__IZhv4"><td class="standings-table-row_qualified__hzG0f d-xs-table-cell d-md-table-cell"></td><td class="standings-table-row_index__lfMgF d-xs-table-cell d-md-table-cell">1</td><td class="d-xs-table-cell d-md-table-cell"><a class="table-team-name_teamLink__qDRZ4" aria-label="Mexico" href="/en/tournaments/mens/worldcup/canadamexicousa2026/teams/mexico"><div class="table-team-name_teamCell__qNpHg"><div class="table-team-name_teamLogo__wehwv"><div class="match-centre-logo-component_TeamLogoWrapper__P3lPN d-flex align-items-center justify-content-center match-centre-logo-component_border__Ynhdq"><img decoding="async" loading="lazy" height="auto" width="32" alt="" title="" class="image_img__pNjkh" srcset="https://api.fifa.com/api/v3/picture/flags-sq-1/MEX 1x"></div></div><div class="table-team-name_teamName__lgiBj ff-pl-8"><span class="d-none d-md-1024-block">Mexico</span><div class="team-abbreviations_container__wWtDG false d-md-1024-none"><span>MEX</span></div></div></div></a></td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-none d-md-table-cell">2</td><td class="standings-table-row_stats__8X9fU d-none d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">2</td><td class="standings-table-row_stats__8X9fU standings-table-row_points__A+pD8 d-xs-table-cell d-md-table-cell">3</td><td class="standings-table-row_form__ebxTp d-none d-md-table-cell"><ul class="table-col-form_teamForm__G0F0k"><div class="match-result-icon_winColor__KbFIu match-result-icon_resultIcon__-osRT"></div><div>-</div><div>-</div><div>-</div><div>-</div></ul></td></tr><tr tabindex="0" role="row" aria-label="Position 2, Korea Republic, 3 points" class="standings-table-row_tableRow__IZhv4"><td class="standings-table-row_qualified__hzG0f d-xs-table-cell d-md-table-cell"></td><td class="standings-table-row_index__lfMgF d-xs-table-cell d-md-table-cell">2</td><td class="d-xs-table-cell d-md-table-cell"><a class="table-team-name_teamLink__qDRZ4" aria-label="Korea Republic" href="/en/tournaments/mens/worldcup/canadamexicousa2026/teams/korea-republic"><div class="table-team-name_teamCell__qNpHg"><div class="table-team-name_teamLogo__wehwv"><div class="match-centre-logo-component_TeamLogoWrapper__P3lPN d-flex align-items-center justify-content-center match-centre-logo-component_border__Ynhdq"><img decoding="async" loading="lazy" height="auto" width="32" alt="" title="" class="image_img__pNjkh" srcset="https://api.fifa.com/api/v3/picture/flags-sq-1/KOR 1x"></div></div><div class="table-team-name_teamName__lgiBj ff-pl-8"><span class="d-none d-md-1024-block">Korea Republic</span><div class="team-abbreviations_container__wWtDG false d-md-1024-none"><span>KOR</span></div></div></div></a></td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-none d-md-table-cell">2</td><td class="standings-table-row_stats__8X9fU d-none d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU standings-table-row_points__A+pD8 d-xs-table-cell d-md-table-cell">3</td><td class="standings-table-row_form__ebxTp d-none d-md-table-cell"><ul class="table-col-form_teamForm__G0F0k"><div class="match-result-icon_winColor__KbFIu match-result-icon_resultIcon__-osRT"></div><div>-</div><div>-</div><div>-</div><div>-</div></ul></td></tr><tr tabindex="0" role="row" aria-label="Position 3, Czechia, 0 points" class="standings-table-row_tableRow__IZhv4"><td class="standings-table-row_qualified__hzG0f d-xs-table-cell d-md-table-cell"></td><td class="standings-table-row_index__lfMgF d-xs-table-cell d-md-table-cell">3</td><td class="d-xs-table-cell d-md-table-cell"><a class="table-team-name_teamLink__qDRZ4" aria-label="Czechia" href="/en/tournaments/mens/worldcup/canadamexicousa2026/teams/czechia"><div class="table-team-name_teamCell__qNpHg"><div class="table-team-name_teamLogo__wehwv"><div class="match-centre-logo-component_TeamLogoWrapper__P3lPN d-flex align-items-center justify-content-center match-centre-logo-component_border__Ynhdq"><img decoding="async" loading="lazy" height="auto" width="32" alt="" title="" class="image_img__pNjkh" srcset="https://api.fifa.com/api/v3/picture/flags-sq-1/CZE 1x"></div></div><div class="table-team-name_teamName__lgiBj ff-pl-8"><span class="d-none d-md-1024-block">Czechia</span><div class="team-abbreviations_container__wWtDG false d-md-1024-none"><span>CZE</span></div></div></div></a></td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-none d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-none d-md-table-cell">2</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">-1</td><td class="standings-table-row_stats__8X9fU standings-table-row_points__A+pD8 d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_form__ebxTp d-none d-md-table-cell"><ul class="table-col-form_teamForm__G0F0k"><div class="match-result-icon_lossColor__z1HcP match-result-icon_resultIcon__-osRT"></div><div>-</div><div>-</div><div>-</div><div>-</div></ul></td></tr><tr tabindex="0" role="row" aria-label="Position 4, South Africa, 0 points" class="standings-table-row_tableRow__IZhv4"><td class="standings-table-row_qualified__hzG0f d-xs-table-cell d-md-table-cell"></td><td class="standings-table-row_index__lfMgF d-xs-table-cell d-md-table-cell">4</td><td class="d-xs-table-cell d-md-table-cell"><a class="table-team-name_teamLink__qDRZ4" aria-label="South Africa" href="/en/tournaments/mens/worldcup/canadamexicousa2026/teams/south-africa"><div class="table-team-name_teamCell__qNpHg"><div class="table-team-name_teamLogo__wehwv"><div class="match-centre-logo-component_TeamLogoWrapper__P3lPN d-flex align-items-center justify-content-center match-centre-logo-component_border__Ynhdq"><img decoding="async" loading="lazy" height="auto" width="32" alt="" title="" class="image_img__pNjkh" srcset="https://api.fifa.com/api/v3/picture/flags-sq-1/RSA 1x"></div></div><div class="table-team-name_teamName__lgiBj ff-pl-8"><span class="d-none d-md-1024-block">South Africa</span><div class="team-abbreviations_container__wWtDG false d-md-1024-none"><span>RSA</span></div></div></div></a></td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">1</td><td class="standings-table-row_stats__8X9fU d-none d-md-table-cell">0</td><td class="standings-table-row_stats__8X9fU d-none d-md-table-cell">2</td><td class="standings-table-row_stats__8X9fU d-xs-table-cell d-md-table-cell">-2</td><td class="standings-table-row_stats__8X9fU standings-table-row_points__A+pD8 d-xs-table-cell d-md-table-cell">0</td><td class="standings-table-row_form__ebxTp d-none d-md-table-cell"><ul class="table-col-form_teamForm__G0F0k"><div class="match-result-icon_lossColor__z1HcP match-result-icon_resultIcon__-osRT"></div><div>-</div><div>-</div><div>-</div><div>-</div></ul></td></tr></tbody></table>
+
+
+[class="standings-table_standingsTableContainer__zCpm2 standings-table_expandedTable__47Don"] table tbody tr  [aria-label="South Africa"]
+
+
+//2 PARTAIL SELECTORS
+
+this are used in attribute and value and class
+use this when you have a partial which is very unique 
+
+//starting selector --> [atrr = value value_1]  --> [attr ^= "value"]
+//ending selector -->   [attr = value_1 value2] --> [attr $= "value2"]
+//contain         -->   [attr =value_1 value3]  --> [ attr*=1]
+

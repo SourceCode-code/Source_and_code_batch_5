@@ -1,0 +1,75 @@
+ADVANCE Xpath 
+
+
+// XPATH FUNCTIONS 
+
+1 FIND ELEMENT USING VISIBLE TEXT FORM TEXT 
+
+EXAMPLE 
+
+ELEMENT --> <h2 name="contactme" class="section_header">CONTACT US</h2>
+
+//TAGNAME[FUNCTIONNAME="VALUE"]
+
+selector --> //h2[text()="CONTACT US"]
+
+NOTE:- THIS FUNCTION WILL ONLY WORK WHEN THE TEXT IS PRESENT IN THE DOM (IT IS PLACED BETWEEN TWO ELEMENT )
+TEXT() --> THIS FUNCTION REQUIRES THE EXCAT TEXT  
+
+2 FIND THE ELEMENT USING PARCITAL VISIBLE TEXT 
+
+EXAMPLE 
+
+ELEMENT --> <h2 name="contactme" class="section_header">CONTACT US</h2>
+
+//TAGNAME[CONTAINS(TEXT(),"TEXTVALUE)]
+
+
+selector --> //h2[contains(text(),"CONTACT")]
+
+
+3 FIND ELEMENT WHEN THE VALUE IS CHANGING DYNAMICALLY 
+
+EXAMPLE OF VALUE CHANGE 
+
+USER123
+USER456
+USER789
+1234USER
+//TAGNAME[CONTAINS(@ATTRIBUTE,"VALUE")]
+//input[contains(@id,"USER")]
+
+ELEMENT --> <input name="first_name" type="text" class="feedback-input" placeholder="First Name" fdprocessedid="4f457c">
+
+//input[contains(@name,"first")]
+
+
+4 starts-with()
+
+
+ELEMENT --> <input name="first_name" type="text" class="feedback-input" placeholder="First Name" fdprocessedid="4f457c">
+
+//input[starts-with(@name,"first")]
+
+
+
+// XPATH OPERATORS 
+
+AND 
+
+T & T ==> T
+
+<input name="first_name" type="text" class="feedback-input" placeholder="First Name" fdprocessedid="4f457c">
+
+//input[@ type="text" and @name="first_name"]
+
+
+
+OR 
+
+<input class="contact_button" type="submit" value="SUBMIT" fdprocessedid="41chrf">
+
+//input[@value="SUBMIT" or @value="SAVE"]
+
+
+

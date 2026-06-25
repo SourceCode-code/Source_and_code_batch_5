@@ -1,0 +1,57 @@
+// priority 
+
+1. id
+2. name
+3. text()
+4. contains()
+5. starts-with()
+6. parent/child axes
+7. index
+8. absolute xpath (last option)
+
+
+
+| Question                   | Answer                                     |
+| -------------------------- | ------------------------------------------ |
+| Absolute vs Relative XPath | `/` starts from root, `//` starts anywhere |
+| XPath Formula              | `//tag[@attribute='value']`                |
+| Find by Text               | `//button[text()='Login']`                 |
+| Partial Match              | `contains()`                               |
+| Dynamic IDs                | `starts-with()` or `contains()`            |
+| Multiple Conditions        | `and`, `or`                                |
+| Parent Element             | `parent::`                                 |
+| Sibling Element            | `following-sibling::`                      |
+| Last Element               | `last()`                                   |
+| Second Element             | `(//input)[2]`                             |
+
+
+
+//input
+
+//input[@id='email']
+
+//button[text()='Login']
+
+//div[contains(@class,'user')]
+
+//input[starts-with(@id,'user')]
+
+//input[@name='email' and @type='text']
+
+//button[@id='save' or @id='submit']
+
+//input/parent::div
+
+//label/following-sibling::input
+
+//input/ancestor::form
+
+//div/descendant::button
+
+(//input)[1]
+
+(//input)[last()]
+
+//li[position()=3]
+
+//*[@class='btn']

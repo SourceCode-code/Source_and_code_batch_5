@@ -1,0 +1,66 @@
+Playwright Test Commands – Explanation
+
+
+Commands Used to Run Test Cases in Playwright
+---------------------------------------------
+
+
+1. Run All Test Cases
+--------------------
+This command runs all the test cases available in the project.
+
+npx playwright test
+
+
+2. Run Test Cases in Headed Mode
+--------------------------------
+This command runs tests with the browser UI visible.
+
+npx playwright test --headed
+
+
+3. Run Test Cases Using Playwright UI Mode
+-------------------------------------------
+This command opens the Playwright Test Runner UI.
+
+npx playwright test --ui
+
+
+4. Run Tests in a Specific Browser
+----------------------------------
+You can run tests in a specific browser using the --project flag.
+
+Chromium:
+npx playwright test --project=chromium
+
+Firefox:
+npx playwright test --project=firefox
+
+WebKit:
+npx playwright test --project=webkit
+
+
+5. Run a Single Test Case
+------------------------
+You can run a specific test file by providing its path.
+
+npx playwright test path_of_test_case
+
+Example:
+npx playwright test tests/example.spec.js
+
+
+6. File Path Symbols Explanation
+--------------------------------
+/   --> Forward slash (used in file paths, mostly in Mac/Linux and Playwright)
+/   --> Example: tests/example.spec.js
+
+\   --> Backward slash (used mainly in Windows file paths)
+\   --> Example: tests\example.spec.js
+
+
+7. Run Test Cases in Debug Mode
+-------------------------------
+This command runs tests in debug mode to help with troubleshooting.
+
+npx playwright test --debug

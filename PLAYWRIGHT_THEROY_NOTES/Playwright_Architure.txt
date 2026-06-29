@@ -1,0 +1,126 @@
+Playwright Architecture – Explanation
+
+
+Overview
+--------
+Playwright is designed to provide a seamless automation experience
+for modern web applications.
+
+It is fast, reliable, and supports cross-browser and cross-platform
+testing, giving it an edge over traditional automation tools.
+
+
+Communication Protocol
+----------------------
+Playwright works on the WebSocket protocol.
+
+Unlike Selenium, which communicates with browsers using HTTP requests,
+Playwright maintains a persistent WebSocket connection with the browser.
+
+
+Client Side
+-----------
+On the client side (VS Code or any IDE), testers write test cases
+using supported languages such as:
+- JavaScript
+- TypeScript
+
+These test scripts act as commands sent to the Playwright server.
+
+
+Playwright Server
+-----------------
+When a test is triggered:
+- Test instructions are sent to the Playwright server
+- The server communicates with the browser
+- Execution happens synchronously using async/await
+
+This ensures controlled and predictable execution.
+
+
+Browser Communication
+---------------------
+Playwright communicates with browsers using native browser protocols:
+- Chromium → CDP (Chrome DevTools Protocol)
+- Firefox → Firefox Remote Protocol
+- WebKit → WebKit Protocol
+
+This direct communication allows faster execution and better stability.
+
+
+WebSocket Handshake
+-------------------
+The communication between:
+- Client (test code)
+- Playwright server
+- Browser
+
+happens using a WebSocket handshake.
+
+This means:
+- Communication is bi-directional
+- Data flows both ways
+- The connection remains active until either side closes it
+
+
+Why WebSocket Matters
+---------------------
+Because the WebSocket connection is persistent:
+- No repeated connection setup is required
+- Execution is faster
+- Fewer synchronization issues occur
+
+This significantly reduces test flakiness.
+
+
+Execution Flow
+--------------
+1. Test is triggered from the client
+2. Commands are sent to Playwright server
+3. Server communicates with browser
+4. Browser performs actions
+5. Results are sent back to the client
+
+
+Advantages of Playwright Architecture
+-------------------------------------
+- Faster test execution
+- Reduced flakiness
+- Better synchronization
+- Reliable cross-browser testing
+- Strong control over browser behavior
+
+
+Playwright Architecture – Interview Answer
+
+Playwright is designed to provide a fast, reliable, and seamless automation experience for modern web applications. Its architecture is built to reduce flakiness, improve speed, and support true cross-browser testing.
+
+Playwright follows a client–server architecture. On the client side, test scripts are written using languages like JavaScript or TypeScript in editors such as VS Code. When a test is executed, these instructions are sent to the Playwright server.
+
+Unlike Selenium, which uses HTTP-based communication, Playwright works on a WebSocket protocol. This creates a persistent, bi-directional connection between the client, Playwright server, and the browser. The connection remains active until either side explicitly closes it.
+
+Playwright communicates directly with browsers using native browser protocols:
+
+Chromium → Chrome DevTools Protocol (CDP)
+
+Firefox → Firefox Remote Protocol
+
+WebKit → WebKit Protocol
+
+Because of this direct communication, Playwright does not rely on external drivers. This results in faster execution, better synchronization, and higher stability.
+
+Test execution in Playwright is handled using async and await, ensuring commands are executed in a controlled and synchronous manner from the user’s perspective. This significantly reduces timing issues and flaky tests.
+
+The WebSocket handshake allows continuous two-way communication where actions and responses flow smoothly between the test code and the browser. Since the connection is persistent, there is no repeated setup or teardown during execution.
+
+Overall, Playwright’s architecture provides:
+
+High performance
+
+Reduced flakiness
+
+Reliable cross-browser automation
+
+Strong control over browser behavior
+
+This architecture gives Playwright a clear advantage over traditional automation tools like Selenium.

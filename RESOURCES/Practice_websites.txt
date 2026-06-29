@@ -1,0 +1,61 @@
+
+
+The Internet
+https://the-internet.herokuapp.com/
+
+UI Test Automation Playground
+https://www.uitestingplayground.com/
+
+Automation Practice
+http://automationpractice.com/index.php
+
+Sauce Demo
+https://www.saucedemo.com/
+
+Practice Automation Testing
+http://practice.automationtesting.in/
+
+ToolsQA Demo Site
+https://demoqa.com/
+
+PHP Travels
+https://phptravels.com/demo/
+
+OrangeHRM Demo
+https://opensource-demo.orangehrmlive.com/
+
+
+E-Commerce Demo Site
+https://magento.softwaretestinghelp.com/ not working
+
+Parabank Demo
+https://parabank.parasoft.com/parabank/index.htm need credential
+
+Grocery Store
+https://practice.automationbro.com/    not working
+
+TriNet HR Software Demo
+https://www.trinet.comcom/login
+
+Demo Blaze
+https://www.demoblaze.com/
+
+OpenCart Demo
+https://demo.opencart.com/
+
+HRMSystem
+https://hrmsystem.myaura.app/
+
+
+Random User Generator
+https://randomuser.me/
+
+DataTables
+https://datatables.net/examples/index
+
+webdriver 
+https://webdriveruniversity.com/
+
+
+more webistes 
+https://github.com/BMayhew/awesome-sites-to-test-on

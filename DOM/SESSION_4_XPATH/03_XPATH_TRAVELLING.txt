@@ -1,0 +1,57 @@
+// traveling 
+
+1 how to get parent form child 
+
+element 
+
+<div class="col-lg-12 text-center">
+                <h2 name="contactme" class="section_header">CONTACT US</h2><br>
+              </div>
+
+
+selector --> //h2[@name="contactme"]/parent::div   -- form child to parent
+
+
+2 how travel from parent to child 
+element
+<div class="col-lg-12 text-center">
+                <h2 name="contactme" class="section_header">CONTACT US</h2><br>
+              </div>
+
+
+selector-->
+
+//div[@class="col-lg-12 text-center"]/child::h2
+
+
+
+3 how to select any ancestor ( grand parnets or any above parents )
+
+//h2[@name="contactme"]/ancestor::section
+
+
+4 how to any descendant ( children)
+
+//section/descendant::h2
+
+
+
+// POSTIONS AND INDEX 
+
+first element 
+
+tag/atrtribute [postion number ]
+
+exmaple 
+
+//input[1]  --> get the first input tag 
+
+to take last element 
+
+/input[last()]
+
+to get tag more than give 
+
+//form/input[position()>1]
+
+[position() condition value]

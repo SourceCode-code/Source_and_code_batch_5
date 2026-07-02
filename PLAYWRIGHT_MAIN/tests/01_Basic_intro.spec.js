@@ -23,5 +23,6 @@ test("verify successfull filling of the contact us form ", async ({ browser }) =
     await page.goto("https://webdriveruniversity.com/Contact-Us/contactus.html")
     // asseration to verify title of the page 
     await expect(page).toHaveTitle("WebDriver | Contact Us")
+    
 
 })

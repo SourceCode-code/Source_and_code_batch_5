@@ -72,12 +72,12 @@ async function Start_user_acitivy(user) {
 
 
 async function POST_A_STORY_WITH_NEW_ACCOUNT() {
-    // console.log("the process is started")
-    // await AccountCreation("sid")
-    // await Verify_details("sid")
-    // await Get_data("sid")
-    // await Start_user_acitivy("sid")
-    // console.log("the process has been completed ")
+    console.log("the process is started")
+    await AccountCreation("sid")
+    await Verify_details("sid")
+    await Get_data("sid")
+    await Start_user_acitivy("sid")
+    console.log("the process has been completed ")
 }
 
 

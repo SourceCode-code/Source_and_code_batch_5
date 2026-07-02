@@ -6,3 +6,9 @@ test("verify successful title of the page", async ({ page }) => {
 
     await expect(page).toHaveTitle("Swag Labs")
 });
+
+
+test("verify successful login", async ({ page }) => {
+    await page.goto("https://wealthmapper.preprod.evry.com/wel-client-shb-s3/login")
+    await expect(page).getByText("Handelsbanken")
+});

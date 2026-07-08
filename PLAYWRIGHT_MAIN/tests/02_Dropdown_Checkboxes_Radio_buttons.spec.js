@@ -63,7 +63,42 @@ test("verify static  dropdown buttons to be selected", async ({ browser }) => {
     //
     await expect(page.locator('//select[@id="dropdowm-menu-1"]')).toHaveValue("python")
     await page.locator('//select[@id="dropdowm-menu-2"]').selectOption("testng")
-      await expect(page.locator('//select[@id="dropdowm-menu-2"]')).toHaveValue("testng")
+    await expect(page.locator('//select[@id="dropdowm-menu-2"]')).toHaveValue("testng")
 
 })
 
+
+
+test("verify dynmaic dropdown", async ({ browser }) => {
+
+    const Context = await browser.newContext()
+    const page = await Context.newPage()
+
+
+    // visit the webpage  
+    await page.goto("https://rahulshettyacademy.com/AutomationPractice/")
+    
+    //fill text in locator 
+    await page.locator('[id="autocomplete"]').fill("No")
+    //wait till list appear 
+    await page.waitForSelector('[id="ui-id-1"]') // impilict wait
+    // if you want to get the number of option avaialbe ( end point or count) .count()
+    let optioncount = await page.locator('[class="ui-menu-item"] div').count()
+    console.log(optioncount) //
+    // how get text from any element in the dom --> .textContent()--> this will return the hardcoded text 
+    // we have to select a single locator form siblings just like :nth-child(child number)   -> .nth(index of element) -> select a single fomr sibling 
+    // based upon index  
+    for (let i = 0; i < optioncount; i++) {
+        let text = await page.locator('[class="ui-menu-item"] div').nth(i).textContent()
+        console.log(text)
+        if (text === "Norway") {
+            await page.locator('[class="ui-menu-item"] div').nth(i).click()
+            break
+        }
+    }
+    // expectcity wait
+    await page.waitForTimeout(3000) // this will wait for 3 sec
+    // await page.waitForLoadState("networkidle") // this will wait untill there is no api call on page 
+    // asseration 
+    await expect(page.locator('[id="autocomplete"]')).toHaveValue("Norway")
+})

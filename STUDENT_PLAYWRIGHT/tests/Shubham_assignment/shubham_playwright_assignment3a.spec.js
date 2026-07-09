@@ -31,7 +31,7 @@ await expect(checkbox4).toBeChecked()
 
 })
 
-test("Select Dropdown ",async({browser})=>{
+test("Radio Button",async({browser})=>{
 
 const context=await browser.newContext()
 
@@ -41,12 +41,38 @@ await page.goto("https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButton
 
 await expect(page).toHaveTitle(/Dropdown menu/i)
 
+await page.locator('[value="green"]').check()
+
+await expect(page.locator('[value="green"]')).toBeChecked()
 
 
+})
 
+test("verify disable button",async({browser})=>{
 
+const context=await browser.newContext()
 
+const page=await context.newPage()
 
+await page.goto("https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html")
 
+await expect(page).toHaveTitle(/Dropdown menu/i)
+
+await expect(page.locator('//form[@id="radio-buttons-selected-disabled"]//input[@value="cabbage"]')).toBeDisabled()
+
+})
+
+test("verify Dropdown",async({browser})=>{
+
+const context=await browser.newContext()
+
+const page=await context.newPage()
+
+await page.goto("https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html")
+
+await expect(page).toHaveTitle(/Dropdown menu/i)
+
+await page.locator('[id="fruit-selects"]').selectOption('Pear')
+await expect(page.locator('[id="fruit-selects"]')).toHaveValue(/Pear/i)
 
 })

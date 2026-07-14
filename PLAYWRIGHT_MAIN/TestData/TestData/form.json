@@ -1,0 +1,9 @@
+{
+  "Page_title": "WebDriver | Contact Us",
+  "section_header": "CONTACT US",
+  "firstName": "user 100",
+  "lastName": " data 1000",
+  "email": "userdata123@gmail.com",
+  "comment": "hello this is demo of testdata ",
+  "success_message": "Thank You for your Message!"
+}

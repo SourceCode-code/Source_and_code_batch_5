@@ -58,3 +58,8 @@ test("Verify the file upload for a single file", async ({ page }) => {
 // because we cant predict when the popup will come after file is upload
 // 
 
+/**
+ * https://webdriveruniversity.com/File-Upload/index.html
+ * https://davidwalsh.name/demo/multiple-file-upload.php
+ * https://letcode.in/file 
+ */

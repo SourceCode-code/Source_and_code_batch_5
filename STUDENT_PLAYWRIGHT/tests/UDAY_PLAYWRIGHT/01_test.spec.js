@@ -16,3 +16,4 @@ test('To verify login functionality', async ({ browser }) => {
     await expect(page.locator('[class="post-title"]')).toHaveText('Logged In Successfully');
     
 });
+//D:\Source_and_code_batch_5\STUDENT_PLAYWRIGHT\tests\UDAY_PLAYWRIGHT\TestData\TestData\readme.txt

@@ -1,0 +1,11 @@
+//INTRODUCTION
+
+Hi, my name is shweta dhananjay ugwekar.I am from chinchawad maharashtra. I’m an Automation Test Engineer with around 4.1 years of experience in software testing, specializing in web automation and quality assurance.
+Throughout my career, I’ve had the opportunity to work across domains such as Insurance and Automotive, where I worked in Agile environments closely collaborating with developers, business analysts, and cross-functional teams to ensure high-quality software delivery.
+I have strong hands-on experience in automation testing using Cypress and Playwright with JavaScript, along with expertise in tools like Jira, Git, GitHub, and Postman. I’ve also worked extensively with the Page Object Model (POM) framework to build scalable, maintainable, and efficient automation solutions.
+Currently, I’m working with Pentagram Infotech Pvt. Ltd. as an Automation Test Engineer. My responsibilities include understanding customer requirements and user stories, creating and executing automation test scripts based on test documentation, defect reporting, and ensuring overall application quality throughout the testing lifecycle.
+In my previous project with IFFCO-Tokio Insurance, I worked on automating major testing activities for the insurance management system, where I implemented over 80+ automation test cases and reduced manual testing efforts by nearly 70%.
+In my current Automotive project for Volkswagen APOS-NF After Sales System, I’m actively contributing to the QA automation framework by automating over 200 regression and end-to-end test scenarios. This helped reduce overall testing time by 75% while improving cross-browser compatibility and test reliability. I also worked on solving challenging scenarios involving iframes and dynamic URLs to ensure stable automation execution.
+Overall, I’m passionate about automation testing, continuously improving testing processes, and delivering high-quality solutions in fast-paced Agile environments. I’m always eager to learn new technologies and take on challenging opportunities that help me grow professionally.
+Thank you.
+

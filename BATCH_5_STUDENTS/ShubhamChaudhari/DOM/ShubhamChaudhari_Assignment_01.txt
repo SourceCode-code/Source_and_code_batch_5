@@ -1,0 +1,129 @@
+
+
+Amazon
+
+Element 
+1 ) <a href="/minitv?ref_=nav_avod_desktop_topnav" class="nav-a " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_1" data-csa-c-content-id="nav_avod_desktop_topnav" data-csa-c-id="9qvp6s-kkem77-7nqnew-z6qq6w">MX Player</a>
+
+Selector : a[href='/minitv?ref_=nav_avod_desktop_topnav'] 
+
+2 )     <h2 class="a-size-base a-color-base apb-browse-refinements-indent-1 a-text-bold" dir="auto">
+    Mobiles &amp; Accessories
+</h2>
+
+Selector : [class="a-size-base a-color-base apb-browse-refinements-indent-1 a-text-bold"]
+
+3)<a href="/electronics/b/?ie=UTF8&amp;node=976419031&amp;ref_=topnav_storetab_top_elec_mega" class="nav-a nav-hasImage">
+      <span class="nav-a-content">
+        <img src="https://m.media-amazon.com/images/G/31/img18/Electronics/Megamenu/Megamenu_Electronics_top._CB485947327_.png" class="nav-categ-image" alt="Electronics">
+      </span>
+    </a>
+Selector : [href="/electronics/b/?ie=UTF8&node=976419031&ref_=topnav_storetab_top_elec_mega"]
+
+4)<div class="_Y29ud_bxcGridImage_mukPG _Y29ud_bxcGridHalign_3QrYc _Y29ud_bxcGridHalignCenter_YYl_I"><a href="/b?_encoding=UTF8&amp;node=1375419031&amp;ref_=cct_cg_onCall_2b1&amp;pf_rd_p=5d0bca33-c24e-484c-9b8d-8e25d87a0406&amp;pf_rd_r=8ZWK14C23Q7YD9GQXYTY"><img src="https://m.media-amazon.com/images/G/31/img22/dec/pc/sbc/440X460_2.jpg" alt=".">
+</a></div><a href="/b?_encoding=UTF8&amp;node=1375419031&amp;ref_=cct_cg_onCall_2b1&amp;pf_rd_p=5d0bca33-c24e-484c-9b8d-8e25d87a0406&amp;pf_rd_r=8ZWK14C23Q7YD9GQXYTY"><img src="https://m.media-amazon.com/images/G/31/img22/dec/pc/sbc/440X460_2.jpg" alt=".">
+</a><img src="https://m.media-amazon.com/images/G/31/img22/dec/pc/sbc/440X460_2.jpg" alt=".">
+Selector : [class="_Y29ud_bxcGridImage_mukPG _Y29ud_bxcGridHalign_3QrYc _Y29ud_bxcGridHalignCenter_YYl_I"] a img[src="https://m.media-amazon.com/images/G/31/img22/dec/pc/sbc/440X460_2.jpg"]
+
+5)<a href="/gp/sva/dashboard?ref_=nav_cs_apay" class="nav-a  " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_9" data-csa-c-content-id="nav_cs_apay" data-csa-c-id="1vjkd4-zi1gim-x85icd-q30vjp">Amazon Pay</a>
+Selector :[href="/gp/sva/dashboard?ref_=nav_cs_apay"]
+
+Flipcart 
+1) <ul class="VCplLH lTpUwR _1psv1ze5l _1psv1ze9l _1psv1ze7c _1cisqlf2" style="border-radius: 16px; background-color: rgb(255, 255, 255);"><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="b43c367f-2167-4e69-9426-05f2c72450a6"><a href="/search?q=grocery+all+item&amp;sid=eat%2C18p&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&amp;as-pos=1&amp;as-type=HISTORY&amp;suggestionId=grocery+all+item%7CEdible+Oil&amp;requestId=f18bba55-2ba8-4140-bb99-7e5247b3483b" class="ZBdLcw" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/19/07/2018/321e89f8-9ffa-47a7-a9d4-731da9bde6c4.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">grocery all item<div class="QNbOAs v1zwn27" style="color: rgb(17, 98, 242);">in Edible Oil</div></div></a></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="c128ea31-e026-46c0-aba3-3629834b1976"><a href="/search?q=mobile+5g&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_2_6_na_na_ps&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_2_6_na_na_ps&amp;as-pos=2&amp;as-type=HISTORY&amp;suggestionId=mobile+5g%7CMobiles&amp;requestId=0ef7f817-3dbb-4620-8c8f-8b4e84185146" class="ZBdLcw" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/19/07/2018/321e89f8-9ffa-47a7-a9d4-731da9bde6c4.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">mobile 5g<div class="QNbOAs v1zwn27" style="color: rgb(17, 98, 242);">in Mobiles</div></div></a></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="0a567b4b-56f2-4a41-8e70-f81dfed8fd3d"><a href="/search?q=mobiles&amp;as=on&amp;as-show=on&amp;otracker=AS_Query_TrendingAutoSuggest_3_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_3_0_na_na_na&amp;as-pos=3&amp;as-type=HISTORY&amp;suggestionId=mobiles&amp;requestId=58ba3670-db1b-4d20-8822-f0059f40924b" class="ZBdLcw uOWdgt" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/19/07/2018/321e89f8-9ffa-47a7-a9d4-731da9bde6c4.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">mobiles</div></a></div></li><li class="Swx5kP"><div class="" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="_1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(112, 112, 112);">Trending</div></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="26f51b91-835a-419a-9d22-957a4de657ca"><a href="/search?q=shoes&amp;as=on&amp;as-show=on&amp;otracker=AS_Query_TrendingAutoSuggest_4_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_4_0_na_na_na&amp;as-pos=4&amp;as-type=TRENDING&amp;suggestionId=shoes&amp;requestId=e83e28c0-5e1f-4c48-8dfb-4ff3d282417b" class="ZBdLcw uOWdgt" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/20/07/2022/ea2077a7-575d-4fb9-a4dd-6df16e53c5d8.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">shoes</div></a></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="a16338d9-9b25-4991-880a-a6669959f9db"><a href="/search?q=t+shirts&amp;as=on&amp;as-show=on&amp;otracker=AS_Query_TrendingAutoSuggest_5_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_5_0_na_na_na&amp;as-pos=5&amp;as-type=TRENDING&amp;suggestionId=t+shirts&amp;requestId=e83e28c0-5e1f-4c48-8dfb-4ff3d282417b" class="ZBdLcw uOWdgt" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/20/07/2022/ea2077a7-575d-4fb9-a4dd-6df16e53c5d8.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">t shirts</div></a></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="ec9c02c6-a896-4c2e-8f13-9170e77b4197"><a href="/search?q=laptops&amp;as=on&amp;as-show=on&amp;otracker=AS_Query_TrendingAutoSuggest_6_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_6_0_na_na_na&amp;as-pos=6&amp;as-type=TRENDING&amp;suggestionId=laptops&amp;requestId=e83e28c0-5e1f-4c48-8dfb-4ff3d282417b" class="ZBdLcw uOWdgt" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/20/07/2022/ea2077a7-575d-4fb9-a4dd-6df16e53c5d8.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">laptops</div></a></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="559441b0-52d9-4bb7-9859-e5177db3d977"><a href="/search?q=watches&amp;as=on&amp;as-show=on&amp;otracker=AS_Query_TrendingAutoSuggest_7_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_7_0_na_na_na&amp;as-pos=7&amp;as-type=TRENDING&amp;suggestionId=watches&amp;requestId=e83e28c0-5e1f-4c48-8dfb-4ff3d282417b" class="ZBdLcw uOWdgt" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/20/07/2022/ea2077a7-575d-4fb9-a4dd-6df16e53c5d8.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">watches</div></a></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="0f7547cf-6f55-49ff-b94a-7375ccf140f9"><a href="/search?q=tv&amp;as=on&amp;as-show=on&amp;otracker=AS_Query_TrendingAutoSuggest_8_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_8_0_na_na_na&amp;as-pos=8&amp;as-type=TRENDING&amp;suggestionId=tv&amp;requestId=e83e28c0-5e1f-4c48-8dfb-4ff3d282417b" class="ZBdLcw uOWdgt" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/20/07/2022/ea2077a7-575d-4fb9-a4dd-6df16e53c5d8.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">tv</div></a></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="cceb560b-638a-4f4b-a699-9cbefeda67c9"><a href="/search?q=sarees&amp;as=on&amp;as-show=on&amp;otracker=AS_Query_TrendingAutoSuggest_9_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_9_0_na_na_na&amp;as-pos=9&amp;as-type=TRENDING&amp;suggestionId=sarees&amp;requestId=e83e28c0-5e1f-4c48-8dfb-4ff3d282417b" class="ZBdLcw uOWdgt" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/20/07/2022/ea2077a7-575d-4fb9-a4dd-6df16e53c5d8.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">sarees</div></a></div></li><li class="Swx5kP"><div data-observerid-8a2d1d10-7179-405e-afe4-167f256718ba="41234619-2182-4d0f-b4f4-d78264db7ced"><a href="/search?q=headphones&amp;as=on&amp;as-show=on&amp;otracker=AS_Query_TrendingAutoSuggest_10_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_10_0_na_na_na&amp;as-pos=10&amp;as-type=TRENDING&amp;suggestionId=headphones&amp;requestId=e83e28c0-5e1f-4c48-8dfb-4ff3d282417b" class="ZBdLcw uOWdgt" tracking="[object Object]" style="--highlight-gradient: linear-gradient(90deg, #D8EFFE, #FFFFFF);"><div class="B8i0s_"><div class="ntqCYD seauF4" style="width: 40px; height: 40px;"><img class="iSAepO HImJXk" alt="" src="https://rukminim2.flixcart.com/www/100/100/promos/20/07/2022/ea2077a7-575d-4fb9-a4dd-6df16e53c5d8.png?q=90"></div></div><div class="VDtK0l _1psv1ze2u _1psv1ze53 _1psv1ze9x _1psv1ze7o" style="color: rgb(51, 51, 51);">headphones</div></a></div></li></ul>
+
+[class="VCplLH lTpUwR _1psv1ze5l _1psv1ze9l _1psv1ze7c _1cisqlf2"]
+
+
+2)<a class="atJtCj" title="Shoes,Loafers Shoes, Running Shoes For Men" target="_blank" rel="noopener noreferrer" href="/hotstyle-shoes-loafers-shoes-running-shoes-men/p/itm4e835fc003e94?pid=SHOHFY3PGBVGGGGG&amp;lid=LSTSHOHFY3PGBVGGGGGQDKXOV&amp;marketplace=FLIPKART&amp;q=shoes&amp;store=osp&amp;srno=s_1_1&amp;otracker=AS_Query_TrendingAutoSuggest_4_0_na_na_na&amp;otracker1=AS_Query_TrendingAutoSuggest_4_0_na_na_na&amp;fm=search-autosuggest&amp;iid=en_3mXUS6oJ96VABiRa96qaYkBC9mfBY5ZmWFqYg_-G8J7mCxXg4B_P0W02hmnL17erS6ESC5EqWWV7A6JUTxsjRBrddapi_SKCuNF0tU4S6ZVA-r6tj2lkozvJDu8ueUls&amp;ppt=sp&amp;ppn=sp&amp;ssid=qxzrx7qb8w0000001781624120778&amp;qH=b0a8b6f820479900&amp;ov_redirect=true">Shoes,Loafers Shoes, Running Shoes For Men</a>
+
+[title="Shoes,Loafers Shoes, Running Shoes For Men"]
+
+3)<span class="v1zwn27" style="color:#333333ff">Login</span>
+a[title="Login"] .v1zwn27
+
+4)<div class="buvtMR">Men</div>
+
+[title="Men"] .buvtMR
+
+5)<div class="tx4xZf StZidb" title="White"><div class="i5kg2N zu805X"><label class="BMOCJ3 StZidb"><input type="checkbox" class="UXWKAE" readonly=""><div class="ybaCDx"></div><div class="buvtMR"><div><div class="mM9ddx" style="background: rgb(255, 255, 255);"></div><div class="mglF2V buvtMR">White</div></div></div></label></div></div>
+[title="White"] .mglF2V.buvtMR
+
+Apple
+
+
+1)<nav role="navigation" aria-label="More Apple Store Links" class="as-globalfooter-directory with-5-columns"
+        <ul id="as-globalfooter-directory-column-section-state-section-three-0" class="as-globalfooter-directory-column-section-list" role="list">
+            <li class="as-globalfooter-directory-column-section-item" role="listitem">
+<a href="https://www.apple.com/in/retail/" data-slot-name="section3" data-feature-name="Footer Navigation" data-display-name="Find a Store" class="as-globalfooter-directory-column-section-link" data-autom="Find a Store-footer-link">                    Find a Store
+
+Selector : .as-globalfooter-directory.with-5-columns [data-display-name="Find a Store"]
+
+2)<a class="rf-productnav-card-title" href="/in/shop/buy-mac" data-relatedlink="_r_b__link" data-slot-name="Shelf-0" data-display-name="AOS: home/shop_mac" data-autom="AOS: home/shop_mac" data-index="1" data-trigger-stoppropagation="true">Mac </a>
+
+Selector : [href="/in/shop/buy-mac"]
+
+3)<div id="generic-3"><div class="rf-shop-chat"><div class="rf-shop-chat-section"><div class="rf-shop-chat-container"><div class="rf-shop-chat-content">
+
+<a href="#" target="_blank" class="as-chat-button active as-buttonlink icon icon-after icon-external" data-autom="chat-with-a-specialist-link" data-relatedlink="chat-with-a-specialist" data-chat-ui="WEB_CHAT_ACTION_GROUP=DEFAULT;">Connect with a Specialist<span class="a11y">(opens in new window)</span></a>
+</div></div></div></div><div class="rs-shop-neareststore"><div class="rs-shop-neareststore-container"><div class="rs-shop-neareststore-content"><a href="https://www.apple.com/in/retail" data-slot-name="generic-3" data-feature-name="Astro Link" data-display-name="AOS: retail" class="icon icon-after icon-external" target="_blank">Find an Apple Store<span class="a11y">(opens in a new window)</span></a></div></div></div></div>
+
+Selector : #generic-3 [data-autom="chat-with-a-specialist-link"]
+
+4)<a href="https://www.apple.com/in/airpods/" data-globalnav-item-name="airpods" data-topnav-flyout-trigger-compact="true" data-analytics-title="airpods" data-analytics-element-engagement="hover - airpods" aria-label="AirPods" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-airpods" data-autom="gn_airpods"><span class="globalnav-link-text-container"><span aria-hidden="true" class="globalnav-image-regular globalnav-link-image"><svg height="44" viewBox="0 0 43 44" width="43" xmlns="http://www.w3.org/2000/svg">
+  <path d="m11.7153 19.6836h.961v.937h.094c.187-.615.914-1.048 1.752-1.048.164 0 .375.011.504.029v1.008c-.082-.024-.446-.059-.645-.059-.961 0-1.658.645-1.658 1.535v3.914h-1.008zm28.135-.111c1.324 0 2.244.656 2.379 1.693h-.996c-.135-.504-.627-.838-1.389-.838-.75 0-1.336.381-1.336.943 0 .434.352.704 1.096.885l.973.235c1.189.287 1.763.802 1.763 1.711 0 1.13-1.095 1.91-2.531 1.91-1.406 0-2.373-.674-2.484-1.723h1.037c.17.533.674.873 1.482.873.85 0 1.459-.404 1.459-.984 0-.434-.328-.727-1.002-.891l-1.084-.264c-1.183-.287-1.722-.796-1.722-1.71 0-1.049 1.013-1.84 2.355-1.84zm-6.665 5.631c-1.155 0-1.846-.885-1.846-2.362 0-1.471.697-2.361 1.846-2.361 1.142 0 1.857.914 1.857 2.361 0 1.459-.709 2.362-1.857 2.362zm1.834-8.028v3.504h-.088c-.358-.691-1.102-1.107-1.981-1.107-1.605 0-2.654 1.289-2.654 3.269 0 1.987 1.037 3.27 2.654 3.27.873 0 1.623-.416 2.022-1.119h.094v1.007h.961v-8.824zm-9.001 8.028c-1.195 0-1.869-.868-1.869-2.362 0-1.5.674-2.361 1.869-2.361 1.196 0 1.869.861 1.869 2.361 0 1.494-.673 2.362-1.869 2.362zm0-5.631c-1.799 0-2.912 1.236-2.912 3.269 0 2.028 1.113 3.27 2.912 3.27s2.912-1.242 2.912-3.27c0-2.033-1.113-3.269-2.912-3.269zm-17.071 6.427h1.008v-6.316h-1.008zm-.199-8.238c0-.387.317-.703.703-.703.387 0 .703.316.703.703s-.316.703-.703.703c-.386 0-.703-.316-.703-.703zm-6.137 4.922 1.324-3.773h.093l1.325 3.773zm1.892-5.139h-1.043l-3.117 8.455h1.107l.85-2.42h3.363l.85 2.42h1.107zm14.868 4.5h-1.864v-3.562h1.864c1.224 0 1.898.639 1.898 1.799 0 1.119-.697 1.763-1.898 1.763zm.275-4.5h-3.193v8.455h1.054v-3.017h2.127c1.588 0 2.719-1.119 2.719-2.701 0-1.612-1.107-2.737-2.707-2.737z"></path></svg></span><span class="globalnav-link-text">AirPods</span></span><span class="globalnav-link-chevron" aria-hidden="true"><svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg></span></a>
+
+Selector : [data-globalnav-item-name="airpods"]
+
+5)<a href="https://www.apple.com/in/support/" data-globalnav-item-name="support" data-topnav-flyout-trigger-compact="true" data-analytics-title="support" data-analytics-element-engagement="hover - support" data-analytics-exit-link="true" aria-label="Support" class="globalnav-link globalnav-submenu-trigger-link globalnav-link-support" data-autom="gn_support"><span class="globalnav-link-text-container"><span aria-hidden="true" class="globalnav-image-regular globalnav-link-image"><svg height="44" viewBox="0 0 44 44" width="44" xmlns="http://www.w3.org/2000/svg">
+ <path d="m42.1206 18.0337v1.635h1.406v.844h-1.406v3.574c0 .744.281 1.06.937 1.06.182 0 .282-.006.469-.023v.849c-.199.036-.392.059-.592.059-1.3 0-1.822-.48-1.822-1.687v-3.832h-1.019v-.844h1.019v-1.635zm-6.131 1.635h.961v.937h.093c.188-.615.914-1.049 1.752-1.049.164 0 .375.012.504.03v1.008c-.082-.024-.445-.059-.644-.059-.961 0-1.659.644-1.659 1.535v3.914h-1.007zm-2.463 3.158c0-1.5-.674-2.361-1.869-2.361s-1.869.861-1.869 2.361c0 1.494.674 2.361 1.869 2.361s1.869-.867 1.869-2.361zm-4.781 0c0-2.033 1.113-3.27 2.912-3.27s2.912 1.237 2.912 3.27c0 2.027-1.113 3.27-2.912 3.27s-2.912-1.243-2.912-3.27zm-2.108 0c0-1.477-.692-2.361-1.846-2.361-1.143 0-1.863.908-1.863 2.361 0 1.447.72 2.361 1.857 2.361 1.16 0 1.852-.884 1.852-2.361zm1.043 0c0 1.975-1.049 3.27-2.655 3.27-.902 0-1.629-.393-1.974-1.061h-.094v3.059h-1.008v-8.426h.961v1.054h.094c.404-.726 1.16-1.166 2.021-1.166 1.612 0 2.655 1.284 2.655 3.27zm-8.048 0c0-1.477-.691-2.361-1.845-2.361-1.143 0-1.864.908-1.864 2.361 0 1.447.721 2.361 1.858 2.361 1.16 0 1.851-.884 1.851-2.361zm1.043 0c0 1.975-1.049 3.27-2.654 3.27-.902 0-1.629-.393-1.975-1.061h-.093v3.059h-1.008v-8.426h.961v1.054h.093c.405-.726 1.161-1.166 2.022-1.166 1.611 0 2.654 1.284 2.654 3.27zm-7.645 3.158h-.961v-.99h-.094c-.316.703-.99 1.102-1.957 1.102-1.418 0-2.156-.844-2.156-2.338v-4.09h1.008v3.844c0 1.136.422 1.664 1.43 1.664 1.113 0 1.722-.663 1.722-1.77v-3.738h1.008zm-11.69-2.209c.129.885.972 1.447 2.174 1.447 1.136 0 1.974-.615 1.974-1.453 0-.72-.527-1.177-1.693-1.47l-1.084-.282c-1.529-.386-2.192-1.078-2.192-2.279 0-1.435 1.202-2.408 2.989-2.408 1.634 0 2.853.973 2.941 2.338h-1.06c-.147-.867-.862-1.383-1.916-1.383-1.125 0-1.87.562-1.87 1.418 0 .662.463 1.043 1.629 1.342l.885.234c1.752.44 2.455 1.119 2.455 2.361 0 1.553-1.224 2.543-3.158 2.543-1.793 0-3.029-.949-3.141-2.408z"></path></svg></span><span class="globalnav-link-text">Support</span></span><span class="globalnav-link-chevron" aria-hidden="true"><svg height="48" viewBox="0 0 9 48" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z"></path></svg></span></a>
+
+ Selector : [data-analytics-title="support"]
+
+ AJIO
+
+ 1)<input type="checkbox" name="genderfilter" id="Men" aria-hidden="true" tabindex="-1" value="Men">
+ Selector : #Men
+
+ 3)<input autocomplete="off" tabindex="0" aria-label="Search AJIO" class="react-autosuggest__input react-autosuggest__input--open" placeholder="Search AJIO" name="searchVal" type="text" value="">
+
+ Selector: [placeholder="Search AJIO"]
+
+ 3)<div class="prod-sp" data-btfy-pw-extract-id="L0LJWRxV-extract-productprice">₹7,149</div>
+
+ [class="prod-sp"]
+
+ 4)<div class="size-selection" id="selectSizeId" aria-label="Select Size"> Select Size <span class="size-format" aria-label="UK" data-btfy-pw-extract-id="L0LJWRxV-extract-productsize">(UK)</span></div>
+
+ #selectSizeId
+
+ 5)<a href="https://www.ajio.com/home" target="_self" title="Home" aria-label="Home">Home</a>
+
+ [title="Home"]
+
+
+
+wikipedia
+
+
+ 1)<input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off" style="padding-right: 64px;">
+
+ [id="searchInput"]
+
+ 2)<a class="jsl10n" data-jsl10n="portal.app-links.url" href="https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications">
+Download Wikipedia for Android or iOS
+</a>
+
+[data-jsl10n="portal.app-links.url"]
+
+3)<span class="other-project-title jsl10n" data-jsl10n="wikibooks.name">Wikibooks</span>
+
+[data-jsl10n="wikibooks.name"]
+
+4)<span class="other-project-title jsl10n" data-jsl10n="commons.name">Commons</span>
+
+[data-jsl10n="commons.name"]
+
+5)<a href="//en.wikipedia.org/" lang="en" title="English">English</a>
+
+
+[title="English"]

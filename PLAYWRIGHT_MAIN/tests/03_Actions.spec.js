@@ -1,5 +1,4 @@
 const { test, expect } = require("@playwright/test")
-const { allowedNodeEnvironmentFlags } = require("node:process")
 
 
 test("verify dynamic click", async ({ browser }) => {
@@ -97,6 +96,20 @@ test("verify Drag and drop way 2 ", async ({ browser }) => {
 
     await dargelement.dragTo(dropableelement)
     await expect(page.locator('[id="droppable"] p')).toHaveText('Dropped!')
+})
+
+test("verify keyboard actions ", async ({ browser }) => {
+    const Context = await browser.newContext()
+    const page = await Context.newPage()
+
+    await page.goto("https://gotranscript.com/text-compare")
+    await page.locator('[name="text1"]').fill("hello my name is siddhant")
+    await page.keyboard.press("Control+A")
+    await page.keyboard.press("Control+C")
+    // await page.locator('[name="text2"]').click()
+    await page.keyboard.press("Tab")
+    await page.keyboard.press("Control+V")
+    await expect(page.locator('[name="text2"]')).toHaveValue("hello my name is siddhant")
 })
 
 

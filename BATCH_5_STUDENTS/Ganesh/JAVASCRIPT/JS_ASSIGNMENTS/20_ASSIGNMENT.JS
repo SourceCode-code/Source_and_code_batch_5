@@ -1,0 +1,114 @@
+// Exercises: Level 1
+
+// 1 Calculate the total annual income of the person from the following text. ‘He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.’
+let givenString = 'He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.';
+let extractedNumber = givenString.match(/\s\d*\s/gi);
+console.log(extractedNumber);
+let totalIncome = extractedNumber.reduce((total,i)=>Number(total)+Number(i));
+console.log(totalIncome)
+
+// 2 Write a pattern which identify if a string is a valid JavaScript variable
+
+// is_valid_variable('first_name') # True
+// is_valid_variable('first-name') # False
+// is_valid_variable('1first_name') # False
+// is_valid_variable('firstname') # True
+
+is_valid_variable = /^[A-Za-z_$][a-zA-Z0-9_$]*$/
+
+console.log(is_valid_variable.test('first_name'))
+console.log(is_valid_variable.test('first-name'))
+console.log(is_valid_variable.test('1first_name'))
+console.log(is_valid_variable.test('first$name$'))
+
+// Exercises: Level 2
+
+// 1 Write a function called tenMostFrequentWords which get the ten most frequent word from a string?
+
+paragraph = `I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.`
+
+let wordCount = paragraph.match(/\w+/g);
+
+let count= {}
+for(let i = 0; i<wordCount.length; i++){
+ if (count[wordCount[i]] === undefined){
+    count[wordCount[i]] = 1;
+ }
+ else{
+    count[wordCount[i]] +=1;
+ }
+}
+
+let objArr = Object.entries(count);
+let sortedArray = objArr.sort(  (a,b)=> b[1]-a[1])
+console.log(sortedArray.slice(0,10))
+//     console.log(tenMostFrequentWords(paragraph))
+//     [
+//     {word:'love', count:6},
+//     {word:'you', count:5},
+//     {word:'can', count:3},
+//     {word:'what', count:2},
+//     {word:'teaching', count:2},
+//     {word:'not', count:2},
+//     {word:'else', count:2},
+//     {word:'do', count:2},
+//     {word:'I', count:2},
+//     {word:'which', count:1},
+//     {word:'to', count:1},
+//     {word:'the', count:1},
+//     {word:'something', count:1},
+//     {word:'if', count:1},
+//     {word:'give', count:1},
+//     {word:'develop',count:1},
+//     {word:'capabilities',count:1},
+//     {word:'application', count:1},
+//     {word:'an',count:1},
+//     {word:'all',count:1},
+//     {word:'Python',count:1},
+//     {word:'If',count:1}]
+// console.log(tenMostFrequentWords(paragraph, 10))
+// [{word:'love', count:6},
+// {word:'you', count:5},
+// {word:'can', count:3},
+// {word:'what', count:2},
+// {word:'teaching', count:2},
+// {word:'not', count:2},
+// {word:'else', count:2},
+// {word:'do', count:2},
+// {word:'I', count:2},
+// {word:'which', count:1}
+// ]
+
+
+// Exercises: Level 3
+console.log("-------------Exercises: Level 3-----------------------------------")
+// 1. Write a function which cleans text. Clean the following text. After cleaning, count three most frequent words in the string.
+//   sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
+//   console.log(cleanText(sentence))
+//  I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher
+//  ```
+// 2. Write a function which find the most frequent words. After cleaning, count three most frequent words in the string.
+
+// ```js
+//  console.log(mostFrequentWords(cleanedText))
+//  [{word:'I', count:3}, {word:'teaching', count:2}, {word:'teacher', count:2}]
+
+let sentence = "%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?";
+
+function cleanArray(sentence){
+    let cleanSentence = sentence.replaceAll(/[^a-z0-9 ]/gi,"");
+    let count= {}
+for(let i = 0; i<wordCount.length; i++){
+ if (count[wordCount[i]] === undefined){
+    count[wordCount[i]] = 1;
+ }
+ else{
+    count[wordCount[i]] +=1;
+ }
+}
+
+let objArr = Object.entries(count);
+let sortedArray = objArr.sort(  (a,b)=> b[1]-a[1])
+console.log(sortedArray.slice(0,3))
+}
+cleanArray(sentence)

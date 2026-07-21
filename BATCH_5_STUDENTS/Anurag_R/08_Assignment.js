@@ -34,6 +34,19 @@ Return the date in the format: "Day of the Week, DD Month YYYY HH:mm"
 (e.g., "Monday, 02 October 2024 3:30 pm").
 
 */
+let date = new Date()
+console.log(date)
+console.log("Current Timing : ", date.toLocaleString("en-GB",{
+    weekday: 'long',
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true
+}))
+
+
 
 /* 
 Question 3: 
@@ -43,9 +56,20 @@ Calculate how many days are left until a specific date (input: 'YYYY-MM-DD').
 
 
 */
-
+let currentDate = new Date()
+let countDate = new Date('2028-07-29')
+let difference = countDate - currentDate
+const daysLeft = Math.ceil((difference)/ (1000 * 60 * 60 * 24))
+console.log("No. of Days left",daysLeft)
 /* 
 Question 4: 
 Check if a current  year is a leap year.
 
 */
+let currDate = new Date()
+let currentYear = currDate.getFullYear()
+console.log(currentYear)
+if ((currentYear%4 == 0 && currentYear%100 !== 0) || currentYear %400 == 0)
+    console.log("It is Leap Year")
+else
+    console.log("It is not leap Year")

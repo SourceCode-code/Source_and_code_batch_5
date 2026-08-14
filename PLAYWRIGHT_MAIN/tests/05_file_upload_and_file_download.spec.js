@@ -63,3 +63,18 @@ test("Verify the file upload for a single file", async ({ page }) => {
  * https://davidwalsh.name/demo/multiple-file-upload.php
  * https://letcode.in/file 
  */
+
+
+test("Verify file downlaods", async ({ page }) => {
+
+    await page.goto("https://letcode.in/file ")
+    const downloadPromise = page.waitForEvent("download")
+    await page.locator('[id="pdf"]').click()
+    const download = await downloadPromise
+    await download.saveAs("./TestData/Downloaded_FILES/one_.pdf")
+
+    await page.locator('[id="txt"]').click()
+    await download.saveAs("./TestData/Downloaded_FILES/text.txt")
+
+
+})

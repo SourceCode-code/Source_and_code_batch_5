@@ -119,4 +119,8 @@ const txt = `{
 
 // Exercises Level 3
 //1 Parse the txt JSON to object.
+<<<<<<< HEAD
 //2 Find the user who has many skills from the variable stored in txt.
+=======
+//2 Find the user who has many skills from the variable stored in txt.
+>>>>>>> 5d29d9c6c45b1a59ecc081b9de6e0e74bd11183e

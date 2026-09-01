@@ -97,3 +97,33 @@
 
 
 
+
+
+
+
+
+
+
+
+// WHEN YOU WHEN WEBISTE --> WWW.YOUTUBE.COM --> URL -> UNIQUE RESOUCRES LOCTOTR 
+
+
+//when a url is create it sub parts 
+
+
+//every url will have this parts 
+
+//BASE URL --> part that stays constant is called base url 
+
+
+//1 query paramter  is always a question or it is indicated by a question mark 
+// base url                             query parameter 
+https://www.youtube.com/            results?search_query=song
+
+
+//2 path parameter 
+
+// base url                                   path paramter 
+// https://webdriveruniversity.com/    Contact-Us/contactus.html
+
+https://www.youtube.com/results?search_query=song

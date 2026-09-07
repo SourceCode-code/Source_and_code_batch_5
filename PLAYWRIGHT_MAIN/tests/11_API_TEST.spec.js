@@ -118,7 +118,7 @@
 
 //1 query paramter  is always a question or it is indicated by a question mark 
 // base url                             query parameter 
-https://www.youtube.com/            results?search_query=song
+// https://www.youtube.com/            results?search_query=song
 
 
 //2 path parameter 
@@ -126,4 +126,77 @@ https://www.youtube.com/            results?search_query=song
 // base url                                   path paramter 
 // https://webdriveruniversity.com/    Contact-Us/contactus.html
 
-https://www.youtube.com/results?search_query=song
+// https://www.youtube.com/results?search_query=song
+
+
+
+const { test, expect, request } = require("@playwright/test")
+
+
+test("verify GET API", async ({ request }) => {
+
+    let Req = await request.get("https://jsonplaceholder.typicode.com/posts")
+    let response = await Req.json() // this will convert the recived respone in json
+    // Asseration 
+    // sataus code 
+    // data 
+
+    console.log(Req.status())  // 
+    console.log(response)
+    expect(Req.status()).toBe(200)
+    expect(response[0].title).toEqual("sunt aut facere repellat provident occaecati excepturi optio reprehenderit")
+})
+
+
+// POST 
+
+
+test("verify post ", async ({ request }) => {
+
+    let req = await request.post("https://jsonplaceholder.typicode.com/posts", {
+        data: [{
+            "ID": "101",
+            "title": "demo POST QUERTY",
+            "body": "THIS IS DEMO API TO CREATE A POST DATA ",
+            "REESUT TYPE ": "POST"
+        },
+    {"ID": "102",
+            "title": "demo POST QUERTY",
+            "body": "THIS IS DEMO API TO CREATE A POST DATA ",
+            "REESUT TYPE ": "POST"}]
+    })
+    /**
+     * 
+     * await request.post('https://example.com/api/createBook', {
+      data: {
+        title: 'Book Title',
+        author: 'John Doe',
+      }
+    });
+     */
+    let respone_post = await req.json()
+    console.log(req.status())  // 
+    console.log(respone_post)
+    expect(req.status()).toBe(201)
+   // expect(respone_post.title).toEqual("demo POST QUERTY")
+
+})
+
+
+
+put   -
+patch -
+
+
+
+
+
+
+
+
+
+
+
+
+
+

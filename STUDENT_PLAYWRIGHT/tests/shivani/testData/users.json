@@ -1,0 +1,29 @@
+{
+     "testData": [
+
+  { "id": "User_1",
+   "username": "standard_user", 
+   "password": "secret_password" },
+
+  { "id": "User_2", 
+  "username": "problem_user", 
+  "password": "secret_password" },
+
+   { "id": "User_3", 
+   "username": "standard1_user", 
+   "password": "secret_password" },
+
+  { "id": "User_4", 
+  "username": "problem1_user", 
+  "password": "secret_password" },
+
+   { "id": "User_5", 
+   "username": "standard2_user", 
+   "password": "secret_password" },
+
+  { "id": "User_6", 
+  "username": "problem2_user", 
+  "password": "secret_password" }
+]
+
+}

@@ -82,7 +82,6 @@ test("verify Drag and drop way 1 ", async ({ browser }) => {
     // lift up the click
     await page.mouse.up()
     await expect(page.locator('[id="droppable"] p')).toHaveText('Dropped!')
-
 })
 
 

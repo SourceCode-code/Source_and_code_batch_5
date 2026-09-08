@@ -160,10 +160,12 @@ test("verify post ", async ({ request }) => {
             "body": "THIS IS DEMO API TO CREATE A POST DATA ",
             "REESUT TYPE ": "POST"
         },
-    {"ID": "102",
+        {
+            "ID": "102",
             "title": "demo POST QUERTY",
             "body": "THIS IS DEMO API TO CREATE A POST DATA ",
-            "REESUT TYPE ": "POST"}]
+            "REESUT TYPE ": "POST"
+        }]
     })
     /**
      * 
@@ -178,15 +180,53 @@ test("verify post ", async ({ request }) => {
     console.log(req.status())  // 
     console.log(respone_post)
     expect(req.status()).toBe(201)
-   // expect(respone_post.title).toEqual("demo POST QUERTY")
+    // expect(respone_post.title).toEqual("demo POST QUERTY")
 
 })
 
 
 
-put   -
-patch -
+// put   -
+test("verify put ", async ({ request }) => {
 
+    let req = await request.put("https://jsonplaceholder.typicode.com/posts/1", {
+        data: {
+            "ID": "101",
+            "title": "demo POST QUERTY",
+            "body": "THIS IS DEMO API TO CREATE A POST DATA ",
+            "number":"1234567"
+        }
+    })
+  
+    let respone_post = await req.json()
+    console.log(req.status())  // 
+    console.log(respone_post)
+    expect(req.status()).toBe(200)
+    expect(req.ok()).toBeTruthy() //200 -205
+    expect(respone_post.number).toEqual("1234567")
+
+})
+
+
+
+// patch -
+
+test("verify patch ", async ({ request }) => {
+
+    let req = await request.patch("https://jsonplaceholder.typicode.com/posts/1", {
+        data: {
+            "title": "THis is patch request",
+            "number":"1234567-8945"
+        }
+    })
+  
+    let respone_post = await req.json()
+    console.log(req.status())  // 
+    console.log(respone_post)
+    expect(req.status()).toBe(200)
+    expect(req.ok()).toBeTruthy() //200 -205
+    expect(respone_post.number).toEqual("1234567-8945")
+})
 
 
 

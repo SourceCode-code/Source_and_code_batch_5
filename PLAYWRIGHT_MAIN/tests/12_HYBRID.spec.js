@@ -23,10 +23,10 @@ test.beforeAll(async () => {
     let api = await request.newContext() // fresh browser
     let req_login = await api.post("https://rahulshettyacademy.com/api/ecom/auth/login", { data: { userEmail: "john2k19wick@gmail.com", userPassword: "vaibhavS@95" } })
 
-    expect(req_login.ok()).toBeTruthy() // check if successfull
+    expect(req_login.ok()).toBeTruthy() // check if successful
     const login_response = await req_login.json() // response will be converted into json
 
-     token = login_response.token // token value is updatwe
+     token = login_response.token // token value is update
 })
 
 
@@ -42,3 +42,4 @@ test("verify dashboard text", async ({ page }) => {
     await expect(page.locator('[class="left mt-1"] p')).toContainText("Automation Practice")
 
 })
+

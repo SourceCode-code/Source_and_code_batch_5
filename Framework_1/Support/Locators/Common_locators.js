@@ -1,9 +1,15 @@
 class common_locators {
 
     static Login_page_locators = {
-        login_page_tite: '[class="login_logo"]'
+        login_page_tite: '[class="login_logo"]',
+        user_name:'[id="user-name"]',
+        password:'[id="password"]',
+        login_button:'[id="login-button"]',
+    }
+    static Product_page_locators ={
+        product_page_title:'[class="title"]'
     }
 
 
 }
-export { common_locators } // so that we can use it in other files 
+module.exports = { common_locators }

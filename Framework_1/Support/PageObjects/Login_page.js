@@ -14,16 +14,6 @@ class Login_page {
         await expect(page.locator(common_locators.Login_page_locators.login_page_tite)).toContainText(Title)
     }
 
-
-    //  // enter username 
-    //     await page.locator('[id="user-name"]').fill("standard_user")
-    //     //enter password 
-    //     await page.locator('[id="password"]').fill("secret_sauce")
-    //     // click on signing button 
-    //     await page.locator('[id="login-button"]').click()
-    //     //verify product page title 
-    //     await expect(page.locator('[class="title"]')).toHaveText("Products")
-
     async Fill_username(page, username) {
         await page.locator(common_locators.Login_page_locators.user_name).fill(username)
     }
@@ -35,7 +25,6 @@ class Login_page {
     async click_on_login_button(page) {
         await page.locator(common_locators.Login_page_locators.login_button).click()
     }
-
 
 }
 const login_page = new Login_page()

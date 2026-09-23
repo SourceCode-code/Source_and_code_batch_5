@@ -21,7 +21,7 @@ test("TC_01_Verify successful login of the application for standard user", async
     // await page.locator('[id="login-button"]').click()
     //verify product page title 
     // await expect(page.locator('[class="title"]')).toHaveText("Products")
-    await product_page.verify_product_page_titel(page,"Products")
+    await product_page.verify_product_page_title(page,"Products")
 
 })
 

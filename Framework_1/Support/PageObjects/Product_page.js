@@ -15,7 +15,7 @@ class Product_page {
 //     //verify product page title 
 //     await expect(page.locator('[class="title"]')).toHaveText("Products")
 
-async verify_product_page_titel(page,title){
+async verify_product_page_title(page,title){
    await expect(page.locator(common_locators.Product_page_locators.product_page_title)).toContainText(title)
 }
 

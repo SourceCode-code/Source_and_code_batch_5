@@ -14,17 +14,29 @@ class Login_page {
         await expect(page.locator(common_locators.Login_page_locators.login_page_tite)).toContainText(Title)
     }
 
-    async Fill_username(page, username) {
+
+
+    async loginWithCredetials(page, username, password) {
         await page.locator(common_locators.Login_page_locators.user_name).fill(username)
-    }
-
-    async Fill_password(page, password) {
         await page.locator(common_locators.Login_page_locators.password).fill(password)
+        await page.locator(common_locators.Login_page_locators.login_button).click()
+
+        await page.waitForTimeout(2000)// wait for 2 sec
+
+        if (await page.locator(common_locators.Product_page_locators.product_page_title).isVisible()) {
+            console.log(` The login for user ${username} is successful`)
+            return true
+        }
+
+        if (await page.locator(common_locators.Login_page_locators.Error_pop_up).isVisible()) {
+            console.log(` The login for user ${username} is failed`)
+            return false
+        }
+
+
+        throw new Error("login not correct check input")
     }
 
-    async click_on_login_button(page) {
-        await page.locator(common_locators.Login_page_locators.login_button).click()
-    }
 
 }
 const login_page = new Login_page()

@@ -8,7 +8,10 @@ class common_locators {
         Error_pop_up: '[data-test="error"]'
     }
     static Product_page_locators = {
-        product_page_title: '[class="title"]'
+        product_page_title: '[class="title"]',
+        Inventory_Item :'[class="inventory_item"]',
+        Product_Name :'[class="inventory_item_name "]',
+        ADD_TO_CART_BUTTON:'[class="btn btn_primary btn_small btn_inventory "]'
     }
 
 

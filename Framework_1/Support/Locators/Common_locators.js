@@ -11,9 +11,13 @@ class common_locators {
         product_page_title: '[class="title"]',
         Inventory_Item :'[class="inventory_item"]',
         Product_Name :'[class="inventory_item_name "]',
-        ADD_TO_CART_BUTTON:'[class="btn btn_primary btn_small btn_inventory "]'
+        ADD_TO_CART_BUTTON:'[class="btn btn_primary btn_small btn_inventory "]',
+        REMOVE_BTN:'[data-test^="remove"]'
     }
 
+    static Labels= {
+        REMOVE:'Remove'
+    }
 
 }
 module.exports = { common_locators }

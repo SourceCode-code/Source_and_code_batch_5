@@ -1,0 +1,13 @@
+{
+    "TestData": [
+        {
+            "index": "00",
+            "testid":"003",
+            "login_title":"Swag Labs",
+            "productpage_title":"Products",
+            "username":"standard_user",
+            "password":"secret_sauce",
+            "Sauce_Labs_Backpack":"Sauce Labs Backpack"
+        }
+    ]
+}
